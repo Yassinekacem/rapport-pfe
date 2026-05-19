@@ -20,18 +20,18 @@
 
 
 
+\usepackage{fancyhdr} 
 \usepackage{colortbl}
 \usepackage{booktabs}
-\usepackage{multirow}
-\usepackage{ragged2e}
 \usepackage{multirow} 
-\usepackage{hyperref}
-\usepackage{url}
+\usepackage{ragged2e}
+\usepackage{multirow}
 
 \parindent 0cm
 \usepackage{makeidx}   
 \usepackage{pifont}
-\usepackage{float}
+\usepackage{float} 
+
 \makeindex
 \usepackage[french]{babel} \usepackage[lined,boxed,commentsnumbered, english, ruled,vlined,linesnumbered]{algorithm2e}
 \usepackage{amsthm}
@@ -70,7 +70,7 @@
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{lmodern}
-\fi
+\fi 
 
 
 % Enable SageTeX to run SageMath code right inside this LaTeX file.
@@ -165,6 +165,16 @@
 }
 
 
+\pagestyle{fancy}
+\fancyhf{} % supprime tout (header/footer par défaut)
+
+% Chapitre à gauche
+\fancyhead[L]{\nouppercase{\leftmark}}
+
+% Numéro de page à droite
+\fancyhead[R]{\thepage}
+
+\renewcommand{\headrulewidth}{0.4pt} 
 
 \begin{document}
 \thispagestyle{empty}
@@ -173,11 +183,11 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% THE HEADER
+% THE HEADER 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \includegraphics[scale=0.20]{embleme.jpg}
-\vspace{0.5cm}
+\vspace{0.5cm} 
 
 {%
   \fontsize{9pt}{9pt}\selectfont%
@@ -366,7 +376,7 @@ Enfin, je tiens à remercier les membres du jury pour l’intérêt qu’ils por
 
 
 \chapter{Release 2 : AniHub partie 2 } 
-\label{chap:4}
+\label{chap:4} 
 \input{chapitre4} 
 
 \chapter*{Conclusion et Perspectives}
@@ -424,7 +434,10 @@ Enfin, je tiens à remercier les membres du jury pour l’intérêt qu’ils por
 
 %\printbibliography[keyword=jeu,heading=subbibliography,title={\emph{Games studies}}]
 
+\bibliographystyle{unsrt} 
+%\bibliographystyle{plain}
 
+\bibliography{Biblio.bib}
 
 \cleardoublepage%
 
@@ -435,9 +448,5 @@ Enfin, je tiens à remercier les membres du jury pour l’intérêt qu’ils por
 
 \input{abstract}
 
-\chapter*{Références Netographiques}
-\addcontentsline{toc}{chapter}{Références Netographiques}
 
-\bibliographystyle{unsrt}
-\bibliography{references}
 \end{document}

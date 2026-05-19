@@ -241,5 +241,5 @@
 \contentsline {section}{\numberline {A.1}Pré-traitement des données}{123}{section.A.1}%
 \contentsline {section}{\numberline {A.2}Code R pour les modèles}{123}{section.A.2}%
 \contentsline {section}{\numberline {A.3}Librairies utilisées}{123}{section.A.3}%
+\contentsline {chapter}{Bibliographie}{124}{appendix*.154}%
 \setcounter {tocdepth}{3}
-\contentsline {chapter}{Références Netographiques}{1}{appendix*.154}%
