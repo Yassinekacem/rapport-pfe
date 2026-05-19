@@ -1,0 +1,443 @@
+%% @Author: Ahmad Ben Taleb
+%  @Date:   2023-06
+%% @Class:  PFE ITBS.
+
+\documentclass[a4paper, oneside, 12pt, final]{extreport}
+\usepackage{graphicx}
+
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{xcolor} 
+\usepackage[table]{xcolor}
+\definecolor{coloranimatch}{HTML}{F8CFCD}  
+\definecolor{coloranimarket}{HTML}{d5e8d4} 
+\definecolor{coloranifound}{HTML}{fff2cc}  
+\definecolor{coloranihub}{HTML}{E1D5E7}    
+\definecolor{coloranicare}{HTML}{dae8fc}   
+
+
+
+
+
+
+\usepackage{colortbl}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{ragged2e}
+\usepackage{multirow} 
+\usepackage{hyperref}
+\usepackage{url}
+
+\parindent 0cm
+\usepackage{makeidx}   
+\usepackage{pifont}
+\usepackage{float}
+\makeindex
+\usepackage[french]{babel} \usepackage[lined,boxed,commentsnumbered, english, ruled,vlined,linesnumbered]{algorithm2e}
+\usepackage{amsthm}
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{definition}{Definition}[chapter]
+\newtheorem{exemple}{Example}[chapter]
+
+
+%\usepackage[nottoc]{tocbibind}
+%\addcontentsline{toc}{section}{References}
+
+\providecommand{\keywords}[1]{\textbf{\textit{Mots clés---}} #1}
+\providecommand{\keywordss}[1]{\textbf{\textit{Keywords---}} #1}
+
+\usepackage{etoolbox}
+%\makeatletter
+%\patchcmd{\thebibliography}{%
+%  \chapter*{\bibname}\@mkboth{\MakeUppercase\bibname}%{\MakeUppercase\bibname}}{%
+%  \section{References}}{}{}
+%\makeatother
+
+
+
+\usepackage[nottoc]{tocbibind}
+
+\textwidth 18cm
+\textheight 24cm
+\topmargin -0.5cm
+\oddsidemargin -1cm
+
+% set font encoding for PDFLaTeX or XeLaTeX
+\usepackage{ifxetex}
+\ifxetex
+  \usepackage{fontspec}
+\else
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{lmodern}
+\fi
+
+
+% Enable SageTeX to run SageMath code right inside this LaTeX file.
+% documentation: http://mirrors.ctan.org/macros/latex/contrib/sagetex/sagetexpackage.pdf
+%\usepackage{sagetex}
+
+
+\newcommand{\reportTitle} {%
+  %\textsc{Graduation Project Report}
+  \textsc{Projet de Fin d'\'etudes}
+}
+
+\newcommand{\reportAuthor} {%
+  Kacem \textsc{Yassine}%
+}
+
+\newcommand{\reportSubject} {%
+  Conception et développement d’une plateforme microservices dédiée aux animaux domestiques.%
+}
+
+
+
+\newcommand{\studyDepartment} {%
+  Entreprise d'accueil 
+  
+}
+
+\newcommand{\ITBS} {%
+  %IT Business School
+\\ Ecole Supérieure Privée des Technologies de l'Information et de Management de Nabeul
+}
+
+%\newcommand{\codePFE} {% Reference
+%  Code PFE%
+%}
+
+
+\newcommand{\AU} {
+\centering \textbf{Année Universitaire 2025-2026}
+}
+
+
+\newcommand{\specialcell}[1]{%
+  \begin{tabularx}{\textwidth}{@{}X@{}}#1\end{tabularx}%
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Add your own commands here
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\MyCommand} {%
+  Does nothing really%
+}
+
+
+% used in maketitle
+\title{\reportSubject}
+\author{\reportAuthor}
+
+% Enable SageTeX to run SageMath code right inside this LaTeX file.
+% documentation: http://mirrors.ctan.org/macros/latex/contrib/sagetex/sagetexpackage.pdf
+%\usepackage{sagetex}
+
+%\hypersetup{
+%  pdftitle={\reportTitle~-~\reportSubject},%
+%  pdfauthor={\reportAuthor},%
+%  pdfsubject={\reportSubject},%
+%  pdfkeywords={report} {internship} {pfe} {enis}
+%}
+
+\usepackage{graphics}
+\usepackage{graphicx}
+
+
+\usepackage[acronym,toc,section=chapter]{glossaries}
+\makeglossaries
+
+\newacronym{abc}{ABC}{A contrived acronym}
+\newacronym{efg}{EFG}{Another acronym}
+\newacronym{svm}{SVM}{Support Vector Machines}
+
+\pagenumbering{roman} 
+
+\usepackage[utf8]{inputenc}
+%\usepackage[french]{babel}
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=blue,
+    urlcolor=blue
+}
+
+
+
+\begin{document}
+\thispagestyle{empty}
+\begin{titlepage}
+\begin{center}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% THE HEADER
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\includegraphics[scale=0.20]{embleme.jpg}
+\vspace{0.5cm}
+
+{%
+  \fontsize{9pt}{9pt}\selectfont%
+  \begin{tabular}{c}
+    R\'epublique Tunisienne \\
+    Minist\`ere de l'Enseignement Supérieur et de la Recherche Scientifique   \ITBS{}\\ 
+  \end{tabular}
+}
+
+\vspace{1cm}
+
+\includegraphics[scale=0.09]{images/logonoir.png}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% THE PAGE CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{10pt} {%
+  \renewcommand*{\familydefault}{\defaultFont}
+  \fontsize{46pt}{46pt}\selectfont%
+  % MEMOIRE\\%
+  %\reportTitle{}%\\\textsc{Report}\\%
+}
+
+\vspace{5pt}
+
+\vspace{15pt}
+{\textit{Rapport de Projet de Fin d'Etudes soumis afin d'obtenir le}}\\
+
+\vspace{10pt}
+{\textbf{\large Diplôme National d'Ingénieur en Génie logiciel}}\\
+
+\vspace{5pt}
+\textbf{\textit{Réalisé par}}\\
+\vspace{10pt} {%
+  \fontsize{14pt}{14pt}\selectfont%
+  {\bfseries\Large\sc \reportAuthor}\\
+}%
+
+\vspace{5pt} {%
+  \renewcommand*{\familydefault}{\defaultFont}
+  \fontsize{27pt}{27pt}\selectfont%
+  \rule{0.5\textwidth}{.4pt}\\
+  \vspace{10pt}
+  \reportSubject{}\\%
+  \vspace{10pt}
+  \rule{0.5\textwidth}{.4pt}
+}
+
+\vspace{5pt}
+
+%Soutenu le \dateSoutenance, devant la commission d'examen:\\
+\vspace{10pt}
+
+\begin{table}[h]
+\begin{tabular}{lcr}
+\textbf{Encadrant Académique:} Dr. Sabeur El Ksontini      & \hfill &           \textbf{Encadrant Professionnel:} M. Wael Majdoub
+\end{tabular}
+\end{table}
+
+
+
+
+%\vfill
+
+\vspace{40pt}
+\textbf{\textit{Projet de Fin d'Etudes fait \`a}}\\
+\vspace{5pt}
+\studyDepartment
+\centering
+\includegraphics[scale=0.48]{images/aftercode.png}
+\end{center}
+\vspace{40pt}
+\AU\\
+\end{titlepage}
+
+% ###############################
+% # HELP COMMANDS               #
+% ###############################
+%
+% -1 \part{part}
+%  0 \chapter{chapter}
+%  1 \section{section}
+%  2 \subsection{subsection}
+%  3 \subsubsection{subsubsection}
+%  4 \paragraph{paragraph}
+%  5 \subparagraph{subparagraph}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Dédicace et Remerciements
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter*{Dédicace}
+\thispagestyle{empty}
+
+\vspace{1cm}
+
+Je dédie ce travail, en premier lieu, à ma chère famille, notamment mon père \textbf{Moez}, ma mère \textbf{Najoua} et ma sœur \textbf{Ines}, pour leur amour inconditionnel, leur soutien indéfectible et tous les sacrifices consentis tout au long de mon parcours.
+
+\vspace{0.5cm}
+
+Je ne pourrai jamais exprimer pleinement ma reconnaissance pour tout ce que vous avez fait pour moi. Vous êtes la source de ma motivation, de mon équilibre et de ma réussite.
+
+\vspace{1cm}
+
+Je dédie également ce travail à mes collègues de l’ITBS, \textbf{Med Aziz Meddeb} et \textbf{Amina Cherif}, en témoignage de notre amitié et des moments de collaboration et de partage vécus durant notre parcours académique.
+
+\vspace{0.5cm}
+
+Je leur adresse mes sincères remerciements pour leur soutien et leur présence, qui ont constitué une véritable source d’encouragement tout au long de cette expérience.
+\chapter*{Remerciements}
+\thispagestyle{empty}
+
+\vspace{1cm}
+
+Je tiens à exprimer ma profonde gratitude envers toutes les personnes qui ont contribué, de près ou de loin, à la réussite de mon stage et de ce projet.
+
+\vspace{0.5cm}
+
+Je souhaite tout d’abord adresser mes sincères remerciements à mon encadrant académique, \textbf{M. Sabeur El Ksontini}, pour son accompagnement, sa disponibilité et la qualité de ses conseils tout au long de cette expérience.
+
+\vspace{0.5cm}
+
+J’exprime également ma reconnaissance à mon encadrant professionnel, \textbf{M. Wael Majdoub}, pour son encadrement, ses orientations pertinentes ainsi que son soutien constant, qui ont grandement contribué à l’aboutissement de ce travail.
+
+\vspace{0.5cm}
+
+Je remercie aussi l’ensemble de mes enseignants pour la formation solide qu’ils m’ont apportée, ainsi que pour leur encadrement durant mon parcours académique.
+
+\vspace{0.5cm}
+
+Mes remerciements s’adressent également à toute l’équipe de la société \textbf{Aftercode} pour leur accueil, leur collaboration et l’environnement de travail agréable qui m’a permis de m’intégrer rapidement.
+
+\vspace{0.5cm}
+
+Enfin, je tiens à remercier les membres du jury pour l’intérêt qu’ils portent à ce travail, ainsi que pour le temps consacré à son évaluation. Leur expertise représente un honneur et une source de motivation.
+
+\vspace{1cm}
+
+
+
+
+
+
+ 
+
+
+\input{abstract.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Divers chapitres
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\tableofcontents
+%\addcontentsline{toc}{chapter}{\contentsname}
+
+\listoffigures
+%\addcontentsline{toc}{chapter}{Liste des Figures}
+\listoftables
+
+\cleardoublepage
+
+\newpage
+\pagenumbering{arabic}
+\chapter*{Introduction générale}
+\label{chap:general_intorduction}
+\input{introduction.tex}
+
+
+\chapter{Contexte général du projet}%
+\label{chap:chapterone}
+\input{chapitre1.tex}
+
+\chapter{Étude des besoins et planification du projet}
+\label{chap:2}
+\input{chapitre2.tex}
+
+
+
+
+
+
+\chapter{Release 1 : AniHub partie 1 } 
+\label{chap:3}
+\input{chapitre3} 
+
+
+\chapter{Release 2 : AniHub partie 2 } 
+\label{chap:4}
+\input{chapitre4} 
+
+\chapter*{Conclusion et Perspectives}
+\label{chap:conclusion}
+\markboth{\MakeUppercase{Conclusion}}{}%
+\addcontentsline{toc}{chapter}{Conclusion}
+  And a very interesting conclusion here\@. ~\\
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat.
+
+\newpage
+\appendix
+\addcontentsline{toc}{chapter}{Annexes}
+%\markboth{\MakeUppercase{Annexe}}{}
+
+\chapter{Code R pour résoudre la problématique}
+\label{chap:appendix}
+
+
+\section{Pré-traitement des données}
+\section{Code R pour les modèles}
+
+ An appedix if you need it.
+ 
+ \begin{verbatim}
+ Insérer ici le code !
+ \end{verbatim}
+
+\section{Librairies utilisées}
+ 
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Don't touch this, it is auto generated
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\nocite{*}
+
+%\phantomsection{}
+%\addcontentsline{toc}{chapter}{Webography}
+%\printbibliography[title={Webography},type=online]
+
+%\phantomsection{}
+%\addcontentsline{toc}{chapter}{Bibliography}
+%\printbibliography[title={Bibliography},nottype=online]
+
+%\printbibheading %exemple de bibliographie divisée en sections. Pour ajouter des oeuvres non citées,utiliser \nocite
+
+%\printbibliography[keyword=pratique,heading=subbibliography,title={Théories littéraires dans les jeux vidéo}]
+%\printbibliography[keyword=litteraire,heading=subbibliography,title={Narratologie et structuralisme}]
+
+%\printbibliography[keyword=jeu,heading=subbibliography,title={\emph{Games studies}}]
+
+
+
+\cleardoublepage%
+
+\addtocontents{toc}{\protect\setcounter{tocdepth}{3}}
+
+\printglossaries
+\printindex
+
+\input{abstract}
+
+\chapter*{Références Netographiques}
+\addcontentsline{toc}{chapter}{Références Netographiques}
+
+\bibliographystyle{unsrt}
+\bibliography{references}
+\end{document}

@@ -1,0 +1,371 @@
+\section{Introduction} 
+Au cours de ce chapitre, nous aborderons plusieurs points essentiels. Dans un premier temps, nous présenterons le cadre général du projet ainsi que la société au sein de laquelle il a été réalisé. Ensuite, nous effectuerons une analyse de l’existant accompagnée d’une étude critique des méthodes de travail actuelles. Enfin, nous exposerons la méthodologie de développement adoptée pour la réalisation de ce projet. 
+
+\section{Cadre du projet} 
+Le présent travail s’inscrit dans le cadre de mon projet de fin d’études, réalisé en vue de l’obtention du Diplôme National d’Ingénieur en Génie Logiciel à l’IT Business School de Nabeul.
+
+En collaboration avec la société AfterCode, ce projet intitulé \textbf{« Conception et développement d’une plateforme microservices dédiée aux animaux domestiques »}, baptisé \textbf{AniHub}, a pour objectif de concevoir et mettre en place une plateforme d’animalerie en ligne en Tunisie. Cette solution vise à moderniser, structurer et faciliter la gestion du secteur des animaux domestiques. 
+
+\section{Organisme d’accueil}
+
+AfterCode est une agence spécialisée dans le développement web et mobile, fondée en 2020. Elle propose une large gamme de services digitaux, allant de la conception de sites web vitrines et e-commerce à la création de solutions web et mobiles sur mesure, en passant par le community management, le référencement naturel (SEO) et l’hébergement web.
+
+L’objectif principal de l’agence est d’accompagner les entreprises dans leur transformation digitale, d’améliorer leur visibilité en ligne, d’augmenter leur trafic et d’optimiser leur retour sur investissement. Pour atteindre ces objectifs, AfterCode s’appuie sur une équipe de développeurs passionnés et expérimentés, travaillant en étroite collaboration avec les clients afin de fournir des solutions innovantes et adaptées à leurs besoins \cite{aftercode}.
+\newpage
+
+La figure 1.1 présente le logo de la société AfterCode.
+
+\begin{figure}[H]%
+    \center%
+    \setlength{\fboxsep}{5pt}%
+    \setlength{\fboxrule}{0.5pt}%
+    \fbox{
+    \includegraphics[width=4cm,height=3cm]{images/aftercode.png}%
+    }
+    \caption{Logo AfterCode}%
+\end{figure}
+
+\vspace{0.5cm}
+
+Les services proposés par AfterCode se déclinent comme suit :
+
+\begin{itemize}
+\item \textbf{Applications web :} conception et développement de solutions web sur mesure, allant des plateformes métiers aux applications de gestion, afin de répondre précisément aux besoins fonctionnels des clients. Ces solutions sont pensées pour être évolutives, performantes et optimisées en termes de coût et de qualité.
+
+\item \textbf{Applications mobiles :} développement d’applications Android et iOS intuitives, performantes et adaptées aux usages modernes. L’objectif est de garantir une expérience utilisateur fluide, une interface ergonomique et une compatibilité optimale avec les différents appareils mobiles.
+
+\item \textbf{Sites e-commerce :} création de boutiques en ligne complètes intégrant la gestion des produits, des commandes et des paiements sécurisés. Ces solutions visent à renforcer la présence digitale des entreprises, à améliorer leur visibilité et à maximiser leurs ventes.
+
+\item \textbf{Community management :} gestion et animation des réseaux sociaux des clients à travers la création de contenu, la planification de publications et le suivi des interactions, dans le but de renforcer l’image de marque et d’améliorer l’engagement du public.
+
+\item \textbf{Formations :} mise en place de programmes de formation en développement web et mobile, combinant théorie et pratique, afin de permettre aux apprenants d’acquérir des compétences concrètes et directement exploitables dans le milieu professionnel.
+
+\item \textbf{Référencement web (SEO) :} optimisation technique et éditoriale des sites web afin d’améliorer leur visibilité sur les moteurs de recherche, d’augmenter le trafic organique et d’assurer un meilleur positionnement face à la concurrence.
+
+\item \textbf{Hébergement web :} fourniture de solutions d’hébergement sécurisées et fiables, incluant la gestion des serveurs, des bases de données et des noms de domaine, afin de garantir la disponibilité continue et la stabilité des sites web des clients.
+\end{itemize}
+
+
+\section{Étude de l’existant}
+
+Dans le cadre de ce projet, une étude approfondie du marché a été menée afin d’analyser les solutions existantes proposant des services similaires. Cette analyse comparative a permis d’identifier les limites et les insuffisances des plateformes concurrentes.
+
+Sur cette base, nous avons défini un ensemble de fonctionnalités améliorées et innovantes, dans le but de proposer une solution plus performante et mieux adaptée aux besoins des utilisateurs. 
+
+\subsection{Panorama du marché des animaux domestiques en Tunisie} 
+En Tunisie, le secteur des animaux domestiques reste encore partiellement structuré. Bien qu’il existe des sites e-commerce spécialisés dans la vente de produits pour animaux, le marché ne dispose pas d’une véritable plateforme C2C (Consumer-to-Consumer) dédiée aux animaux domestiques.
+
+Par ailleurs, les prestataires de services tels que les dresseurs de chiens, les toiletteurs, les pet-sitters et les vétérinaires ne disposent pas de plateformes adaptées pour promouvoir leurs services et toucher un public plus large.
+
+De plus, l’adoption d’animaux ainsi que la vente entre particuliers ne sont pas organisées de manière structurée en ligne. Actuellement, le principal point de rencontre reste le marché de "Moncef Bey", où des vendeurs provenant des différents gouvernorats se réunissent chaque semaine pour proposer leurs animaux.
+
+Ces limites mettent en évidence un manque de centralisation et de digitalisation du secteur, ce qui nous a conduits à proposer \textbf{AniHub}, une plateforme C2C centralisée visant à regrouper les services, l’adoption et la mise en relation entre particuliers autour des animaux domestiques en Tunisie. 
+
+\subsection{Critique de l’existant} 
+Dans cette section, nous examinerons les solutions existantes en Tunisie proposant des services similaires à ceux de notre plateforme, afin d’en analyser les atouts ainsi que les limites :  
+\subsubsection{Les animaleries en Tunisie}
+
+En Tunisie, plusieurs animaleries en ligne, telles que AnimalZone, Mypets et Z’animo, se spécialisent dans la vente de produits, d’aliments et d’accessoires liés aux animaux domestiques.
+
+Ces plateformes fonctionnent selon un modèle B2C (Business-to-Consumer), où les entreprises proposent directement leurs produits aux clients, sans interaction entre particuliers. 
+\\
+Les figures 1.2, 1.3 et 1.4 présentent les logos des trois animaleries les plus populaires en Tunisie .
+\begin{figure}[ht]
+\centering
+\begin{minipage}[b]{0.3\linewidth}
+\centering
+\includegraphics[width=\linewidth]{images/mypets.png}
+\caption{logo Mypets}
+\label{fig:figure1}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{0.3\linewidth}
+\centering
+\includegraphics[width=\linewidth]{images/animalzone.png}
+\caption{logo AnimalZone}
+\label{fig:figure2}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{0.3\linewidth}
+\centering
+\includegraphics[width=\linewidth]{images/zanimo.png}
+\caption{logo Z'animo}
+\label{fig:figure3}
+\end{minipage}
+\end{figure} 
+\newpage
+\begin{itemize}
+\item \textbf{Points forts :}
+\begin{itemize}
+\item Large variété de produits proposés
+\item Interfaces simples, intuitives et faciles à utiliser
+\end{itemize}
+
+\item \textbf{Points faibles :}
+\begin{itemize}
+\item Absence d’un système d’évaluation et de notation des produits
+\item Absence d’un modèle C2C (Consumer-to-Consumer) permettant aux particuliers de publier et de commercialiser leurs propres articles
+\item Offre principalement limitée à la commercialisation de produits et, dans certains cas, d’animaux, sans intégration de services associés (toilettage, garde, dressage) ni de fonctionnalités dédiées à l’adoption
+\end{itemize}
+\end{itemize}
+
+\subsubsection{Réseaux sociaux (Facebook et Instagram)}
+
+En Tunisie, les éleveurs ainsi que les passionnés d’animaux utilisent principalement les réseaux sociaux, notamment Facebook et Instagram, ainsi que Facebook Marketplace et les groupes spécialisés, pour publier des annonces de vente ou d’adoption, partager des offres et échanger autour des animaux domestiques.
+
+Ces plateformes facilitent la mise en relation entre particuliers, mais les interactions restent non structurées et peu encadrées, ce qui peut limiter la fiabilité et l’organisation des échanges.  
+
+Les figures 1.5 et 1.6 présentent respectivement les logos de Facebook et Instagram.
+\begin{figure}[ht]
+\centering
+
+\begin{minipage}[b]{0.45\linewidth}
+\centering
+\includegraphics[width=0.3\linewidth]{images/instagram.png}
+\caption{Logo Instagram}
+\label{fig:instagram}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{0.45\linewidth}
+\centering
+\includegraphics[width=0.3\linewidth]{images/facebook logo.png}
+\caption{Logo Facebook}
+\label{fig:facebook}
+\end{minipage}
+
+\end{figure} 
+
+
+\begin{itemize}
+\item \textbf{Points forts :}
+\begin{itemize}
+\item Large audience : Accès à des millions d’utilisateurs en Tunisie, offrant ainsi une forte visibilité des annonces en très peu de temps.
+\item Gratuité et simplicité : Publication simple et rapide, sans frais associés pour la mise en ligne des annonces.
+\item  Rapidité de mise en relation : Contact direct via Messenger ou commentaires
+\end{itemize}
+
+\item \textbf{Points faibles :}
+\begin{itemize}
+\item Absence de structure (Pas de filtres , Annonces mélangées et non organisées ) 
+\item Aucune vérification des animaux
+\item Manque de sécurité et d’arnaques (Faux profils fréquents , Risque de fraude ou mauvaise intention )
+\end{itemize}
+\end{itemize} 
+
+\subsubsection{Les sites d’annonces généralistes} 
+En Tunisie, en complément des réseaux sociaux, les éleveurs ainsi que les passionnés d’animaux ont également recours aux sites d’annonces généralistes tels que “Tayara” et “Afariat” afin de publier des offres de vente d’animaux domestiques et de toucher un public plus large.    
+
+
+Les figures 1.7, 1.8 et 1.9 présentent les logos des sites d’annonces généralistes les plus populaires en Tunisie  :
+\begin{figure}[ht]
+\centering
+\begin{minipage}[b]{0.3\linewidth}
+\centering
+\includegraphics[width=\linewidth]{images/tayara.png}
+\caption{logo Tayara}
+\label{fig:figure1}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{0.3\linewidth}
+\centering
+\includegraphics[width=\linewidth]{images/afariat.png}
+\caption{logo Afariat}
+\label{fig:figure2}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{0.3\linewidth}
+\centering
+\includegraphics[width=\linewidth]{images/bazarafrique.jpg}
+\caption{logo bazarafrique}
+\label{fig:figure3}
+\end{minipage}
+\end{figure} 
+
+
+\begin{itemize}
+\item \textbf{Points forts :}
+\begin{itemize}
+\item Forte visibilité des annonces
+\item Accessibilité facile 
+\item  Gratuité ou faible coût
+\end{itemize}
+
+\item \textbf{Points faibles :}
+\begin{itemize}
+\item Mauvaise expérience utilisateur pour les animaux : Recherche difficile et peu optimisée et pas de fonctionnalités dédiées (matching, wishlist, historique)
+\item Manque de confiance et de contrôle : Aucune vérification des vendeurs ou des animaux
+\item Absence de spécialisation animale : Les animaux sont mélangés avec d’autres catégories (voitures, immobilier…)
+\end{itemize}
+\end{itemize}  
+
+\section{Solution proposée}  
+\subsection{Présentation de notre solution AniHub}
+
+La figure ci-dessous présente le squelette général de la plateforme \textbf{AniHub}. Elle met en évidence l’architecture fonctionnelle de la solution ainsi que ses principaux modules. Cette organisation permet de comprendre clairement la structure globale de la plateforme, la logique d’interaction entre ses composants et la répartition détaillée de ses fonctionnalités, offrant ainsi une vision globale et cohérente de son fonctionnement.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{images/squelette.png}
+    \caption{Squelette fonctionnel de la plateforme AniHub}
+    \label{fig:anihub-squelette}
+\end{figure}
+
+\noindent La plateforme AniHub s’articule autour de quatre modules principaux :
+
+\begin{itemize}
+    \item \textbf{AniMatch} : ce module est dédié à la mise en relation des propriétaires d’animaux dans un cadre structuré et sécurisé. Il facilite d’une part l’accouplement responsable des animaux en tenant compte de critères de compatibilité, et d’autre part l’adoption en permettant aux animaux de trouver de nouveaux foyers adaptés à leurs besoins, tout en favorisant une démarche responsable et encadrée.
+
+    \item \textbf{AniMarket} : ce module constitue une marketplace spécialisée dans le domaine animalier. Il permet non seulement l’achat et la vente d’animaux domestiques, mais aussi la publication, la consultation et la gestion d’annonces relatives aux produits, accessoires et équipements destinés aux animaux, offrant ainsi un espace commercial complet et centralisé.
+
+    \item \textbf{AniCare} : ce module regroupe un ensemble de services dédiés au bien-être et à la santé animale. Il met en relation les propriétaires avec des professionnels qualifiés tels que les vétérinaires, les dresseurs, les toiletteurs et les gardiens d’animaux, facilitant ainsi l’accès à des prestations fiables et adaptées aux besoins des animaux.
+
+    \item \textbf{AniFound} : ce module est consacré à la gestion des animaux perdus et retrouvés. Il permet de signaler un animal perdu, de publier un animal retrouvé et de centraliser les informations afin de faciliter la mise en relation entre les utilisateurs concernés, augmentant ainsi les chances de retrouver rapidement les animaux disparus.
+\end{itemize}
+
+\newpage\subsection{Analyse comparative des solutions existantes et positionnement d’AniHub}
+
+Ce tableau présente une analyse comparative des solutions existantes selon plusieurs critères fonctionnels et techniques, afin de mettre en évidence leurs limites et de positionner AniHub par rapport à l’existant.
+\begin{table}[ht]
+\centering
+\renewcommand{\arraystretch}{1.3}
+
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|p{5cm}|p{3.2cm}|p{3.2cm}|p{3.2cm}|p{3.2cm}|}
+\hline
+\textbf{Critère} & \textbf{Animaleries en ligne} & \textbf{Réseaux sociaux} & \textbf{Sites d’annonces} & \textbf{AniHub} \\
+\hline
+
+Spécialisation animale & \ding{51} &  &  & \ding{51} \\
+\hline
+
+Large variété de produits pour animaux proposés & \ding{51} &  &  & \ding{51} \\
+\hline
+
+Facilité d’utilisation (UX/UI) & \ding{51} & \ding{51} & \ding{51} & \ding{51} \\
+\hline
+
+Degré de structuration des modules et des fonctionnalités & \ding{51} &  &  & \ding{51} \\
+\hline
+
+Modèle de vente entre particuliers (C2C) &  & \ding{51} & \ding{51} & \ding{51} \\
+\hline
+
+Disponibilité d'un système de matching pour reproduction animale &  &  &  & \ding{51} \\
+\hline
+
+Disponibilité des services dédiés aux animaux &  &  &  & \ding{51} \\
+\hline
+
+Disponibilité d’une section d’adoption des animaux &  &  &  & \ding{51} \\
+\hline
+
+Présence d’une fonctionnalité de marketplace &  &  &  & \ding{51} \\
+\hline
+
+Section de signalement des animaux perdus et retrouvés (Lost \& Found) &  &  &  & \ding{51} \\
+\hline
+
+\end{tabular}
+}
+\caption{Comparaison des solutions existantes avec AniHub}
+\label{tab:comparison}
+\end{table} 
+
+\subsection{Objectifs de notre solution « AniHub »}
+
+\begin{itemize}
+\item \textbf{Objectifs humains :}  
+À travers la solution AniHub, nous visons à promouvoir le bien-être animal en facilitant les adoptions responsables et en aidant les propriétaires à retrouver leurs animaux perdus.
+
+\item \textbf{Objectifs intellectuels :}  
+AniHub a pour objectif de favoriser l’échange et l’apprentissage autour du monde animal, grâce à une plateforme interactive permettant aux utilisateurs de partager des connaissances, poser des questions et enrichir leurs savoirs.
+
+\item \textbf{Objectifs commerciaux :}  
+La plateforme offre un espace dédié à la mise en relation entre vendeurs et acheteurs d’animaux, ainsi qu’aux prestataires de services (dresseurs, pet-sitters, vétérinaires et toiletteurs), afin d’élargir leur visibilité et d’attirer davantage de clients.
+\end{itemize} 
+
+
+\subsection{Public cible de la plateforme « AniHub »}
+
+Notre plateforme s’adresse à un large éventail d’utilisateurs impliqués directement ou indirectement dans le domaine animalier. Elle vise notamment :
+
+\begin{itemize}
+    \item Les passionnés d’animaux et les professionnels du secteur animalier
+    \item Les vendeurs d’animaux domestiques
+    \item Les animaleries en Tunisie souhaitant publier leurs produits et articles
+    \item Les personnes ayant perdu ou retrouvé un animal
+    \item Les propriétaires souhaitant proposer leurs animaux à l’adoption
+    \item Les propriétaires souhaitant faire reproduire (accoupler) leurs animaux dans un cadre adapté
+    \item Les prestataires de services animaliers (vétérinaires, dresseurs, toiletteurs, gardiens)
+\end{itemize} 
+
+\subsection{Positionnement stratégique de la plateforme « AniHub »}
+Notre plateforme \textbf{« AniHub »} ne se positionne pas comme un concurrent des animaleries en Tunisie, mais plutôt comme un partenaire stratégique créant une valeur ajoutée pour l’ensemble des acteurs. Elle vise à accompagner notamment les petites boutiques animalières ne disposant pas de présence en ligne, en leur offrant la possibilité de publier et promouvoir leurs produits via la plateforme.
+
+Ainsi, \textbf{AniHub} met à leur disposition un espace dédié pour valoriser leurs articles et élargir leur visibilité auprès d’un public plus large. À travers cette approche collaborative, nous aspirons à proposer aux propriétaires d’animaux domestiques un accès facilité à des produits et services de qualité. 
+
+\section{Méthodologie de développement}
+
+La réussite d’un projet repose sur l’adoption d’une méthodologie de gestion adaptée, permettant d’assurer le respect des délais ainsi que la satisfaction des besoins exprimés. 
+
+Dans le cadre des projets à long terme, les exigences peuvent évoluer au fil du temps. Il est donc essentiel de maintenir une communication continue avec le client, en lui présentant régulièrement les fonctionnalités développées. Cette démarche permet de valider les résultats obtenus et d’intégrer d’éventuelles modifications avant de poursuivre les phases suivantes du projet. 
+
+
+\subsection{Comparaison des méthodes de travail} 
+Les approches de développement logiciel peuvent être classées en deux grandes catégories : les méthodes classiques et les méthodes agiles, chacune reposant sur des principes et des priorités différents. Les méthodes classiques privilégient une organisation structurée, basée sur une planification rigide, une documentation détaillée et une formalisation des échanges à travers des contrats. En revanche, les méthodes agiles mettent l’accent sur la flexibilité, la collaboration continue avec le client et l’adaptation aux changements tout au long du projet. Cette distinction permet de mieux comprendre les choix méthodologiques adoptés selon la nature et les exigences du projet, comme l’illustre cette figure.  
+\newpage
+\begin{figure*}[ht]
+\centering
+\includegraphics[width=0.78\linewidth, height=8.7cm]{images/comparaison.png}
+\caption{Méthode Agile vs Méthode Classique}
+\label{fig:image}
+\end{figure*} 
+\subsection{Adoption de la méthodologie Scrum} 
+
+La méthodologie Scrum repose sur une organisation bien définie, structurée autour d’une équipe, d’événements et d’artefacts permettant d’assurer le bon déroulement du projet.
+
+\subsubsection*{Équipe Scrum}
+L’équipe Scrum est composée de plusieurs rôles complémentaires :
+\begin{itemize}
+    \item \textbf{Product Owner} : responsable de la définition des besoins du client et de la gestion du Product Backlog. Il priorise les fonctionnalités à développer.
+    \item \textbf{Scrum Master} : garant du respect de la méthodologie Scrum. Il facilite le travail de l’équipe et élimine les obstacles rencontrés.
+    \item \textbf{Équipe de développement} : composée des développeurs, elle est responsable de la conception, du développement et de la livraison du produit.
+\end{itemize}
+
+\subsubsection*{Les événements Scrum (Scrum Events)}
+Scrum s’organise autour de plusieurs événements clés :
+\begin{itemize}
+    \item \textbf{Sprint} : période courte (généralement 2 à 4 semaines) durant laquelle une version fonctionnelle du produit est développée.
+    \item \textbf{Sprint Planning} : réunion de planification au début de chaque sprint pour définir les objectifs et les tâches à réaliser.
+    \item \textbf{Daily Scrum (Daily Meeting)} : réunion quotidienne courte permettant de suivre l’avancement, identifier les obstacles et synchroniser l’équipe.
+    \item \textbf{Sprint Review} : réunion en fin de sprint pour présenter les fonctionnalités développées au client et recueillir ses retours.
+    \item \textbf{Sprint Retrospective} : réunion interne visant à analyser le sprint écoulé et à améliorer les processus de travail.
+\end{itemize}
+
+\subsubsection*{Les artefacts Scrum (éléments clés)}
+Les artefacts Scrum représentent les éléments essentiels du suivi du projet :
+\begin{itemize}
+    \item \textbf{Product Backlog} : liste priorisée de toutes les fonctionnalités et exigences du projet.
+    \item \textbf{Sprint Backlog} : ensemble des tâches sélectionnées pour être réalisées durant un sprint.
+    \item \textbf{Increment (Incrément)} : version fonctionnelle du produit livrée à la fin de chaque sprint, intégrant les nouvelles fonctionnalités développées.
+\end{itemize} 
+\begin{figure*}[ht]
+\centering
+\includegraphics[width=0.95\linewidth, height=8cm]{images/scrum.jpg}
+\caption{Processus de travail de Scrum}
+\label{fig:image}
+\end{figure*}  
+Dans le cadre de notre projet, nous avons opté pour une planification basée sur la méthodologie Scrum, en définissant 6 sprints répartis en 2 releases . Cette organisation permet une progression incrémentale du développement, ainsi qu’une meilleure maîtrise des fonctionnalités livrées à chaque étape. Nous décrirons cette décomposition en détail à la fin du chapitre deux, après avoir présenté et défini l’ensemble des fonctionnalités du produit à réaliser.
+\newpage 
+\section{Chronogramme} 
+La figure ci-dessous présente les différentes étapes de réalisation de notre projet, planifiées sur une période de stage de 4 mois, s’étendant du 1er février 2023 au 31 mai 2023.
+\begin{figure*}[ht]
+\centering
+\includegraphics[width=0.95\linewidth, height=8cm]{images/chronogramme.png}
+\caption{Chronogramme AniHub}
+\label{fig:image}
+\end{figure*}  
+
+\section{Conclusion}
+
+Dans ce chapitre, nous avons présenté le cadre général du projet AniHub ainsi que l’organisme d’accueil, AfterCode. Nous avons également réalisé une analyse de l’existant afin d’identifier les limites des solutions actuelles du marché des animaux domestiques en Tunisie. Sur cette base, nous avons proposé notre solution en détaillant ses principaux modules ainsi que ses objectifs et son positionnement stratégique. Enfin, nous avons introduit la méthodologie de développement adoptée, basée sur Scrum, qui structure le projet en plusieurs sprints et releases afin d’assurer un développement progressif et maîtrisé.
