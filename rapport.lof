@@ -6,143 +6,142 @@
 \contentsline {figure}{\numberline {1.4}{\ignorespaces logo Z'animo \cite {zanimo2026}}}{4}{figure.1.4}%
 \contentsline {figure}{\numberline {1.5}{\ignorespaces Logo Instagram \cite {instagram2026}}}{5}{figure.1.5}%
 \contentsline {figure}{\numberline {1.6}{\ignorespaces Logo Facebook \cite {facebook2026}}}{5}{figure.1.6}%
-\contentsline {figure}{\numberline {1.7}{\ignorespaces logo Tayara \cite {tayara2026}}}{6}{figure.1.7}%
-\contentsline {figure}{\numberline {1.8}{\ignorespaces logo Afariat \cite {afariat2026}}}{6}{figure.1.8}%
-\contentsline {figure}{\numberline {1.9}{\ignorespaces logo bazarafrique \cite {bazarafrique2026}}}{6}{figure.1.9}%
-\contentsline {figure}{\numberline {1.10}{\ignorespaces Squelette fonctionnel de la plateforme AniHub}}{7}{figure.1.10}%
-\contentsline {figure}{\numberline {1.11}{\ignorespaces Méthode Agile vs Méthode Classique}}{10}{figure.1.11}%
-\contentsline {figure}{\numberline {1.12}{\ignorespaces Processus de travail de Scrum}}{11}{figure.1.12}%
-\contentsline {figure}{\numberline {1.13}{\ignorespaces Chronogramme AniHub}}{12}{figure.1.13}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces logo Tayara \cite {tayara2026}}}{5}{figure.1.7}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces logo Afariat \cite {afariat2026}}}{5}{figure.1.8}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces logo bazarafrique \cite {bazarafrique2026}}}{5}{figure.1.9}%
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Squelette fonctionnel de la plateforme AniHub}}{6}{figure.1.10}%
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Méthode Agile vs Méthode Classique \cite {agilevsclassic2017}}}{8}{figure.1.11}%
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Processus de travail de Scrum \cite {scrum_process_pm}}}{10}{figure.1.12}%
+\contentsline {figure}{\numberline {1.13}{\ignorespaces Chronogramme AniHub}}{11}{figure.1.13}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Diagramme de cas d'utilisation général}}{16}{figure.2.1}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Comparaison architecture monolithique vs microservices}}{18}{figure.2.2}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Diagramme de cas d'utilisation général}}{15}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Comparaison architecture monolithique vs microservices}}{17}{figure.2.2}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Présentation de notre architecture}}{19}{figure.2.3}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Équipe et rôles Scrum}}{23}{figure.2.4}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagramme des cas d’utilisation du sprint 1}}{30}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagramme de classes du sprint 1}}{35}{figure.3.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagramme de séquence de l’inscription}}{36}{figure.3.3}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Diagramme de séquence de la connexion}}{36}{figure.3.4}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Diagramme de séquence de la gestion des utilisateurs}}{37}{figure.3.5}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Diagramme de séquence de la gestion des annonces}}{38}{figure.3.6}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Page d’accueil AniHub}}{39}{figure.3.7}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Interface d'inscription AniHub}}{39}{figure.3.8}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Interface de connexion AniHub}}{40}{figure.3.9}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Interface du profil utilisateur AniHub}}{40}{figure.3.10}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Tableau de bord administrateur AniHub}}{41}{figure.3.11}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Interface de gestion des utilisateurs AniHub}}{41}{figure.3.12}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Interface d’administration de gestion d’AniMatch}}{42}{figure.3.13}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Interface d’administration des statistiques d’AniMatch}}{42}{figure.3.14}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Interface d’administration de gestion d’AniFound}}{42}{figure.3.15}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Interface d’administration des statistiques d’AniFound}}{42}{figure.3.16}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Interface d’administration de gestion d’AniMarket}}{43}{figure.3.17}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Interface d’administration des statistiques d’AniMarket}}{43}{figure.3.18}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Interface d’administration AniCare : gestion des services}}{43}{figure.3.19}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Interface d’administration AniCare : vérification des services}}{44}{figure.3.20}%
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Interface de statistiques AniCare 1}}{44}{figure.3.21}%
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Interface de statistiques AniCare 2}}{44}{figure.3.22}%
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Logo du module AniMatch}}{45}{figure.3.23}%
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Diagramme des cas d’utilisation du sprint 2}}{47}{figure.3.24}%
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Diagramme de classes de la sprint 2}}{51}{figure.3.25}%
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Diagramme de séquence : gérer mes animaux pour accouplement et pour adoption}}{52}{figure.3.26}%
-\contentsline {figure}{\numberline {3.27}{\ignorespaces Diagramme de séquence : gérer mes invitations reçues}}{53}{figure.3.27}%
-\contentsline {figure}{\numberline {3.28}{\ignorespaces Diagramme de séquence : gérer mes invitations envoyées}}{54}{figure.3.28}%
-\contentsline {figure}{\numberline {3.29}{\ignorespaces Interface d’accueil AniHub}}{55}{figure.3.29}%
-\contentsline {figure}{\numberline {3.30}{\ignorespaces Menu principal AniHub}}{55}{figure.3.30}%
-\contentsline {figure}{\numberline {3.31}{\ignorespaces Interface d’accueil du module AniMatch}}{55}{figure.3.31}%
-\contentsline {figure}{\numberline {3.32}{\ignorespaces Interface d’ajout d’une annonce d’accouplement}}{56}{figure.3.32}%
-\contentsline {figure}{\numberline {3.33}{\ignorespaces Interface des animaux pour accouplement}}{56}{figure.3.33}%
-\contentsline {figure}{\numberline {3.34}{\ignorespaces Interface de détails d’une annonce d’accouplement}}{57}{figure.3.34}%
-\contentsline {figure}{\numberline {3.35}{\ignorespaces Interface d’envoi d’une invitation à l’accouplement}}{57}{figure.3.35}%
-\contentsline {figure}{\numberline {3.36}{\ignorespaces Interface des avis et commentaires}}{58}{figure.3.36}%
-\contentsline {figure}{\numberline {3.37}{\ignorespaces Interface de gestion du profil utilisateur}}{58}{figure.3.37}%
-\contentsline {figure}{\numberline {3.38}{\ignorespaces Interface de gestion des animaux (modification et suppression)}}{59}{figure.3.38}%
-\contentsline {figure}{\numberline {3.39}{\ignorespaces Interface de gestion des invitations d’accouplement et d’adoption}}{59}{figure.3.39}%
-\contentsline {figure}{\numberline {3.40}{\ignorespaces Interface de détails d’une invitation d’accouplement}}{60}{figure.3.40}%
-\contentsline {figure}{\numberline {3.41}{\ignorespaces Logo du module AniFound}}{61}{figure.3.41}%
-\contentsline {figure}{\numberline {3.42}{\ignorespaces Diagramme des cas d’utilisation du sprint 3}}{63}{figure.3.42}%
-\contentsline {figure}{\numberline {3.43}{\ignorespaces Diagramme de classes du sprint 3}}{67}{figure.3.43}%
-\contentsline {figure}{\numberline {3.44}{\ignorespaces Diagramme de séquence : gérer mes déclarations de perte ou de trouvaille}}{68}{figure.3.44}%
-\contentsline {figure}{\numberline {3.45}{\ignorespaces Diagramme de séquence : gérer mes indices reçus}}{69}{figure.3.45}%
-\contentsline {figure}{\numberline {3.46}{\ignorespaces Menu principal de l’application AniHub}}{70}{figure.3.46}%
-\contentsline {figure}{\numberline {3.47}{\ignorespaces Interface d’accueil AniFound}}{70}{figure.3.47}%
-\contentsline {figure}{\numberline {3.48}{\ignorespaces Interface d’annonce de perte d’un animal}}{70}{figure.3.48}%
-\contentsline {figure}{\numberline {3.49}{\ignorespaces Interface d’annonce de trouvaille d’un animal}}{70}{figure.3.49}%
-\contentsline {figure}{\numberline {3.50}{\ignorespaces Interface des déclarations de trouvaille}}{71}{figure.3.50}%
-\contentsline {figure}{\numberline {3.51}{\ignorespaces Interface de détails d’une déclaration de trouvaille}}{71}{figure.3.51}%
-\contentsline {figure}{\numberline {3.52}{\ignorespaces Interface d’envoi d’un indice pour une déclaration de trouvaille}}{72}{figure.3.52}%
-\contentsline {figure}{\numberline {3.53}{\ignorespaces Interface des déclarations de perte}}{72}{figure.3.53}%
-\contentsline {figure}{\numberline {3.54}{\ignorespaces Interface de détails d’une déclaration de perte}}{73}{figure.3.54}%
-\contentsline {figure}{\numberline {3.55}{\ignorespaces Interface de l’espace AniFound et gestion du profil}}{73}{figure.3.55}%
-\contentsline {figure}{\numberline {3.56}{\ignorespaces Interface de gestion de mes déclarations de perte et de trouvaille}}{74}{figure.3.56}%
-\contentsline {figure}{\numberline {3.57}{\ignorespaces Interface de modification d’une déclaration de perte ou de trouvaille}}{74}{figure.3.57}%
-\contentsline {figure}{\numberline {3.58}{\ignorespaces Interface de suppression d’une déclaration de perte ou de trouvaille}}{74}{figure.3.58}%
-\contentsline {figure}{\numberline {3.59}{\ignorespaces Interface des notifications reçues}}{75}{figure.3.59}%
-\contentsline {figure}{\numberline {3.60}{\ignorespaces Interface des indices reçus pour une déclaration de trouvaille}}{75}{figure.3.60}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagramme des cas d’utilisation du sprint 1}}{31}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagramme de classes du sprint 1}}{36}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagramme de séquence de l’inscription}}{37}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Diagramme de séquence de la connexion}}{37}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Diagramme de séquence de la gestion des utilisateurs}}{38}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Diagramme de séquence de la gestion des annonces}}{39}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Page d’accueil AniHub}}{40}{figure.3.7}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Interface d'inscription AniHub}}{40}{figure.3.8}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Interface de connexion AniHub}}{41}{figure.3.9}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Interface du profil utilisateur AniHub}}{41}{figure.3.10}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Tableau de bord administrateur AniHub}}{42}{figure.3.11}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Interface de gestion des utilisateurs AniHub}}{42}{figure.3.12}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Interface d’administration de gestion d’AniMatch}}{43}{figure.3.13}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Interface d’administration des statistiques d’AniMatch}}{43}{figure.3.14}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Interface d’administration de gestion d’AniFound}}{43}{figure.3.15}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Interface d’administration des statistiques d’AniFound}}{43}{figure.3.16}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Interface d’administration de gestion d’AniMarket}}{44}{figure.3.17}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Interface d’administration des statistiques d’AniMarket}}{44}{figure.3.18}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Interface d’administration AniCare : gestion des services}}{44}{figure.3.19}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Interface d’administration AniCare : vérification des services}}{45}{figure.3.20}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Interface de statistiques AniCare 1}}{45}{figure.3.21}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Interface de statistiques AniCare 2}}{45}{figure.3.22}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Logo du module AniMatch}}{46}{figure.3.23}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Diagramme des cas d’utilisation du sprint 2}}{48}{figure.3.24}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Diagramme de classes de la sprint 2}}{52}{figure.3.25}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Diagramme de séquence : gérer mes animaux pour accouplement et pour adoption}}{53}{figure.3.26}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Diagramme de séquence : gérer mes invitations reçues}}{54}{figure.3.27}%
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Diagramme de séquence : gérer mes invitations envoyées}}{55}{figure.3.28}%
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Interface d’accueil AniHub}}{56}{figure.3.29}%
+\contentsline {figure}{\numberline {3.30}{\ignorespaces Menu principal AniHub}}{56}{figure.3.30}%
+\contentsline {figure}{\numberline {3.31}{\ignorespaces Interface d’accueil du module AniMatch}}{56}{figure.3.31}%
+\contentsline {figure}{\numberline {3.32}{\ignorespaces Interface d’ajout d’une annonce d’accouplement}}{57}{figure.3.32}%
+\contentsline {figure}{\numberline {3.33}{\ignorespaces Interface des animaux pour accouplement}}{57}{figure.3.33}%
+\contentsline {figure}{\numberline {3.34}{\ignorespaces Interface de détails d’une annonce d’accouplement}}{58}{figure.3.34}%
+\contentsline {figure}{\numberline {3.35}{\ignorespaces Interface d’envoi d’une invitation à l’accouplement}}{58}{figure.3.35}%
+\contentsline {figure}{\numberline {3.36}{\ignorespaces Interface des avis et commentaires}}{59}{figure.3.36}%
+\contentsline {figure}{\numberline {3.37}{\ignorespaces Interface de gestion du profil utilisateur}}{59}{figure.3.37}%
+\contentsline {figure}{\numberline {3.38}{\ignorespaces Interface de gestion des animaux (modification et suppression)}}{60}{figure.3.38}%
+\contentsline {figure}{\numberline {3.39}{\ignorespaces Interface de gestion des invitations d’accouplement et d’adoption}}{60}{figure.3.39}%
+\contentsline {figure}{\numberline {3.40}{\ignorespaces Interface de détails d’une invitation d’accouplement}}{61}{figure.3.40}%
+\contentsline {figure}{\numberline {3.41}{\ignorespaces Logo du module AniFound}}{62}{figure.3.41}%
+\contentsline {figure}{\numberline {3.42}{\ignorespaces Diagramme des cas d’utilisation du sprint 3}}{64}{figure.3.42}%
+\contentsline {figure}{\numberline {3.43}{\ignorespaces Diagramme de classes du sprint 3}}{68}{figure.3.43}%
+\contentsline {figure}{\numberline {3.44}{\ignorespaces Diagramme de séquence : gérer mes déclarations de perte ou de trouvaille}}{69}{figure.3.44}%
+\contentsline {figure}{\numberline {3.45}{\ignorespaces Diagramme de séquence : gérer mes indices reçus}}{70}{figure.3.45}%
+\contentsline {figure}{\numberline {3.46}{\ignorespaces Menu principal de l’application AniHub}}{71}{figure.3.46}%
+\contentsline {figure}{\numberline {3.47}{\ignorespaces Interface d’accueil AniFound}}{71}{figure.3.47}%
+\contentsline {figure}{\numberline {3.48}{\ignorespaces Interface d’annonce de perte d’un animal}}{71}{figure.3.48}%
+\contentsline {figure}{\numberline {3.49}{\ignorespaces Interface d’annonce de trouvaille d’un animal}}{71}{figure.3.49}%
+\contentsline {figure}{\numberline {3.50}{\ignorespaces Interface des déclarations de trouvaille}}{72}{figure.3.50}%
+\contentsline {figure}{\numberline {3.51}{\ignorespaces Interface de détails d’une déclaration de trouvaille}}{72}{figure.3.51}%
+\contentsline {figure}{\numberline {3.52}{\ignorespaces Interface d’envoi d’un indice pour une déclaration de trouvaille}}{73}{figure.3.52}%
+\contentsline {figure}{\numberline {3.53}{\ignorespaces Interface des déclarations de perte}}{73}{figure.3.53}%
+\contentsline {figure}{\numberline {3.54}{\ignorespaces Interface de détails d’une déclaration de perte}}{74}{figure.3.54}%
+\contentsline {figure}{\numberline {3.55}{\ignorespaces Interface de l’espace AniFound et gestion du profil}}{74}{figure.3.55}%
+\contentsline {figure}{\numberline {3.56}{\ignorespaces Interface de gestion de mes déclarations de perte et de trouvaille}}{75}{figure.3.56}%
+\contentsline {figure}{\numberline {3.57}{\ignorespaces Interface de modification d’une déclaration de perte ou de trouvaille}}{75}{figure.3.57}%
+\contentsline {figure}{\numberline {3.58}{\ignorespaces Interface de suppression d’une déclaration de perte ou de trouvaille}}{75}{figure.3.58}%
+\contentsline {figure}{\numberline {3.59}{\ignorespaces Interface des notifications reçues}}{76}{figure.3.59}%
+\contentsline {figure}{\numberline {3.60}{\ignorespaces Interface des indices reçus pour une déclaration de trouvaille}}{76}{figure.3.60}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Logo du module AniMarket}}{77}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Diagramme des cas d’utilisation du sprint 4}}{79}{figure.4.2}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Diagramme de classes du sprint 4}}{83}{figure.4.3}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Diagramme de séquence : consultation des animaux à vendre}}{84}{figure.4.4}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Diagramme de séquence : gestion des animaux}}{85}{figure.4.5}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Menu principal de l’application AniHub}}{86}{figure.4.6}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Interface d’accueil AniMarket}}{86}{figure.4.7}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Interface d’annonce d’animal pour vente}}{86}{figure.4.8}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Interface des achats immédiats}}{87}{figure.4.9}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Interface des enchères}}{87}{figure.4.10}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Interface détails d’une enchère}}{88}{figure.4.11}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Interface des commentaires, avis et enchères similaires}}{88}{figure.4.12}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Interface notifications reçues}}{89}{figure.4.13}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Interface espace AniMarket}}{89}{figure.4.14}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Interface mes animaux (prix fixe et enchère)}}{90}{figure.4.15}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Interface modification animal}}{90}{figure.4.16}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Interface suppression animal}}{90}{figure.4.17}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Logo du module AniCare}}{91}{figure.4.18}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Diagramme des cas d’utilisation du sprint 5}}{93}{figure.4.19}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Diagramme de classes de la sprint 5}}{98}{figure.4.20}%
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Diagramme de séquence : consultation des services}}{99}{figure.4.21}%
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Diagramme de séquence : gestion des services}}{100}{figure.4.22}%
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Diagramme de séquence : gestion des réservations reçues}}{101}{figure.4.23}%
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Interface d’accueil du module AniCare}}{102}{figure.4.24}%
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Interface de publication d’un service}}{102}{figure.4.25}%
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Interface des annonces de services dans AniCare}}{103}{figure.4.26}%
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Interface des détails d’un service}}{103}{figure.4.27}%
-\contentsline {figure}{\numberline {4.28}{\ignorespaces Interface de réservation d’un service pour un demandeur}}{104}{figure.4.28}%
-\contentsline {figure}{\numberline {4.29}{\ignorespaces Interface des avis des clients sur un service}}{104}{figure.4.29}%
-\contentsline {figure}{\numberline {4.30}{\ignorespaces Interface de l’espace AniCare pour un prestataire}}{105}{figure.4.30}%
-\contentsline {figure}{\numberline {4.31}{\ignorespaces Interface modification service}}{105}{figure.4.31}%
-\contentsline {figure}{\numberline {4.32}{\ignorespaces Interface suppression service}}{105}{figure.4.32}%
-\contentsline {figure}{\numberline {4.33}{\ignorespaces Interface de gestion des réservations reçues pour le prestataire}}{106}{figure.4.33}%
-\contentsline {figure}{\numberline {4.34}{\ignorespaces Interface du planning du prestataire}}{106}{figure.4.34}%
-\contentsline {figure}{\numberline {4.35}{\ignorespaces Interface de gestion des réservations envoyées pour le demandeur}}{107}{figure.4.35}%
-\contentsline {figure}{\numberline {4.36}{\ignorespaces Interface des notifications d’acceptation de réservation et de rendez-vous}}{107}{figure.4.36}%
-\contentsline {figure}{\numberline {4.37}{\ignorespaces Exemple de fichier Dockerfile du microservice \textit {AniMatch}}}{109}{figure.4.37}%
-\contentsline {figure}{\numberline {4.38}{\ignorespaces Configuration du fichier Docker Compose}}{110}{figure.4.38}%
-\contentsline {figure}{\numberline {4.39}{\ignorespaces Construction et démarrage des conteneurs}}{110}{figure.4.39}%
-\contentsline {figure}{\numberline {4.40}{\ignorespaces Conteneurs Docker en cours d’exécution}}{110}{figure.4.40}%
-\contentsline {figure}{\numberline {4.41}{\ignorespaces Fichier Deployment du microservice \textit {AniFound}}}{111}{figure.4.41}%
-\contentsline {figure}{\numberline {4.42}{\ignorespaces Application des fichiers YAML dans Kubernetes pour le déploiement d’AniHub}}{111}{figure.4.42}%
-\contentsline {figure}{\numberline {4.43}{\ignorespaces Vérification de l’état des pods sur Kubernetes}}{112}{figure.4.43}%
-\contentsline {figure}{\numberline {4.44}{\ignorespaces Exécution des conteneurs de l’application AniHub via Kubernetes}}{112}{figure.4.44}%
-\contentsline {figure}{\numberline {4.45}{\ignorespaces Accès au frontend via port-forward sur le port 3000}}{112}{figure.4.45}%
-\contentsline {figure}{\numberline {4.46}{\ignorespaces Vérification du contexte Kubernetes sur le cluster cloud de GCP}}{113}{figure.4.46}%
-\contentsline {figure}{\numberline {4.47}{\ignorespaces Affichage des clusters Kubernetes disponibles sur GCP}}{113}{figure.4.47}%
-\contentsline {figure}{\numberline {4.48}{\ignorespaces État des pods dans le cluster AniHub sur GCP}}{113}{figure.4.48}%
-\contentsline {figure}{\numberline {4.49}{\ignorespaces Accès cloud et tests de communication entre les microservices}}{114}{figure.4.49}%
-\contentsline {figure}{\numberline {4.50}{\ignorespaces Liste des services Kubernetes et accès à l’application via l’IP externe}}{114}{figure.4.50}%
-\contentsline {figure}{\numberline {4.51}{\ignorespaces Test de l’application déployée via l’IP externe sur le navigateur}}{114}{figure.4.51}%
-\contentsline {figure}{\numberline {4.52}{\ignorespaces Fichier de workflow GitHub Actions pour la pipeline CI/CD}}{115}{figure.4.52}%
-\contentsline {figure}{\numberline {4.53}{\ignorespaces Déclenchement de la pipeline CI/CD par un push sur GitHub}}{115}{figure.4.53}%
-\contentsline {figure}{\numberline {4.54}{\ignorespaces Exécution de la pipeline CI/CD dans GitHub Actions}}{116}{figure.4.54}%
-\contentsline {figure}{\numberline {4.55}{\ignorespaces Configuration de Prometheus et Grafana sur Kubernetes}}{117}{figure.4.55}%
-\contentsline {figure}{\numberline {4.56}{\ignorespaces Ajout de la route des métriques dans les microservices}}{117}{figure.4.56}%
-\contentsline {figure}{\numberline {4.57}{\ignorespaces Surveillance des microservices avec Prometheus}}{117}{figure.4.57}%
-\contentsline {figure}{\numberline {4.58}{\ignorespaces Page de connexion de Grafana}}{118}{figure.4.58}%
-\contentsline {figure}{\numberline {4.59}{\ignorespaces Tableau de bord Grafana : état de santé des microservices AniHub}}{118}{figure.4.59}%
-\contentsline {figure}{\numberline {4.60}{\ignorespaces Tableau de bord Grafana : Utilisation de la mémoire vive (RAM) par pod}}{119}{figure.4.60}%
-\contentsline {figure}{\numberline {4.61}{\ignorespaces Tableau de bord Grafana : Consommation CPU des microservices AniHub}}{119}{figure.4.61}%
-\contentsline {figure}{\numberline {4.62}{\ignorespaces Tableau de bord Grafana : Nombre de conteneurs actifs}}{120}{figure.4.62}%
-\contentsline {figure}{\numberline {4.63}{\ignorespaces Tableau de bord Grafana : État de santé de la Gateway}}{120}{figure.4.63}%
-\contentsline {figure}{\numberline {4.64}{\ignorespaces Nombre de requêtes du microservice AniMatch(GET, POST, PUT, DELETE)}}{121}{figure.4.64}%
-\contentsline {figure}{\numberline {4.65}{\ignorespaces Nombre de requêtes par microservices}}{121}{figure.4.65}%
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Logo du module AniMarket}}{78}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Diagramme des cas d’utilisation du sprint 4}}{80}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Diagramme de classes du sprint 4}}{84}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Diagramme de séquence : consultation des animaux à vendre}}{85}{figure.4.4}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Diagramme de séquence : gestion des animaux}}{86}{figure.4.5}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Menu principal de l’application AniHub}}{87}{figure.4.6}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Interface d’accueil AniMarket}}{87}{figure.4.7}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Interface d’annonce d’animal pour vente}}{87}{figure.4.8}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Interface des achats immédiats}}{88}{figure.4.9}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Interface des enchères}}{88}{figure.4.10}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Interface détails d’une enchère}}{89}{figure.4.11}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Interface des commentaires, avis et enchères similaires}}{89}{figure.4.12}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Interface notifications reçues}}{90}{figure.4.13}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Interface espace AniMarket}}{90}{figure.4.14}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Interface mes animaux (prix fixe et enchère)}}{91}{figure.4.15}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Interface modification animal}}{91}{figure.4.16}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Interface suppression animal}}{91}{figure.4.17}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Logo du module AniCare}}{92}{figure.4.18}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Diagramme des cas d’utilisation du sprint 5}}{94}{figure.4.19}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Diagramme de classes de la sprint 5}}{99}{figure.4.20}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Diagramme de séquence : consultation des services}}{100}{figure.4.21}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Diagramme de séquence : gestion des services}}{101}{figure.4.22}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Diagramme de séquence : gestion des réservations reçues}}{102}{figure.4.23}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Interface d’accueil du module AniCare}}{103}{figure.4.24}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Interface de publication d’un service}}{103}{figure.4.25}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Interface des annonces de services dans AniCare}}{104}{figure.4.26}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Interface des détails d’un service}}{104}{figure.4.27}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Interface de réservation d’un service pour un demandeur}}{105}{figure.4.28}%
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Interface des avis des clients sur un service}}{105}{figure.4.29}%
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Interface de l’espace AniCare pour un prestataire}}{106}{figure.4.30}%
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Interface modification service}}{106}{figure.4.31}%
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Interface suppression service}}{106}{figure.4.32}%
+\contentsline {figure}{\numberline {4.33}{\ignorespaces Interface de gestion des réservations reçues pour le prestataire}}{107}{figure.4.33}%
+\contentsline {figure}{\numberline {4.34}{\ignorespaces Interface du planning du prestataire}}{107}{figure.4.34}%
+\contentsline {figure}{\numberline {4.35}{\ignorespaces Interface de gestion des réservations envoyées pour le demandeur}}{108}{figure.4.35}%
+\contentsline {figure}{\numberline {4.36}{\ignorespaces Interface des notifications d’acceptation de réservation et de rendez-vous}}{108}{figure.4.36}%
+\contentsline {figure}{\numberline {4.37}{\ignorespaces Exemple de fichier Dockerfile du microservice \textit {AniMatch}}}{110}{figure.4.37}%
+\contentsline {figure}{\numberline {4.38}{\ignorespaces Configuration du fichier Docker Compose}}{111}{figure.4.38}%
+\contentsline {figure}{\numberline {4.39}{\ignorespaces Construction et démarrage des conteneurs}}{111}{figure.4.39}%
+\contentsline {figure}{\numberline {4.40}{\ignorespaces Conteneurs Docker en cours d’exécution}}{111}{figure.4.40}%
+\contentsline {figure}{\numberline {4.41}{\ignorespaces Fichier Deployment du microservice \textit {AniFound}}}{112}{figure.4.41}%
+\contentsline {figure}{\numberline {4.42}{\ignorespaces Application des fichiers YAML dans Kubernetes pour le déploiement d’AniHub}}{112}{figure.4.42}%
+\contentsline {figure}{\numberline {4.43}{\ignorespaces Vérification de l’état des pods sur Kubernetes}}{113}{figure.4.43}%
+\contentsline {figure}{\numberline {4.44}{\ignorespaces Exécution des conteneurs de l’application AniHub via Kubernetes}}{113}{figure.4.44}%
+\contentsline {figure}{\numberline {4.45}{\ignorespaces Accès au frontend via port-forward sur le port 3000}}{113}{figure.4.45}%
+\contentsline {figure}{\numberline {4.46}{\ignorespaces Vérification du contexte Kubernetes sur le cluster cloud de GCP}}{114}{figure.4.46}%
+\contentsline {figure}{\numberline {4.47}{\ignorespaces Affichage des clusters Kubernetes disponibles sur GCP}}{114}{figure.4.47}%
+\contentsline {figure}{\numberline {4.48}{\ignorespaces État des pods dans le cluster AniHub sur GCP}}{114}{figure.4.48}%
+\contentsline {figure}{\numberline {4.49}{\ignorespaces Accès cloud et tests de communication entre les microservices}}{115}{figure.4.49}%
+\contentsline {figure}{\numberline {4.50}{\ignorespaces Liste des services Kubernetes et accès à l’application via l’IP externe}}{115}{figure.4.50}%
+\contentsline {figure}{\numberline {4.51}{\ignorespaces Test de l’application déployée via l’IP externe sur le navigateur}}{115}{figure.4.51}%
+\contentsline {figure}{\numberline {4.52}{\ignorespaces Fichier de workflow GitHub Actions pour la pipeline CI/CD}}{116}{figure.4.52}%
+\contentsline {figure}{\numberline {4.53}{\ignorespaces Déclenchement de la pipeline CI/CD par un push sur GitHub}}{116}{figure.4.53}%
+\contentsline {figure}{\numberline {4.54}{\ignorespaces Exécution de la pipeline CI/CD dans GitHub Actions}}{117}{figure.4.54}%
+\contentsline {figure}{\numberline {4.55}{\ignorespaces Configuration de Prometheus et Grafana sur Kubernetes}}{118}{figure.4.55}%
+\contentsline {figure}{\numberline {4.56}{\ignorespaces Ajout de la route des métriques dans les microservices}}{118}{figure.4.56}%
+\contentsline {figure}{\numberline {4.57}{\ignorespaces Surveillance des microservices avec Prometheus}}{118}{figure.4.57}%
+\contentsline {figure}{\numberline {4.58}{\ignorespaces Page de connexion de Grafana}}{119}{figure.4.58}%
+\contentsline {figure}{\numberline {4.59}{\ignorespaces Tableau de bord Grafana : état de santé des microservices AniHub}}{119}{figure.4.59}%
+\contentsline {figure}{\numberline {4.60}{\ignorespaces Tableau de bord Grafana : Utilisation de la mémoire vive (RAM) par pod}}{120}{figure.4.60}%
+\contentsline {figure}{\numberline {4.61}{\ignorespaces Tableau de bord Grafana : Consommation CPU des microservices AniHub}}{120}{figure.4.61}%
+\contentsline {figure}{\numberline {4.62}{\ignorespaces Tableau de bord Grafana : Nombre de conteneurs actifs}}{121}{figure.4.62}%
+\contentsline {figure}{\numberline {4.63}{\ignorespaces Tableau de bord Grafana : État de santé de la Gateway}}{121}{figure.4.63}%
+\contentsline {figure}{\numberline {4.64}{\ignorespaces Nombre de requêtes du microservice AniMatch(GET, POST, PUT, DELETE)}}{122}{figure.4.64}%
+\contentsline {figure}{\numberline {4.65}{\ignorespaces Nombre de requêtes par microservices}}{122}{figure.4.65}%

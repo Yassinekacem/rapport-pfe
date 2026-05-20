@@ -13,16 +13,13 @@ AfterCode est une agence spécialisée dans le développement web et mobilee, fo
 L’objectif principal de l’agence est d’accompagner les entreprises dans leur transformation digitale, d’améliorer leur visibilité en ligne, d’augmenter leur trafic et d’optimiser leur retour sur investissement. Pour atteindre ces objectifs, AfterCode s’appuie sur une équipe de développeurs passionnés et expérimentés, travaillant en étroite collaboration avec les clients afin de fournir des solutions innovantes et adaptées à leurs besoins.
 \newpage
 
-La figure 1.1 présente le logo de la société AfterCode.
+La figure \ref{fig:aftercode_logo} présente le logo de la société AfterCode : 
 
 \begin{figure}[H]%
     \center%
-    \setlength{\fboxsep}{5pt}%
-    \setlength{\fboxrule}{0.5pt}%
-    \fbox{
     \includegraphics[width=4cm,height=3cm]{images/aftercode.png}%
-    }
     \caption{Logo AfterCode \cite{aftercode2020}}%
+    \label{fig:aftercode_logo}
 \end{figure}
 
 \vspace{0.5cm}
@@ -53,47 +50,47 @@ Dans le cadre de ce projet, une étude approfondie du marché a été menée afi
 Sur cette base, nous avons défini un ensemble de fonctionnalités améliorées et innovantes, dans le but de proposer une solution plus performante et mieux adaptée aux besoins des utilisateurs. 
 
 \subsection{Panorama du marché des animaux domestiques en Tunisie} 
-En Tunisie, le secteur des animaux domestiques reste encore partiellement structuré. Bien qu’il existe des sites e-commerce spécialisés dans la vente de produits pour animaux, le marché ne dispose pas d’une véritable plateforme C2C (Consumer-to-Consumer) dédiée aux animaux domestiques.
+En Tunisie, le secteur des animaux domestiques reste peu structuré et manque de plateformes C2C dédiées. Les prestataires de services, tels que les dresseurs, toiletteurs, pet-sitters et vétérinaires, ne disposent pas d’espaces adaptés pour promouvoir leurs services en ligne. De plus, l’adoption et la vente d’animaux entre particuliers restent peu organisées et se font principalement au marché de Moncef Bey.
 
-Par ailleurs, les prestataires de services tels que les dresseurs de chiens, les toiletteurs, les pet-sitters et les vétérinaires ne disposent pas de plateformes adaptées pour promouvoir leurs services et toucher un public plus large.
-
-De plus, l’adoption d’animaux ainsi que la vente entre particuliers ne sont pas organisées de manière structurée en ligne. Actuellement, le principal point de rencontre reste le marché de "Moncef Bey", où des vendeurs provenant des différents gouvernorats se réunissent chaque semaine pour proposer leurs animaux.
-
-Ces limites mettent en évidence un manque de centralisation et de digitalisation du secteur, ce qui nous a conduits à proposer \textbf{AniHub}, une plateforme C2C centralisée visant à regrouper les services, l’adoption et la mise en relation entre particuliers autour des animaux domestiques en Tunisie. 
-
+Face à ce manque de centralisation et de digitalisation, nous avons proposé \textbf{AniHub}, une plateforme C2C permettant de regrouper les services, l’adoption et la mise en relation entre particuliers autour des animaux domestiques en Tunisie . 
 \subsection{Critique de l’existant} 
-Dans cette section, nous examinerons les solutions existantes en Tunisie proposant des services similaires à ceux de notre plateforme, afin d’en analyser les atouts ainsi que les limites :  
+Dans cette section, nous présenterons les solutions existantes en Tunisie ainsi que leurs principaux atouts et limites. 
 \subsubsection{Les animaleries en Tunisie}
 
-En Tunisie, plusieurs animaleries en ligne, telles que AnimalZone, Mypets et Z’animo, se spécialisent dans la vente de produits, d’aliments et d’accessoires liés aux animaux domestiques.
+En Tunisie, plusieurs animaleries en ligne, comme AnimalZone, Mypets et Z’animo, proposent des produits et accessoires pour animaux selon un modèle B2C, sans interaction entre particuliers.
 
-Ces plateformes fonctionnent selon un modèle B2C (Business-to-Consumer), où les entreprises proposent directement leurs produits aux clients, sans interaction entre particuliers. 
-\\
-Les figures 1.2, 1.3 et 1.4 présentent les logos des trois animaleries les plus populaires en Tunisie .
+Les figures \ref{fig:mypets}, \ref{fig:animalzone} et \ref{fig:zanimo} présentent les logos de ces plateformes :
+
 \begin{figure}[ht]
 \centering
+
+\makebox[\textwidth][c]{
 \begin{minipage}[b]{0.3\linewidth}
 \centering
-\includegraphics[width=\linewidth]{images/mypets.png}
+\includegraphics[width=0.8\linewidth]{images/mypets.png}
 \caption{logo Mypets \cite{mypets2026}}
-\label{fig:figure1}
+\label{fig:mypets}
 \end{minipage}
 \hfill
+
 \begin{minipage}[b]{0.3\linewidth}
 \centering
-\includegraphics[width=\linewidth]{images/animalzone.png}
+\includegraphics[width=0.8\linewidth]{images/animalzone.png}
 \caption{logo AnimalZone \cite{animalzone2026}}
-\label{fig:figure2}
+\label{fig:animalzone}
 \end{minipage}
 \hfill
+
 \begin{minipage}[b]{0.3\linewidth}
 \centering
-\includegraphics[width=\linewidth]{images/zanimo.png}
+\includegraphics[width=0.8\linewidth]{images/zanimo.png}
 \caption{logo Z'animo \cite{zanimo2026}}
-\label{fig:figure3}
+\label{fig:zanimo}
 \end{minipage}
-\end{figure} 
-\newpage
+}
+
+\end{figure}
+
 \begin{itemize}
 \item \textbf{Points forts :}
 \begin{itemize}
@@ -108,27 +105,24 @@ Les figures 1.2, 1.3 et 1.4 présentent les logos des trois animaleries les plus
 \item Offre principalement limitée à la commercialisation de produits et, dans certains cas, d’animaux, sans intégration de services associés (toilettage, garde, dressage) ni de fonctionnalités dédiées à l’adoption
 \end{itemize}
 \end{itemize}
-
 \subsubsection{Réseaux sociaux (Facebook et Instagram)}
 
-En Tunisie, les éleveurs ainsi que les passionnés d’animaux utilisent principalement les réseaux sociaux, notamment Facebook et Instagram, ainsi que Facebook Marketplace et les groupes spécialisés, pour publier des annonces de vente ou d’adoption, partager des offres et échanger autour des animaux domestiques.
+En Tunisie, les particuliers utilisent principalement Facebook, Instagram et les groupes spécialisés pour la vente et l’adoption d’animaux. Cependant, ces échanges restent peu structurés et faiblement encadrés.
 
-Ces plateformes facilitent la mise en relation entre particuliers, mais les interactions restent non structurées et peu encadrées, ce qui peut limiter la fiabilité et l’organisation des échanges.  
-
-Les figures 1.5 et 1.6 présentent respectivement les logos de Facebook et Instagram.
+Les figures \ref{fig:instagram} et \ref{fig:facebook} présentent les logos de Facebook et Instagram. 
 \begin{figure}[ht]
 \centering
 
 \begin{minipage}[b]{0.45\linewidth}
 \centering
-\includegraphics[width=0.3\linewidth]{images/instagram.png}
+\includegraphics[width=0.2\linewidth]{images/instagram.png}
 \caption{Logo Instagram \cite{instagram2026}}
 \label{fig:instagram}
 \end{minipage}
 \hfill
 \begin{minipage}[b]{0.45\linewidth}
 \centering
-\includegraphics[width=0.3\linewidth]{images/facebook logo.png}
+\includegraphics[width=0.2\linewidth]{images/facebook logo.png}
 \caption{Logo Facebook \cite{facebook2026}}
 \label{fig:facebook}
 \end{minipage}
@@ -153,31 +147,30 @@ Les figures 1.5 et 1.6 présentent respectivement les logos de Facebook et Insta
 \end{itemize} 
 
 \subsubsection{Les sites d’annonces généralistes} 
-En Tunisie, en complément des réseaux sociaux, les éleveurs ainsi que les passionnés d’animaux ont également recours aux sites d’annonces généralistes tels que “Tayara” et “Afariat” afin de publier des offres de vente d’animaux domestiques et de toucher un public plus large.    
+En Tunisie, les particuliers utilisent également des sites d’annonces généralistes comme Tayara et Afariat pour publier des annonces de vente d’animaux domestiques et atteindre un public plus large.
 
-
-Les figures 1.7, 1.8 et 1.9 présentent les logos des sites d’annonces généralistes les plus populaires en Tunisie  :
+Les figures \ref{fig:tayara}, \ref{fig:afariat} et \ref{fig:bazarafrique} présentent les logos de ces plateformes : 
 \begin{figure}[ht]
 \centering
 \begin{minipage}[b]{0.3\linewidth}
 \centering
 \includegraphics[width=\linewidth]{images/tayara.png}
 \caption{logo Tayara \cite{tayara2026}}
-\label{fig:figure1}
+\label{fig:tayara}
 \end{minipage}
 \hfill
 \begin{minipage}[b]{0.3\linewidth}
 \centering
-\includegraphics[width=\linewidth]{images/afariat.png}
+\includegraphics[width=0.7\linewidth]{images/afariat.png}
 \caption{logo Afariat   \cite{afariat2026}}
-\label{fig:figure2}
+\label{fig:afariat}
 \end{minipage}
 \hfill
 \begin{minipage}[b]{0.3\linewidth}
 \centering
-\includegraphics[width=\linewidth]{images/bazarafrique.jpg}
+\includegraphics[width=0.8\linewidth]{images/bazarafrique.jpg}
 \caption{logo bazarafrique \cite{bazarafrique2026}}
-\label{fig:figure3}
+\label{fig:bazarafrique}
 \end{minipage}
 \end{figure} 
 
@@ -224,16 +217,25 @@ La figure ci-dessous présente le squelette général de la plateforme \textbf{A
 
 \newpage\subsection{Analyse comparative des solutions existantes et positionnement d’AniHub}
 
-Ce tableau présente une analyse comparative des solutions existantes selon plusieurs critères fonctionnels et techniques, afin de mettre en évidence leurs limites et de positionner AniHub par rapport à l’existant.
-\begin{table}[ht]
-\centering
+La table \ref{tab:comparison} présente une comparaison entre les solutions existantes en Tunisie et la plateforme \textbf{AniHub} selon différents critères fonctionnels et techniques, afin de mettre en évidence leurs limites et le positionnement d’AniHub : 
 \renewcommand{\arraystretch}{1.3}
 
-\resizebox{\textwidth}{!}{
-\begin{tabular}{|p{5cm}|p{3.2cm}|p{3.2cm}|p{3.2cm}|p{3.2cm}|}
+\begin{longtable}{|p{5.4cm}|p{2.8cm}|p{2.8cm}|p{2.8cm}|p{2.5cm}|}
+
+\caption{Comparaison des solutions existantes avec AniHub}
+\label{tab:comparison} \\
+
 \hline
+\rowcolor{coloranihub}
 \textbf{Critère} & \textbf{Animaleries en ligne} & \textbf{Réseaux sociaux} & \textbf{Sites d’annonces} & \textbf{AniHub} \\
 \hline
+\endfirsthead
+
+\hline
+\rowcolor{coloranihub}
+\textbf{Critère} & \textbf{Animaleries en ligne} & \textbf{Réseaux sociaux} & \textbf{Sites d’annonces} & \textbf{AniHub} \\
+\hline
+\endhead
 
 Spécialisation animale & \ding{51} &  &  & \ding{51} \\
 \hline
@@ -265,11 +267,7 @@ Présence d’une fonctionnalité de marketplace &  &  &  & \ding{51} \\
 Section de signalement des animaux perdus et retrouvés (Lost \& Found) &  &  &  & \ding{51} \\
 \hline
 
-\end{tabular}
-}
-\caption{Comparaison des solutions existantes avec AniHub}
-\label{tab:comparison}
-\end{table} 
+\end{longtable}
 
 \subsection{Objectifs de notre solution « AniHub »}
 
@@ -300,65 +298,129 @@ Notre plateforme s’adresse à un large éventail d’utilisateurs impliqués d
 \end{itemize} 
 
 \subsection{Positionnement stratégique de la plateforme « AniHub »}
-Notre plateforme \textbf{« AniHub »} ne se positionne pas comme un concurrent des animaleries en Tunisie, mais plutôt comme un partenaire stratégique créant une valeur ajoutée pour l’ensemble des acteurs. Elle vise à accompagner notamment les petites boutiques animalières ne disposant pas de présence en ligne, en leur offrant la possibilité de publier et promouvoir leurs produits via la plateforme.
+Notre plateforme \textbf{AniHub} ne se positionne pas comme un concurrent des animaleries en Tunisie, mais comme un partenaire visant à créer de la valeur pour l’ensemble des acteurs. Elle permet notamment aux petites boutiques sans présence en ligne de publier et promouvoir leurs produits.
 
-Ainsi, \textbf{AniHub} met à leur disposition un espace dédié pour valoriser leurs articles et élargir leur visibilité auprès d’un public plus large. À travers cette approche collaborative, nous aspirons à proposer aux propriétaires d’animaux domestiques un accès facilité à des produits et services de qualité. 
-
+Ainsi, AniHub offre un espace dédié pour améliorer leur visibilité et faciliter l’accès des propriétaires d’animaux à des produits et services de qualité. 
 \section{Méthodologie de développement}
 
-La réussite d’un projet repose sur l’adoption d’une méthodologie de gestion adaptée, permettant d’assurer le respect des délais ainsi que la satisfaction des besoins exprimés. 
-
-Dans le cadre des projets à long terme, les exigences peuvent évoluer au fil du temps. Il est donc essentiel de maintenir une communication continue avec le client, en lui présentant régulièrement les fonctionnalités développées. Cette démarche permet de valider les résultats obtenus et d’intégrer d’éventuelles modifications avant de poursuivre les phases suivantes du projet. 
-
-
+La réussite d’un projet dépend d’une méthodologie adaptée assurant le respect des délais et la satisfaction des besoins. Dans les projets à long terme, une communication continue avec le client est essentielle pour valider les livrables et intégrer les ajustements nécessaires.
 \subsection{Comparaison des méthodes de travail} 
-Les approches de développement logiciel peuvent être classées en deux grandes catégories : les méthodes classiques et les méthodes agiles, chacune reposant sur des principes et des priorités différents. Les méthodes classiques privilégient une organisation structurée, basée sur une planification rigide, une documentation détaillée et une formalisation des échanges à travers des contrats. En revanche, les méthodes agiles mettent l’accent sur la flexibilité, la collaboration continue avec le client et l’adaptation aux changements tout au long du projet. Cette distinction permet de mieux comprendre les choix méthodologiques adoptés selon la nature et les exigences du projet, comme l’illustre cette figure.  
-\newpage
-\begin{figure*}[ht]
+Les approches de développement logiciel se divisent en méthodes classiques, basées sur une planification rigide et une forte documentation, et en méthodes agiles, privilégiant la flexibilité, la collaboration et l’adaptation continue. Cette figure illustre cette différence : 
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.78\linewidth, height=8.7cm]{images/comparaison.png}
-\caption{Méthode Agile vs Méthode Classique}
-\label{fig:image}
-\end{figure*} 
-\subsection{Adoption de la méthodologie Scrum} 
+\includegraphics[width=0.6\linewidth, height=6.7cm]{images/comparaison.png}
+\caption{Méthode Agile vs Méthode Classique \cite{agilevsclassic2017}}
+\label{fig:classique_vs_agile}
+\end{figure} 
+\newpage 
+\subsection{Méthodes agiles}
 
-La méthodologie Scrum repose sur une organisation bien définie, structurée autour d’une équipe, d’événements et d’artefacts permettant d’assurer le bon déroulement du projet.
+Après une comparaison des méthodes classiques et agiles, nous avons choisi une approche agile pour sa flexibilité. Une comparaison entre Scrum, Kanban et XP a ensuite été réalisée afin de sélectionner la méthode la plus adaptée à notre projet. 
+\begin{longtable}{|p{4cm}|p{4cm}|p{4cm}|p{4cm}|}
 
+\caption{Comparaison des méthodes agiles\cite{agile_comparatif_artza}} \\
+\hline
+
+\rowcolor{coloranihub}
+\textbf{Critère} & \textbf{Scrum} & \textbf{Kanban} & \textbf{XP (Extreme Programming)} \\
+\hline
+\endfirsthead
+
+\hline
+\rowcolor{coloranihub}
+\textbf{Critère} & \textbf{Scrum} & \textbf{Kanban} & \textbf{XP (Extreme Programming)} \\
+\hline
+\endhead
+
+Organisation du travail & Basée sur des sprints & Flux continu & Itérations courtes \\
+\hline
+
+Planification & Fixée au début du sprint & Flexible et continue & Très fréquente et adaptative \\
+\hline
+
+Gestion des tâches & Backlog de sprint & Tableau Kanban (To Do / Doing / Done) & User stories détaillées \\
+\hline
+
+Rôles définis & Oui (Scrum Master, Product Owner, équipe) & Non obligatoire & Oui mais moins formalisés \\
+\hline
+
+Changement des exigences & Limité pendant le sprint & Accepté à tout moment & Accepté en continu \\
+\hline
+
+Livraison & À la fin de chaque sprint & Continue & Très fréquente \\
+\hline
+
+Qualité du code & Non spécifique & Non spécifique & Très forte (TDD, pair programming) \\
+\hline
+
+Implication client & Élevée à chaque sprint review & Variable & Très élevée et continue \\
+\hline
+
+Adapté pour & Projets structurés & Maintenance / flux continu & Projets techniques exigeants \\
+\hline
+
+\end{longtable}
+
+\subsection{Méthodologie adoptée : Scrum}
+
+Scrum est un cadre de travail agile permettant de gérer des projets complexes de manière itérative et incrémentale. Il repose sur une organisation structurée favorisant la collaboration, la transparence et l’adaptation continue tout au long du projet \cite{scrum_atlassian} . 
 \subsubsection*{Équipe Scrum}
-L’équipe Scrum est composée de plusieurs rôles complémentaires :
+
+L’équipe Scrum est composée de plusieurs rôles complémentaires \cite{scrum_roles_atlassian} :
+
 \begin{itemize}
     \item \textbf{Product Owner} : responsable de la définition des besoins du client et de la gestion du Product Backlog. Il priorise les fonctionnalités à développer.
+    
     \item \textbf{Scrum Master} : garant du respect de la méthodologie Scrum. Il facilite le travail de l’équipe et élimine les obstacles rencontrés.
+    
     \item \textbf{Équipe de développement} : composée des développeurs, elle est responsable de la conception, du développement et de la livraison du produit.
 \end{itemize}
 
-\subsubsection*{Les événements Scrum (Scrum Events)}
-Scrum s’organise autour de plusieurs événements clés :
+\subsubsection*{Les événements Scrum}
+
+Scrum s’organise autour de plusieurs événements clés \cite{scrum_ceremonies_atlassian} :
+
 \begin{itemize}
     \item \textbf{Sprint} : période courte (généralement 2 à 4 semaines) durant laquelle une version fonctionnelle du produit est développée.
+    
     \item \textbf{Sprint Planning} : réunion de planification au début de chaque sprint pour définir les objectifs et les tâches à réaliser.
+    
     \item \textbf{Daily Scrum (Daily Meeting)} : réunion quotidienne courte permettant de suivre l’avancement, identifier les obstacles et synchroniser l’équipe.
+    
     \item \textbf{Sprint Review} : réunion en fin de sprint pour présenter les fonctionnalités développées au client et recueillir ses retours.
+    
     \item \textbf{Sprint Retrospective} : réunion interne visant à analyser le sprint écoulé et à améliorer les processus de travail.
-\end{itemize}
+\end{itemize} 
+
 
 \subsubsection*{Les artefacts Scrum (éléments clés)}
-Les artefacts Scrum représentent les éléments essentiels du suivi du projet :
+
+Les artefacts Scrum représentent les éléments essentiels du suivi du projet \cite{scrum_artifacts_atlassian} :
+
 \begin{itemize}
     \item \textbf{Product Backlog} : liste priorisée de toutes les fonctionnalités et exigences du projet.
+    
     \item \textbf{Sprint Backlog} : ensemble des tâches sélectionnées pour être réalisées durant un sprint.
+    
     \item \textbf{Increment (Incrément)} : version fonctionnelle du produit livrée à la fin de chaque sprint, intégrant les nouvelles fonctionnalités développées.
 \end{itemize} 
-\begin{figure*}[ht]
+\subsubsection{Processus Scrum} 
+La figure \ref{fig:scrum_process} illustre le processus de travail de Scrum , mettant en évidence les différentes étapes et interactions entre les rôles, les événements et les artefacts tout au long du projet : 
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.95\linewidth, height=8cm]{images/scrum.jpg}
-\caption{Processus de travail de Scrum}
-\label{fig:image}
-\end{figure*}  
-Dans le cadre de notre projet, nous avons opté pour une planification basée sur la méthodologie Scrum, en définissant 6 sprints répartis en 2 releases . Cette organisation permet une progression incrémentale du développement, ainsi qu’une meilleure maîtrise des fonctionnalités livrées à chaque étape. Nous décrirons cette décomposition en détail à la fin du chapitre deux, après avoir présenté et défini l’ensemble des fonctionnalités du produit à réaliser.
+\includegraphics[width=0.9\linewidth, height=7cm]{images/scrum.jpg}
+\caption{Processus de travail de Scrum \cite{scrum_process_pm}}
+\label{fig:scrum_process}
+\end{figure}  
+Dans le cadre de notre projet, nous avons opté pour une planification basée sur la méthodologie Scrum, en définissant \textbf{6 sprints} répartis en \textbf{2 releases}. Cette organisation permet une progression incrémentale du développement, ainsi qu’une meilleure maîtrise des fonctionnalités livrées à chaque étape. Nous décrirons cette décomposition en détail à la fin du chapitre deux, après avoir présenté et défini l’ensemble des fonctionnalités du produit à réaliser.
 \newpage 
+
+
+
+
+
 \section{Chronogramme} 
-La figure ci-dessous présente les différentes étapes de réalisation de notre projet, planifiées sur une période de stage de 4 mois, s’étendant du 1er février 2023 au 31 mai 2023.
+La figure ci-dessous présente les différentes étapes de réalisation de notre projet, planifiées sur une période de stage de 4 mois, s’étendant du 1er février 2026 au 31 mai 2026.
 \begin{figure*}[ht]
 \centering
 \includegraphics[width=0.95\linewidth, height=8cm]{images/chronogramme.png}

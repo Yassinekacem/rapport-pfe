@@ -9,237 +9,233 @@
 \contentsline {subsection}{\numberline {1.4.1}Panorama du marché des animaux domestiques en Tunisie}{4}{subsection.1.4.1}%
 \contentsline {subsection}{\numberline {1.4.2}Critique de l’existant}{4}{subsection.1.4.2}%
 \contentsline {subsubsection}{Les animaleries en Tunisie}{4}{section*.7}%
-\contentsline {subsubsection}{Réseaux sociaux (Facebook et Instagram)}{5}{section*.8}%
+\contentsline {subsubsection}{Réseaux sociaux (Facebook et Instagram)}{4}{section*.8}%
 \contentsline {subsubsection}{Les sites d’annonces généralistes}{5}{section*.9}%
 \contentsline {section}{\numberline {1.5}Solution proposée}{6}{section.1.5}%
 \contentsline {subsection}{\numberline {1.5.1}Présentation de notre solution AniHub}{6}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Analyse comparative des solutions existantes et positionnement d’AniHub}{8}{subsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.5.3}Objectifs de notre solution « AniHub »}{8}{subsection.1.5.3}%
-\contentsline {subsection}{\numberline {1.5.4}Public cible de la plateforme « AniHub »}{9}{subsection.1.5.4}%
-\contentsline {subsection}{\numberline {1.5.5}Positionnement stratégique de la plateforme « AniHub »}{9}{subsection.1.5.5}%
-\contentsline {section}{\numberline {1.6}Méthodologie de développement}{9}{section.1.6}%
-\contentsline {subsection}{\numberline {1.6.1}Comparaison des méthodes de travail}{9}{subsection.1.6.1}%
-\contentsline {subsection}{\numberline {1.6.2}Adoption de la méthodologie Scrum}{10}{subsection.1.6.2}%
-\contentsline {section}{\numberline {1.7}Chronogramme}{12}{section.1.7}%
-\contentsline {section}{\numberline {1.8}Conclusion}{12}{section.1.8}%
-\contentsline {chapter}{\numberline {2}Étude des besoins et planification du projet}{13}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Introduction}{13}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Identification des acteurs}{13}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Besoins Fonctionnels}{14}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Pour un utilisateur}{14}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Pour un vendeur}{14}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Pour un prestataire de service}{14}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Pour un administrateur}{14}{subsection.2.3.4}%
-\contentsline {section}{\numberline {2.4}Besoins non fonctionnels}{14}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Diagramme de cas d’utilisation global}{15}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Architecture globale du projet}{16}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Architecture monolithique}{17}{subsection.2.6.1}%
-\contentsline {subsubsection}{Principe}{17}{section*.13}%
-\contentsline {subsubsection}{Avantages}{17}{section*.14}%
-\contentsline {subsubsection}{Inconvénients}{17}{section*.15}%
-\contentsline {subsubsection}{Cas d’utilisation}{17}{section*.16}%
-\contentsline {subsection}{\numberline {2.6.2}Architecture microservices}{17}{subsection.2.6.2}%
-\contentsline {subsubsection}{Principe}{17}{section*.17}%
-\contentsline {subsubsection}{Avantages}{17}{section*.18}%
-\contentsline {subsubsection}{Inconvénients}{17}{section*.19}%
-\contentsline {subsubsection}{Cas d’utilisation}{17}{section*.20}%
-\contentsline {subsection}{\numberline {2.6.3}Comparaison entre architecture monolithique et microservices}{18}{subsection.2.6.3}%
-\contentsline {subsection}{\numberline {2.6.4}Choix de l’architecture du projet}{19}{subsection.2.6.4}%
-\contentsline {subsubsection}{Justification du choix de l’architecture microservices}{19}{section*.21}%
-\contentsline {subsubsection}{Présentation de notre architecture}{19}{section*.22}%
-\contentsline {section}{\numberline {2.7}Stack technologique et outils de développement}{20}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}Outils et environnement de développement}{20}{subsection.2.7.1}%
-\contentsline {subsubsection}{Slack}{20}{section*.23}%
-\contentsline {subsubsection}{draw.io}{20}{section*.24}%
-\contentsline {subsubsection}{Figma}{20}{section*.25}%
-\contentsline {subsubsection}{Visual Studio Code}{21}{section*.26}%
-\contentsline {subsubsection}{Git et GitHub}{21}{section*.27}%
-\contentsline {subsubsection}{GitHub Actions}{21}{section*.28}%
+\contentsline {subsection}{\numberline {1.5.2}Analyse comparative des solutions existantes et positionnement d’AniHub}{7}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}Objectifs de notre solution « AniHub »}{7}{subsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.5.4}Public cible de la plateforme « AniHub »}{8}{subsection.1.5.4}%
+\contentsline {subsection}{\numberline {1.5.5}Positionnement stratégique de la plateforme « AniHub »}{8}{subsection.1.5.5}%
+\contentsline {section}{\numberline {1.6}Méthodologie de développement}{8}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}Comparaison des méthodes de travail}{8}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}Méthodes agiles}{9}{subsection.1.6.2}%
+\contentsline {subsection}{\numberline {1.6.3}Méthodologie adoptée : Scrum}{9}{subsection.1.6.3}%
+\contentsline {subsubsection}{Processus Scrum}{10}{section*.13}%
+\contentsline {section}{\numberline {1.7}Chronogramme}{11}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Conclusion}{11}{section.1.8}%
+\contentsline {chapter}{\numberline {2}Étude des besoins et planification du projet}{12}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{12}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Identification des acteurs}{12}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Besoins Fonctionnels}{13}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Pour un utilisateur}{13}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Pour un vendeur}{13}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Pour un prestataire de service}{13}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Pour un administrateur}{13}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}Besoins non fonctionnels}{13}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Diagramme de cas d’utilisation global}{14}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Architecture globale du projet}{15}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Architecture monolithique}{16}{subsection.2.6.1}%
+\contentsline {subsubsection}{Principe}{16}{section*.14}%
+\contentsline {subsubsection}{Avantages}{16}{section*.15}%
+\contentsline {subsubsection}{Inconvénients}{16}{section*.16}%
+\contentsline {subsubsection}{Cas d’utilisation}{16}{section*.17}%
+\contentsline {subsection}{\numberline {2.6.2}Architecture microservices}{16}{subsection.2.6.2}%
+\contentsline {subsubsection}{Principe}{16}{section*.18}%
+\contentsline {subsubsection}{Avantages}{16}{section*.19}%
+\contentsline {subsubsection}{Inconvénients}{16}{section*.20}%
+\contentsline {subsubsection}{Cas d’utilisation}{16}{section*.21}%
+\contentsline {subsection}{\numberline {2.6.3}Comparaison entre architecture monolithique et microservices}{17}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.6.4}Choix de l’architecture du projet}{18}{subsection.2.6.4}%
+\contentsline {subsubsection}{Justification du choix de l’architecture microservices}{18}{section*.22}%
+\contentsline {subsubsection}{Présentation de notre architecture}{18}{section*.23}%
+\contentsline {section}{\numberline {2.7}Stack technologique et outils de développement}{19}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Outils et environnement de développement}{19}{subsection.2.7.1}%
+\contentsline {subsubsection}{Slack}{19}{section*.24}%
+\contentsline {subsubsection}{draw.io}{20}{section*.25}%
+\contentsline {subsubsection}{Figma}{20}{section*.26}%
+\contentsline {subsubsection}{Visual Studio Code}{20}{section*.27}%
+\contentsline {subsubsection}{Git et GitHub}{20}{section*.28}%
+\contentsline {subsubsection}{GitHub Actions}{21}{section*.29}%
 \contentsline {subsection}{\numberline {2.7.2}Stack technologique}{21}{subsection.2.7.2}%
-\contentsline {subsubsection}{TypeScript}{21}{section*.29}%
-\contentsline {subsubsection}{Next.js}{22}{section*.30}%
-\contentsline {subsubsection}{Tailwind CSS}{22}{section*.31}%
-\contentsline {subsubsection}{Go et Fiber}{22}{section*.32}%
-\contentsline {subsubsection}{Neon PostgreSQL}{22}{section*.33}%
-\contentsline {subsubsection}{Postman}{22}{section*.34}%
-\contentsline {subsubsection}{RabbitMQ}{23}{section*.35}%
-\contentsline {subsubsection}{Docker}{23}{section*.36}%
-\contentsline {subsubsection}{Kubernetes}{23}{section*.37}%
+\contentsline {subsubsection}{TypeScript}{21}{section*.30}%
+\contentsline {subsubsection}{Next.js}{21}{section*.31}%
+\contentsline {subsubsection}{Tailwind CSS}{21}{section*.32}%
+\contentsline {subsubsection}{Go et Fiber}{22}{section*.33}%
+\contentsline {subsubsection}{Neon PostgreSQL}{22}{section*.34}%
+\contentsline {subsubsection}{Postman}{22}{section*.35}%
+\contentsline {subsubsection}{RabbitMQ}{22}{section*.36}%
+\contentsline {subsubsection}{Docker}{22}{section*.37}%
+\contentsline {subsubsection}{Kubernetes}{23}{section*.38}%
 \contentsline {section}{\numberline {2.8}Pilotage du projet : méthode Scrum}{23}{section.2.8}%
 \contentsline {subsection}{\numberline {2.8.1}Équipe et rôles}{23}{subsection.2.8.1}%
 \contentsline {subsection}{\numberline {2.8.2}Backlog produit}{24}{subsection.2.8.2}%
 \contentsline {subsection}{\numberline {2.8.3}Méthode de priorisation MoSCoW}{26}{subsection.2.8.3}%
-\contentsline {subsection}{\numberline {2.8.4}Planification des sprints et des releases}{27}{subsection.2.8.4}%
-\contentsline {section}{\numberline {2.9}Conclusion}{27}{section.2.9}%
-\contentsline {chapter}{\numberline {3}Release 1 : AniHub partie 1 }{28}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{28}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Sprint 1 : Authentification et administration}{28}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Sprint backlog}{28}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Diagramme des cas d’utilisation du sprint 1}{30}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Descriptions textuelles des cas d’utilisation du sprint 1}{30}{subsection.3.2.3}%
-\contentsline {subsubsection}{Description textuelle du cas d’utilisation « S’inscrire »}{30}{section*.38}%
-\contentsline {subsubsection}{Description textuelle du cas d’utilisation « Se connecter »}{31}{section*.39}%
-\contentsline {subsubsection}{Description textuelle du cas d’utilisation « Gérer son profil »}{32}{section*.40}%
-\contentsline {subsubsection}{Description textuelle du cas d’utilisation « Gérer les utilisateurs »}{33}{section*.41}%
-\contentsline {subsubsection}{Description textuelle du cas d’utilisation « Gérer les annonces »}{34}{section*.42}%
-\contentsline {subsection}{\numberline {3.2.4}Diagrammes des classes du sprint 1}{35}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Diagrammes de séquences du sprint 1}{35}{subsection.3.2.5}%
-\contentsline {subsubsection}{Diagramme de séquence : inscription}{35}{section*.43}%
-\contentsline {subsubsection}{Diagramme de séquence : connexion}{36}{section*.44}%
-\contentsline {subsubsection}{Diagramme de séquence : gestion des utilisateurs}{37}{section*.45}%
-\contentsline {subsubsection}{Diagramme de séquence : gestion des annonces}{38}{section*.46}%
-\contentsline {subsection}{\numberline {3.2.6}Réalisation su sprint 1 }{39}{subsection.3.2.6}%
-\contentsline {subsubsection}{Page d’accueil AniHub}{39}{section*.47}%
-\contentsline {subsubsection}{Interface d'inscription}{39}{section*.48}%
-\contentsline {subsubsection}{Interface de connexion}{40}{section*.49}%
-\contentsline {subsubsection}{Interface du profil utilisateur}{40}{section*.50}%
-\contentsline {subsubsection}{Interface du tableau de bord administrateur}{41}{section*.51}%
-\contentsline {subsubsection}{Interface de gestion des utilisateurs}{41}{section*.52}%
-\contentsline {subsubsection}{Interfaces d’administration pour le module AniMatch avec statistiques}{42}{section*.53}%
-\contentsline {subsubsection}{Interfaces d’administration pour le module AniFound avec statistiques}{42}{section*.54}%
-\contentsline {subsubsection}{Interfaces d’administration pour le module AniMarket avec statistiques}{43}{section*.55}%
-\contentsline {subsubsection}{Interface d’administration AniCare : gestion des services}{43}{section*.56}%
-\contentsline {subsubsection}{Interface d’administration AniCare : vérification des services}{44}{section*.57}%
-\contentsline {subsubsection}{Interfaces d’administration AniCare : statistiques AniCare}{44}{section*.58}%
-\contentsline {section}{\numberline {3.3}Sprint 2 : Module AniMatch}{45}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Sprint backlog}{45}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Diagramme des cas d’utilisation du sprint 2}{47}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Descriptions textuelles des cas d’utilisation du sprint 2}{48}{subsection.3.3.3}%
-\contentsline {subsubsection}{ Description textuelle du cas d’utilisation «Consulter les animaux pour adoption et accouplement» }{48}{section*.59}%
-\contentsline {subsubsection}{Description textuelle du cas d’utilisation «Gérer les annonces dans AniMatch»}{49}{section*.60}%
-\contentsline {subsubsection}{ Description textuelle du cas d’utilisation «Gérer les invitations reçues» }{50}{section*.61}%
-\contentsline {subsection}{\numberline {3.3.4}Diagramme de classes du sprint 2}{51}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}Diagrammes de séquences du sprint 2}{51}{subsection.3.3.5}%
-\contentsline {subsubsection}{Diagramme de séquence : Gérer mes animaux pour accouplement et pour adoption}{51}{section*.62}%
-\contentsline {subsubsection}{Diagramme de séquence : gérer mes invitations reçues}{53}{section*.63}%
-\contentsline {subsubsection}{Diagramme de séquence : gérer mes invitations envoyées}{54}{section*.64}%
-\contentsline {subsection}{\numberline {3.3.6}Réalisation du sprint 2}{55}{subsection.3.3.6}%
-\contentsline {subsubsection}{Interfaces d’accueil et menu principal de l’application AniHub}{55}{section*.65}%
-\contentsline {subsubsection}{Interface d’accueil AniMatch}{55}{section*.66}%
-\contentsline {subsubsection}{Interface d’ajout d’une annonce d’accouplement}{56}{section*.67}%
-\contentsline {subsubsection}{Interface des animaux pour accouplement}{56}{section*.68}%
-\contentsline {subsubsection}{Interface de détails d’une annonce d’accouplement}{57}{section*.69}%
-\contentsline {subsubsection}{Interface d’envoi d’une invitation d’accouplement}{57}{section*.70}%
-\contentsline {subsubsection}{Interface des avis et commentaires}{58}{section*.71}%
-\contentsline {subsubsection}{Interface de gestion du profil}{58}{section*.72}%
-\contentsline {subsubsection}{Interface de gestion de mes animaux (modification et suppression)}{59}{section*.73}%
-\contentsline {subsubsection}{Interface de gestion de mes invitations (accouplement et adoption)}{59}{section*.74}%
-\contentsline {subsubsection}{Interface de détails d’une invitation d’accouplement}{60}{section*.75}%
-\contentsline {section}{\numberline {3.4}Sprint 3 : Module AniFound}{61}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Sprint backlog}{61}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Diagramme des cas d’utilisation du sprint 3}{63}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Descriptions textuelles des cas d’utilisation du sprint 3}{64}{subsection.3.4.3}%
-\contentsline {subsubsection}{ Description textuelle du cas d’utilisation «Consulter déclarations de perte et de trouvaille » }{64}{section*.76}%
-\contentsline {subsubsection}{Description textuelle du cas d’utilisation «Gérer déclarations de perte et de trouvaille»}{65}{section*.77}%
-\contentsline {subsubsection}{ Description textuelle des cas d’utilisation «Gérer les indices reçus et envoyés» }{66}{section*.78}%
-\contentsline {subsection}{\numberline {3.4.4}Diagramme de classes du sprint 3}{67}{subsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.4.5}Diagrammes de séquences du sprint 3}{67}{subsection.3.4.5}%
-\contentsline {subsubsection}{Diagramme de séquence : gérer mes déclarations de perte ou de trouvaille}{68}{section*.79}%
-\contentsline {subsubsection}{Diagramme de séquence : gérer mes indices reçus}{69}{section*.80}%
-\contentsline {subsection}{\numberline {3.4.6}Réalisation du sprint 3 }{70}{subsection.3.4.6}%
-\contentsline {subsubsection}{Menu principal de l’application AniHub et interface d’accueil AniFound}{70}{section*.81}%
-\contentsline {subsubsection}{Interfaces d’annonce de perte et de trouvaille}{70}{section*.82}%
-\contentsline {subsubsection}{Interface des déclarations de trouvaille}{71}{section*.83}%
-\contentsline {subsubsection}{Interface de détails d’une déclaration de trouvaille}{71}{section*.84}%
-\contentsline {subsubsection}{Interface d’envoi d’un indice pour une déclaration de trouvaille}{72}{section*.85}%
-\contentsline {subsubsection}{Interface des déclarations de perte}{72}{section*.86}%
-\contentsline {subsubsection}{Interface de détails d’une déclaration de perte}{73}{section*.87}%
-\contentsline {subsubsection}{Interface de l’espace AniFound et gestion du profil}{73}{section*.88}%
-\contentsline {subsubsection}{Interface de gestion de mes déclarations de perte et de trouvaille}{74}{section*.89}%
-\contentsline {subsubsection}{Interfaces de modification et suppression d’une déclaration de perte ou de trouvaille}{74}{section*.90}%
-\contentsline {subsubsection}{Interface des notifications reçues}{75}{section*.91}%
-\contentsline {subsubsection}{Interface des indices reçus pour une déclaration de trouvaille}{75}{section*.92}%
-\contentsline {section}{\numberline {3.5}Conclusion}{76}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Release 2 : AniHub partie 2 }{77}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{77}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Sprint 4 : Module AniMarket}{77}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Sprint backlog}{77}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Diagramme des cas d’utilisation du sprint 4}{79}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Descriptions textuelles des cas d’utilisation du sprint 4}{80}{subsection.4.2.3}%
-\contentsline {subsubsection}{Description textuelle du cas d’utilisation « Consulter les animaux à vendre (prix fixe ou enchères) »}{80}{section*.93}%
-\contentsline {subsubsection}{Description textuelle du cas d’utilisation « Gérer ses offres envoyées »}{81}{section*.94}%
-\contentsline {subsubsection}{Description textuelle du cas d’utilisation « Gérer mes animaux à vendre »}{82}{section*.95}%
-\contentsline {subsection}{\numberline {4.2.4}Diagramme des classes du sprint 4}{83}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}Diagrammes de séquence du sprint 4}{84}{subsection.4.2.5}%
-\contentsline {subsubsection}{Diagramme de séquence : consultation des animaux à vendre}{84}{section*.96}%
-\contentsline {subsubsection}{Diagramme de séquence : gestion des animaux}{85}{section*.97}%
-\contentsline {subsection}{\numberline {4.2.6}Réalisation du sprint 4}{86}{subsection.4.2.6}%
-\contentsline {subsubsection}{Menu principal de l’application AniHub et interface d’accueil AniMarket}{86}{section*.98}%
-\contentsline {subsubsection}{Interface d’annonce d’animal pour vente (enchère ou prix fixe)}{86}{section*.99}%
-\contentsline {subsubsection}{Interface des achats immédiats (prix fixe)}{87}{section*.100}%
-\contentsline {subsubsection}{Interface des enchères}{87}{section*.101}%
-\contentsline {subsubsection}{Interface détails d’une enchère et des offres}{88}{section*.102}%
-\contentsline {subsubsection}{Interface des commentaires, avis et enchères similaires}{88}{section*.103}%
-\contentsline {subsubsection}{Interface notifications reçues}{89}{section*.104}%
-\contentsline {subsubsection}{Interface espace AniMarket}{89}{section*.105}%
-\contentsline {subsubsection}{Interface mes animaux (prix fixe et enchère)}{90}{section*.106}%
-\contentsline {subsubsection}{Interfaces modiifcation et suppression mes animaux}{90}{section*.107}%
-\contentsline {section}{\numberline {4.3}Sprint 5 : AniCare}{91}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Sprint backlog}{91}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Diagramme des cas d’utilisation du sprint 5}{93}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Descriptions textuelles des cas d’utilisation du sprint 5}{94}{subsection.4.3.3}%
-\contentsline {subsubsection}{ Description textuelle du cas d’utilisation «Consulter les services» }{94}{section*.108}%
-\contentsline {subsection}{\numberline {4.3.4}Description textuelle du cas d’utilisation «Gérer ses réservations envoyées»}{95}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}Description textuelle du cas d’utilisation «Gérer ses réservations reçues»}{96}{subsection.4.3.5}%
-\contentsline {subsubsection}{Description textuelle du cas d’utilisation « Gérer mon service »}{97}{section*.109}%
-\contentsline {subsection}{\numberline {4.3.6}Diagramme des classes du sprint 5}{98}{subsection.4.3.6}%
-\contentsline {subsection}{\numberline {4.3.7}Diagrammes de séquence du sprint 5}{98}{subsection.4.3.7}%
-\contentsline {subsubsection}{Diagramme de séquence : consultation des services}{99}{section*.110}%
-\contentsline {subsubsection}{Diagramme de séquence : gestion des services}{100}{section*.111}%
-\contentsline {subsubsection}{Diagramme de séquence : gestion des réservations reçues}{101}{section*.112}%
-\contentsline {subsection}{\numberline {4.3.8}Réalisation du sprint 5}{102}{subsection.4.3.8}%
-\contentsline {subsubsection}{Interface d’accueil AniCare}{102}{section*.113}%
-\contentsline {subsubsection}{Interface de publication d’un service}{102}{section*.114}%
-\contentsline {subsubsection}{Interface des annonces de services dans AniCare}{103}{section*.115}%
-\contentsline {subsubsection}{Interface des détails d’un service}{103}{section*.116}%
-\contentsline {subsubsection}{Interface de réservation d’un service pour un demandeur}{104}{section*.117}%
-\contentsline {subsubsection}{Interface des avis des clients sur un service}{104}{section*.118}%
-\contentsline {subsubsection}{Interface de l’espace AniCare pour un prestataire}{105}{section*.119}%
-\contentsline {subsubsection}{Interfaces de modification et de suppression d’un service}{105}{section*.120}%
-\contentsline {subsubsection}{Interface de gestion des réservations reçues pour le prestataire}{106}{section*.121}%
-\contentsline {subsubsection}{Interface du planning du prestataire}{106}{section*.122}%
-\contentsline {subsubsection}{Interface de gestion des réservations envoyées pour le demandeur}{107}{section*.123}%
-\contentsline {subsubsection}{Interface des notifications d’acceptation de réservation et de rendez-vous}{107}{section*.124}%
-\contentsline {section}{\numberline {4.4}Sprint 6 : Conteneurisation, CI/CD, Déploiement Cloud et Monitoring}{108}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Sprint backlog}{108}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Conteneurisation des microservices avec Docker}{109}{subsection.4.4.2}%
-\contentsline {subsubsection}{Création des fichiers Dockerfile}{109}{section*.125}%
-\contentsline {subsubsection}{Configuration de Docker Compose}{110}{section*.126}%
-\contentsline {subsubsection}{Construction et exécution des conteneurs}{110}{section*.127}%
-\contentsline {subsection}{\numberline {4.4.3}Déploiement des microservices avec Kubernetes}{111}{subsection.4.4.3}%
-\contentsline {subsubsection}{Création des fichiers Deployment et Service}{111}{section*.128}%
-\contentsline {subsubsection}{Application des fichiers YAML dans Kubernetes pour le déploiement d’AniHub}{111}{section*.129}%
-\contentsline {subsubsection}{Vérification de l’état des pods}{112}{section*.130}%
-\contentsline {subsubsection}{Exécution des conteneurs via Kubernetes}{112}{section*.131}%
-\contentsline {subsubsection}{Accès au frontend via port-forward sur le port 3000}{112}{section*.132}%
-\contentsline {subsection}{\numberline {4.4.4}Déploiement Cloud sur Google Cloud Platform}{113}{subsection.4.4.4}%
-\contentsline {subsubsection}{Vérification du contexte cloud}{113}{section*.133}%
-\contentsline {subsubsection}{Affichage des clusters disponibles sur GCP}{113}{section*.134}%
-\contentsline {subsubsection}{État des pods dans le cluster AniHub sur GCP}{113}{section*.135}%
-\contentsline {subsubsection}{Accès cloud et tests de communication entre les microservices }{114}{section*.136}%
-\contentsline {subsubsection}{Liste des services Kubernetes et accès à l’application via l’IP externe}{114}{section*.137}%
-\contentsline {subsubsection}{Test de l’application déployée via l’IP externe 34.62.11.51 sur le navigateur}{114}{section*.138}%
-\contentsline {subsection}{\numberline {4.4.5}Mise en place du pipeline CI/CD}{115}{subsection.4.4.5}%
-\contentsline {subsubsection}{Création du workflow GitHub Actions}{115}{section*.139}%
-\contentsline {subsubsection}{Déclenchement de la pipeline CI/CD par un push sur GitHub}{115}{section*.140}%
-\contentsline {subsubsection}{Exécution de la pipeline dans GitHub Actions}{116}{section*.141}%
-\contentsline {subsection}{\numberline {4.4.6}Monitoring et supervision}{117}{subsection.4.4.6}%
-\contentsline {subsubsection}{Configuration de Prometheus et Grafana sur Kubernetes}{117}{section*.142}%
-\contentsline {subsubsection}{Ajout de la route des métriques dans les microservices}{117}{section*.143}%
-\contentsline {subsubsection}{Surveillance des microservices avec Prometheus}{117}{section*.144}%
-\contentsline {subsubsection}{Page de connexion de Grafana}{118}{section*.145}%
-\contentsline {subsubsection}{Tableau de bord Grafana : état de santé des microservices AniHub}{118}{section*.146}%
-\contentsline {subsubsection}{Tableau de bord Grafana : Utilisation de la mémoire vive (RAM) par pod}{119}{section*.147}%
-\contentsline {subsubsection}{Tableau de bord Grafana : Consommation CPU des microservices AniHub}{119}{section*.148}%
-\contentsline {subsubsection}{Tableau de bord Grafana : Nombre de conteneurs actifs}{120}{section*.149}%
-\contentsline {subsubsection}{Tableau de bord grafana : État de santé de la Gateway}{120}{section*.150}%
-\contentsline {subsubsection}{Tableau de bord Grafana : Nombre de requêtes du microservice AniMatch}{121}{section*.151}%
-\contentsline {subsubsection}{Tableau de bord Grafana :Nombre de requêtes par microservices}{121}{section*.152}%
-\contentsline {chapter}{Conclusion}{122}{chapter*.153}%
-\contentsline {chapter}{Annexes}{123}{chapter*.153}%
-\contentsline {chapter}{\numberline {A}Code R pour résoudre la problématique}{123}{chapter.A}%
-\contentsline {section}{\numberline {A.1}Pré-traitement des données}{123}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Code R pour les modèles}{123}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Librairies utilisées}{123}{section.A.3}%
-\contentsline {chapter}{Bibliographie}{124}{appendix*.154}%
+\contentsline {subsection}{\numberline {2.8.4}Planification des sprints et des releases}{28}{subsection.2.8.4}%
+\contentsline {section}{\numberline {2.9}Conclusion}{28}{section.2.9}%
+\contentsline {chapter}{\numberline {3}Release 1 : AniHub partie 1 }{29}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{29}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Sprint 1 : Authentification et administration}{29}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Sprint backlog}{29}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Diagramme des cas d’utilisation du sprint 1}{31}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Descriptions textuelles des cas d’utilisation du sprint 1}{31}{subsection.3.2.3}%
+\contentsline {subsubsection}{Description textuelle du cas d’utilisation « S’inscrire »}{31}{section*.39}%
+\contentsline {subsubsection}{Description textuelle du cas d’utilisation « Se connecter »}{32}{section*.40}%
+\contentsline {subsubsection}{Description textuelle du cas d’utilisation « Gérer son profil »}{33}{section*.41}%
+\contentsline {subsubsection}{Description textuelle du cas d’utilisation « Gérer les utilisateurs »}{34}{section*.42}%
+\contentsline {subsubsection}{Description textuelle du cas d’utilisation « Gérer les annonces »}{35}{section*.43}%
+\contentsline {subsection}{\numberline {3.2.4}Diagrammes des classes du sprint 1}{36}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Diagrammes de séquences du sprint 1}{36}{subsection.3.2.5}%
+\contentsline {subsubsection}{Diagramme de séquence : inscription}{36}{section*.44}%
+\contentsline {subsubsection}{Diagramme de séquence : connexion}{37}{section*.45}%
+\contentsline {subsubsection}{Diagramme de séquence : gestion des utilisateurs}{38}{section*.46}%
+\contentsline {subsubsection}{Diagramme de séquence : gestion des annonces}{39}{section*.47}%
+\contentsline {subsection}{\numberline {3.2.6}Réalisation su sprint 1 }{40}{subsection.3.2.6}%
+\contentsline {subsubsection}{Page d’accueil AniHub}{40}{section*.48}%
+\contentsline {subsubsection}{Interface d'inscription}{40}{section*.49}%
+\contentsline {subsubsection}{Interface de connexion}{41}{section*.50}%
+\contentsline {subsubsection}{Interface du profil utilisateur}{41}{section*.51}%
+\contentsline {subsubsection}{Interface du tableau de bord administrateur}{42}{section*.52}%
+\contentsline {subsubsection}{Interface de gestion des utilisateurs}{42}{section*.53}%
+\contentsline {subsubsection}{Interfaces d’administration pour le module AniMatch avec statistiques}{43}{section*.54}%
+\contentsline {subsubsection}{Interfaces d’administration pour le module AniFound avec statistiques}{43}{section*.55}%
+\contentsline {subsubsection}{Interfaces d’administration pour le module AniMarket avec statistiques}{44}{section*.56}%
+\contentsline {subsubsection}{Interface d’administration AniCare : gestion des services}{44}{section*.57}%
+\contentsline {subsubsection}{Interface d’administration AniCare : vérification des services}{45}{section*.58}%
+\contentsline {subsubsection}{Interfaces d’administration AniCare : statistiques AniCare}{45}{section*.59}%
+\contentsline {section}{\numberline {3.3}Sprint 2 : Module AniMatch}{46}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Sprint backlog}{46}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Diagramme des cas d’utilisation du sprint 2}{48}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Descriptions textuelles des cas d’utilisation du sprint 2}{49}{subsection.3.3.3}%
+\contentsline {subsubsection}{ Description textuelle du cas d’utilisation «Consulter les animaux pour adoption et accouplement» }{49}{section*.60}%
+\contentsline {subsubsection}{Description textuelle du cas d’utilisation «Gérer les annonces dans AniMatch»}{50}{section*.61}%
+\contentsline {subsubsection}{ Description textuelle du cas d’utilisation «Gérer les invitations reçues» }{51}{section*.62}%
+\contentsline {subsection}{\numberline {3.3.4}Diagramme de classes du sprint 2}{52}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Diagrammes de séquences du sprint 2}{52}{subsection.3.3.5}%
+\contentsline {subsubsection}{Diagramme de séquence : Gérer mes animaux pour accouplement et pour adoption}{52}{section*.63}%
+\contentsline {subsubsection}{Diagramme de séquence : gérer mes invitations reçues}{54}{section*.64}%
+\contentsline {subsubsection}{Diagramme de séquence : gérer mes invitations envoyées}{55}{section*.65}%
+\contentsline {subsection}{\numberline {3.3.6}Réalisation du sprint 2}{56}{subsection.3.3.6}%
+\contentsline {subsubsection}{Interfaces d’accueil et menu principal de l’application AniHub}{56}{section*.66}%
+\contentsline {subsubsection}{Interface d’accueil AniMatch}{56}{section*.67}%
+\contentsline {subsubsection}{Interface d’ajout d’une annonce d’accouplement}{57}{section*.68}%
+\contentsline {subsubsection}{Interface des animaux pour accouplement}{57}{section*.69}%
+\contentsline {subsubsection}{Interface de détails d’une annonce d’accouplement}{58}{section*.70}%
+\contentsline {subsubsection}{Interface d’envoi d’une invitation d’accouplement}{58}{section*.71}%
+\contentsline {subsubsection}{Interface des avis et commentaires}{59}{section*.72}%
+\contentsline {subsubsection}{Interface de gestion du profil}{59}{section*.73}%
+\contentsline {subsubsection}{Interface de gestion de mes animaux (modification et suppression)}{60}{section*.74}%
+\contentsline {subsubsection}{Interface de gestion de mes invitations (accouplement et adoption)}{60}{section*.75}%
+\contentsline {subsubsection}{Interface de détails d’une invitation d’accouplement}{61}{section*.76}%
+\contentsline {section}{\numberline {3.4}Sprint 3 : Module AniFound}{62}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Sprint backlog}{62}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Diagramme des cas d’utilisation du sprint 3}{64}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Descriptions textuelles des cas d’utilisation du sprint 3}{65}{subsection.3.4.3}%
+\contentsline {subsubsection}{ Description textuelle du cas d’utilisation «Consulter déclarations de perte et de trouvaille » }{65}{section*.77}%
+\contentsline {subsubsection}{Description textuelle du cas d’utilisation «Gérer déclarations de perte et de trouvaille»}{66}{section*.78}%
+\contentsline {subsubsection}{ Description textuelle des cas d’utilisation «Gérer les indices reçus et envoyés» }{67}{section*.79}%
+\contentsline {subsection}{\numberline {3.4.4}Diagramme de classes du sprint 3}{68}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Diagrammes de séquences du sprint 3}{68}{subsection.3.4.5}%
+\contentsline {subsubsection}{Diagramme de séquence : gérer mes déclarations de perte ou de trouvaille}{69}{section*.80}%
+\contentsline {subsubsection}{Diagramme de séquence : gérer mes indices reçus}{70}{section*.81}%
+\contentsline {subsection}{\numberline {3.4.6}Réalisation du sprint 3 }{71}{subsection.3.4.6}%
+\contentsline {subsubsection}{Menu principal de l’application AniHub et interface d’accueil AniFound}{71}{section*.82}%
+\contentsline {subsubsection}{Interfaces d’annonce de perte et de trouvaille}{71}{section*.83}%
+\contentsline {subsubsection}{Interface des déclarations de trouvaille}{72}{section*.84}%
+\contentsline {subsubsection}{Interface de détails d’une déclaration de trouvaille}{72}{section*.85}%
+\contentsline {subsubsection}{Interface d’envoi d’un indice pour une déclaration de trouvaille}{73}{section*.86}%
+\contentsline {subsubsection}{Interface des déclarations de perte}{73}{section*.87}%
+\contentsline {subsubsection}{Interface de détails d’une déclaration de perte}{74}{section*.88}%
+\contentsline {subsubsection}{Interface de l’espace AniFound et gestion du profil}{74}{section*.89}%
+\contentsline {subsubsection}{Interface de gestion de mes déclarations de perte et de trouvaille}{75}{section*.90}%
+\contentsline {subsubsection}{Interfaces de modification et suppression d’une déclaration de perte ou de trouvaille}{75}{section*.91}%
+\contentsline {subsubsection}{Interface des notifications reçues}{76}{section*.92}%
+\contentsline {subsubsection}{Interface des indices reçus pour une déclaration de trouvaille}{76}{section*.93}%
+\contentsline {section}{\numberline {3.5}Conclusion}{77}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Release 2 : AniHub partie 2 }{78}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{78}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Sprint 4 : Module AniMarket}{78}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Sprint backlog}{78}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Diagramme des cas d’utilisation du sprint 4}{80}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Descriptions textuelles des cas d’utilisation du sprint 4}{81}{subsection.4.2.3}%
+\contentsline {subsubsection}{Description textuelle du cas d’utilisation « Consulter les animaux à vendre (prix fixe ou enchères) »}{81}{section*.94}%
+\contentsline {subsubsection}{Description textuelle du cas d’utilisation « Gérer ses offres envoyées »}{82}{section*.95}%
+\contentsline {subsubsection}{Description textuelle du cas d’utilisation « Gérer mes animaux à vendre »}{83}{section*.96}%
+\contentsline {subsection}{\numberline {4.2.4}Diagramme des classes du sprint 4}{84}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Diagrammes de séquence du sprint 4}{85}{subsection.4.2.5}%
+\contentsline {subsubsection}{Diagramme de séquence : consultation des animaux à vendre}{85}{section*.97}%
+\contentsline {subsubsection}{Diagramme de séquence : gestion des animaux}{86}{section*.98}%
+\contentsline {subsection}{\numberline {4.2.6}Réalisation du sprint 4}{87}{subsection.4.2.6}%
+\contentsline {subsubsection}{Menu principal de l’application AniHub et interface d’accueil AniMarket}{87}{section*.99}%
+\contentsline {subsubsection}{Interface d’annonce d’animal pour vente (enchère ou prix fixe)}{87}{section*.100}%
+\contentsline {subsubsection}{Interface des achats immédiats (prix fixe)}{88}{section*.101}%
+\contentsline {subsubsection}{Interface des enchères}{88}{section*.102}%
+\contentsline {subsubsection}{Interface détails d’une enchère et des offres}{89}{section*.103}%
+\contentsline {subsubsection}{Interface des commentaires, avis et enchères similaires}{89}{section*.104}%
+\contentsline {subsubsection}{Interface notifications reçues}{90}{section*.105}%
+\contentsline {subsubsection}{Interface espace AniMarket}{90}{section*.106}%
+\contentsline {subsubsection}{Interface mes animaux (prix fixe et enchère)}{91}{section*.107}%
+\contentsline {subsubsection}{Interfaces modiifcation et suppression mes animaux}{91}{section*.108}%
+\contentsline {section}{\numberline {4.3}Sprint 5 : AniCare}{92}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Sprint backlog}{92}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Diagramme des cas d’utilisation du sprint 5}{94}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Descriptions textuelles des cas d’utilisation du sprint 5}{95}{subsection.4.3.3}%
+\contentsline {subsubsection}{ Description textuelle du cas d’utilisation «Consulter les services» }{95}{section*.109}%
+\contentsline {subsection}{\numberline {4.3.4}Description textuelle du cas d’utilisation «Gérer ses réservations envoyées»}{96}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Description textuelle du cas d’utilisation «Gérer ses réservations reçues»}{97}{subsection.4.3.5}%
+\contentsline {subsubsection}{Description textuelle du cas d’utilisation « Gérer mon service »}{98}{section*.110}%
+\contentsline {subsection}{\numberline {4.3.6}Diagramme des classes du sprint 5}{99}{subsection.4.3.6}%
+\contentsline {subsection}{\numberline {4.3.7}Diagrammes de séquence du sprint 5}{99}{subsection.4.3.7}%
+\contentsline {subsubsection}{Diagramme de séquence : consultation des services}{100}{section*.111}%
+\contentsline {subsubsection}{Diagramme de séquence : gestion des services}{101}{section*.112}%
+\contentsline {subsubsection}{Diagramme de séquence : gestion des réservations reçues}{102}{section*.113}%
+\contentsline {subsection}{\numberline {4.3.8}Réalisation du sprint 5}{103}{subsection.4.3.8}%
+\contentsline {subsubsection}{Interface d’accueil AniCare}{103}{section*.114}%
+\contentsline {subsubsection}{Interface de publication d’un service}{103}{section*.115}%
+\contentsline {subsubsection}{Interface des annonces de services dans AniCare}{104}{section*.116}%
+\contentsline {subsubsection}{Interface des détails d’un service}{104}{section*.117}%
+\contentsline {subsubsection}{Interface de réservation d’un service pour un demandeur}{105}{section*.118}%
+\contentsline {subsubsection}{Interface des avis des clients sur un service}{105}{section*.119}%
+\contentsline {subsubsection}{Interface de l’espace AniCare pour un prestataire}{106}{section*.120}%
+\contentsline {subsubsection}{Interfaces de modification et de suppression d’un service}{106}{section*.121}%
+\contentsline {subsubsection}{Interface de gestion des réservations reçues pour le prestataire}{107}{section*.122}%
+\contentsline {subsubsection}{Interface du planning du prestataire}{107}{section*.123}%
+\contentsline {subsubsection}{Interface de gestion des réservations envoyées pour le demandeur}{108}{section*.124}%
+\contentsline {subsubsection}{Interface des notifications d’acceptation de réservation et de rendez-vous}{108}{section*.125}%
+\contentsline {section}{\numberline {4.4}Sprint 6 : Conteneurisation, CI/CD, Déploiement Cloud et Monitoring}{109}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Sprint backlog}{109}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Conteneurisation des microservices avec Docker}{110}{subsection.4.4.2}%
+\contentsline {subsubsection}{Création des fichiers Dockerfile}{110}{section*.126}%
+\contentsline {subsubsection}{Configuration de Docker Compose}{111}{section*.127}%
+\contentsline {subsubsection}{Construction et exécution des conteneurs}{111}{section*.128}%
+\contentsline {subsection}{\numberline {4.4.3}Déploiement des microservices avec Kubernetes}{112}{subsection.4.4.3}%
+\contentsline {subsubsection}{Création des fichiers Deployment et Service}{112}{section*.129}%
+\contentsline {subsubsection}{Application des fichiers YAML dans Kubernetes pour le déploiement d’AniHub}{112}{section*.130}%
+\contentsline {subsubsection}{Vérification de l’état des pods}{113}{section*.131}%
+\contentsline {subsubsection}{Exécution des conteneurs via Kubernetes}{113}{section*.132}%
+\contentsline {subsubsection}{Accès au frontend via port-forward sur le port 3000}{113}{section*.133}%
+\contentsline {subsection}{\numberline {4.4.4}Déploiement Cloud sur Google Cloud Platform}{114}{subsection.4.4.4}%
+\contentsline {subsubsection}{Vérification du contexte cloud}{114}{section*.134}%
+\contentsline {subsubsection}{Affichage des clusters disponibles sur GCP}{114}{section*.135}%
+\contentsline {subsubsection}{État des pods dans le cluster AniHub sur GCP}{114}{section*.136}%
+\contentsline {subsubsection}{Accès cloud et tests de communication entre les microservices }{115}{section*.137}%
+\contentsline {subsubsection}{Liste des services Kubernetes et accès à l’application via l’IP externe}{115}{section*.138}%
+\contentsline {subsubsection}{Test de l’application déployée via l’IP externe 34.62.11.51 sur le navigateur}{115}{section*.139}%
+\contentsline {subsection}{\numberline {4.4.5}Mise en place du pipeline CI/CD}{116}{subsection.4.4.5}%
+\contentsline {subsubsection}{Création du workflow GitHub Actions}{116}{section*.140}%
+\contentsline {subsubsection}{Déclenchement de la pipeline CI/CD par un push sur GitHub}{116}{section*.141}%
+\contentsline {subsubsection}{Exécution de la pipeline dans GitHub Actions}{117}{section*.142}%
+\contentsline {subsection}{\numberline {4.4.6}Monitoring et supervision}{118}{subsection.4.4.6}%
+\contentsline {subsubsection}{Configuration de Prometheus et Grafana sur Kubernetes}{118}{section*.143}%
+\contentsline {subsubsection}{Ajout de la route des métriques dans les microservices}{118}{section*.144}%
+\contentsline {subsubsection}{Surveillance des microservices avec Prometheus}{118}{section*.145}%
+\contentsline {subsubsection}{Page de connexion de Grafana}{119}{section*.146}%
+\contentsline {subsubsection}{Tableau de bord Grafana : état de santé des microservices AniHub}{119}{section*.147}%
+\contentsline {subsubsection}{Tableau de bord Grafana : Utilisation de la mémoire vive (RAM) par pod}{120}{section*.148}%
+\contentsline {subsubsection}{Tableau de bord Grafana : Consommation CPU des microservices AniHub}{120}{section*.149}%
+\contentsline {subsubsection}{Tableau de bord Grafana : Nombre de conteneurs actifs}{121}{section*.150}%
+\contentsline {subsubsection}{Tableau de bord grafana : État de santé de la Gateway}{121}{section*.151}%
+\contentsline {subsubsection}{Tableau de bord Grafana : Nombre de requêtes du microservice AniMatch}{122}{section*.152}%
+\contentsline {subsubsection}{Tableau de bord Grafana :Nombre de requêtes par microservices}{122}{section*.153}%
+\contentsline {chapter}{Bibliographie}{124}{chapter*.155}%
 \setcounter {tocdepth}{3}
