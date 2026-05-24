@@ -1,6 +1,5 @@
 \section{Introduction} 
-L’étude des besoins représente une phase fondamentale précédant le développement d’un logiciel. Elle consiste à identifier les fonctionnalités ainsi que les propriétés que le système doit intégrer afin de satisfaire les attentes des utilisateurs. Dans ce chapitre, nous mettrons en évidence les besoins fonctionnels et non fonctionnels dans le but de concevoir une application à la fois performante et fiable. Nous définirons également les principaux acteurs du système et présenterons une vue d’ensemble de l’application, aussi bien sur le plan fonctionnel que technique, avant de terminer par la description de l’architecture adoptée. 
-
+L’étude des besoins constitue une étape essentielle avant le développement d’un logiciel. Elle permet d’identifier les besoins fonctionnels et non fonctionnels afin de concevoir une application performante et fiable. Ce chapitre présente les principaux acteurs du système, une vue d’ensemble de l’application, l’architecture adoptée ainsi que le pilotage du projet avec Scrum.
 \section{Identification des acteurs} 
 Comme évoqué précédemment, notre solution consiste en une plateforme web regroupant différents types d’utilisateurs. Elle fait intervenir plusieurs acteurs principaux, chacun jouant un rôle spécifique dans le fonctionnement du système : 
 \begin{itemize}
@@ -15,7 +14,8 @@ Comme évoqué précédemment, notre solution consiste en une plateforme web reg
 
 \end{itemize}
 
-\section{Besoins Fonctionnels} 
+\section{Besoins Fonctionnels}  
+Dans cette section, nous présentons les différents besoins fonctionnels de l’application selon chaque acteur. Ces besoins décrivent les fonctionnalités et les actions que chaque utilisateur peut réaliser afin d’assurer le bon fonctionnement de la plateforme et de répondre aux objectifs du projet. 
 \subsection{Pour un utilisateur}
 
 Lorsqu’un utilisateur accède à notre plateforme, il peut effectuer les actions suivantes :
@@ -53,52 +53,51 @@ Lorsqu’un prestataire de service accède à notre plateforme,et puisqu’il h�
 Lorsqu’un administrateur accède à la plateforme, il peut effectuer les actions suivantes :
 
 \begin{itemize}
-    \item Consulter son tableau de bord et gérer l’ensemble des éléments de la plateforme, notamment : les utilisateurs, les animaux à vendre, les animaux destinés à l’accouplement, les animaux proposés à l’adoption, les services animaliers, ainsi que les déclarations de perte et de trouvaille.
+    
+    \item Gérer l’ensemble des éléments de la plateforme, notamment : les utilisateurs, les animaux à vendre, les animaux destinés à l’accouplement, les animaux proposés à l’adoption, les services animaliers, ainsi que les déclarations de perte et de trouvaille.
+    \item Consulter son tableau de bord afin de suivre et analyser les statistiques des différents modules de la plateforme, notamment AniMatch, AniFound, AniMarket et AniCare.
 \end{itemize} 
-
+\newpage
 \section{Besoins non fonctionnels}
 
 Dans une architecture distribuée composée de services indépendants, les besoins non fonctionnels sont essentiels pour garantir la qualité, la fiabilité et l’efficacité globale du système. Ils définissent les contraintes que la plateforme doit respecter afin d’assurer une expérience utilisateur optimale et un fonctionnement robuste.
 
 \begin{itemize}
 
-    \item \textbf{Ergonomie et expérience utilisateur} : Proposer une interface simple, intuitive et cohérente, permettant aux utilisateurs de naviguer facilement et d’accéder rapidement aux différentes fonctionnalités. L’objectif est de garantir une expérience fluide, agréable et adaptée à différents supports.
-
-    \item \textbf{Scalabilité} : Assurer la capacité du système à supporter une augmentation progressive ou soudaine du nombre d’utilisateurs et de requêtes, sans dégradation des performances. Chaque composant doit pouvoir évoluer de manière indépendante selon la charge.
-
+\item \textbf{Ergonomie et expérience utilisateur} : Proposer une interface moderne, simple et intuitive, permettant aux utilisateurs de naviguer facilement entre les différentes fonctionnalités de la plateforme. L’application doit offrir une expérience fluide et cohérente grâce à une organisation claire des contenus, des interactions rapides et un design responsive adapté aux différents appareils (ordinateur, tablette et mobile). L’objectif est d’améliorer le confort d’utilisation et de faciliter l’accès aux services proposés.
+\item \textbf{Scalabilité} : Assurer la capacité du système à gérer une augmentation progressive ou soudaine du nombre d’utilisateurs et des requêtes sans impact significatif sur les performances. Grâce à l’architecture microservices et à l’orchestration avec Kubernetes, chaque service peut être déployé et mis à l’échelle de manière indépendante selon la charge. Cette approche garantit une meilleure disponibilité, une répartition efficace des ressources et une évolution flexible de la plateforme.
     \item \textbf{Disponibilité} : Garantir un accès continu aux services de la plateforme avec un minimum d’interruptions. Le système doit rester fonctionnel même en cas de perturbation partielle de certains composants.
 
-    \item \textbf{Résilience et tolérance aux pannes} : Assurer la continuité du service même en cas de défaillance d’un ou plusieurs composants. Le système doit être capable d’isoler les erreurs et de maintenir les fonctionnalités critiques opérationnelles.
-
+\item \textbf{Résilience et tolérance aux pannes} : Assurer la continuité du service même en cas de défaillance d’un ou plusieurs composants du système. L’architecture doit permettre d’isoler les erreurs afin d’éviter leur propagation et de préserver le bon fonctionnement des services critiques. Grâce à l’utilisation de Kubernetes et de l’architecture microservices, le système peut redémarrer automatiquement les services défaillants et garantir une disponibilité continue de la plateforme.
     \item \textbf{Performance} : Optimiser les temps de réponse et assurer un traitement efficace des requêtes, même dans des conditions de forte charge ou de communication entre plusieurs composants.
 
     \item \textbf{Sécurité} : Protéger les données et contrôler strictement les accès aux différentes fonctionnalités. Le système doit garantir la confidentialité, l’intégrité et la disponibilité des informations échangées.
 
     \item \textbf{Maintenabilité} : Faciliter l’évolution du système, la correction des anomalies et l’ajout de nouvelles fonctionnalités. Une bonne organisation interne doit permettre des modifications sans impact global sur la plateforme.
 
-    \item \textbf{Observabilité} : Permettre le suivi du comportement global du système afin de détecter rapidement les anomalies, analyser les performances et faciliter le diagnostic des problèmes.
+\item \textbf{Observabilité} : Assurer une meilleure visibilité sur le fonctionnement du système grâce à la mise en place d’outils de monitoring et de visualisation tels que Prometheus et Grafana. Prometheus permet la collecte et le stockage des métriques en temps réel, tandis que Grafana offre des tableaux de bord pour surveiller l’état des services, analyser les performances et détecter rapidement les anomalies. En complément, les dashboards administratifs développés avec Recharts.js permettent de visualiser des statistiques métiers de manière claire et interactive pour faciliter la prise de décision.
 
-    \item \textbf{Interopérabilité} : Assurer une communication fluide entre les différentes parties du système ainsi qu’avec des services externes, à travers des interfaces bien définies.
-
-\end{itemize}
+\item \textbf{Portabilité} : Garantir la portabilité de l’application grâce à la conteneurisation avec Docker, permettant d’exécuter les services dans des environnements différents sans modification du code ni des dépendances. Cela assure une exécution homogène et fiable de la plateforme sur tout type d’infrastructure.
+\end{itemize}  
+\newpage
 \section{Diagramme de cas d’utilisation global}  
 Nous allons illustrer le fonctionnement de notre solution pour chaque acteur à l’aide d’un diagramme de cas d’utilisation. Ce diagramme permet de représenter les interactions entre les différents acteurs et le système, afin de mieux comprendre leur rôle et leur relation avec la plateforme.
 
-Cette figure présente le diagramme global des cas d’utilisation de notre plateforme : 
+Cette figure \ref{fig:usecase_general} présente le diagramme global des cas d’utilisation de notre plateforme :
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.94\textwidth]{images/usecase (2).png}
     \caption{Diagramme de cas d'utilisation général}
-\end{figure} 
+    \label{fig:usecase_general}
+\end{figure}
+\newpage
 \section{Architecture globale du projet}
 
-Dans cette section, nous présentons l’architecture générale adoptée pour le projet. Nous décrivons d’abord les architectures monolithique et microservices, puis nous les comparons afin de justifier le choix retenu. Enfin, nous détaillons l’architecture globale du système ainsi que ses principaux composants. 
-\newpage 
+Dans cette section, nous présentons l’architecture du projet et justifions le choix adopté après comparaison des approches monolithique et microservices. 
 \subsection{Architecture monolithique}
 
-\subsubsection{Principe}
-L’architecture monolithique regroupe toutes les fonctionnalités d’une application (interface utilisateur, logique métier et accès aux données) dans une seule unité de déploiement, fortement couplée et exécutée dans un même processus.
-
+L’architecture monolithique regroupe toutes les fonctionnalités d’une application  dans une seule unité de déploiement, fortement couplée et exécutée dans un même processus\cite{ibm_monolithic_architecture}.
 \subsubsection{Avantages}
 \begin{itemize}
     \item Simplicité de développement et de déploiement.
@@ -118,8 +117,7 @@ Cette architecture est adaptée aux petites applications, aux prototypes ou aux 
 
 \subsection{Architecture microservices}
 
-\subsubsection{Principe}
-L’architecture microservices est une approche dans laquelle une application est décomposée en plusieurs services indépendants, chacun responsable d’une fonctionnalité métier spécifique. Chaque service est autonome et communique avec les autres via des API.
+L’architecture microservices est une approche dans laquelle une application est décomposée en plusieurs services indépendants, chacun responsable d’une fonctionnalité métier spécifique. Chaque service est autonome et communique avec les autres via des API\cite{talend_microservices_guide}.
 
 \subsubsection{Avantages}
 \begin{itemize}
@@ -142,18 +140,20 @@ Cette architecture est adaptée aux systèmes complexes, aux plateformes évolut
 
 Cette section présente une comparaison entre les architectures monolithique et microservices afin de mettre en évidence leurs principales différences.
 
-La figure ci-dessous illustre le contraste entre une application centralisée et une architecture distribuée en services indépendants.
+La figure \ref{fig:mono_micro} présente une comparaison entre les architectures monolithique et microservices :
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\linewidth]{images/micro vs mono.png}
+    \includegraphics[width=0.8\linewidth]{images/micro vs mono.png}
     \caption{Comparaison architecture monolithique vs microservices}
+    \label{fig:mono_micro}
 \end{figure}
 
-Le tableau ci-dessous illustre une comparaison détaillée entre les deux architectures selon plusieurs critères.
-
+La table \ref{tab:mono_micro} illustre une comparaison détaillée entre les deux architectures selon plusieurs critères :
 
 \begin{longtable}{|p{3.5cm}|p{6cm}|p{6cm}|}
+\caption{Comparaison entre architecture monolithique et microservices\cite{atlassian_comparaison_monolithe_microservices}}
+\label{tab:mono_micro} \\
 \hline
 \rowcolor{coloranihub}
 \textbf{Critères} & \textbf{Architecture monolithique} & \textbf{Architecture microservices} \\
@@ -178,9 +178,8 @@ Complexité & Faible au départ & Plus élevée \\
 \hline
 Organisation des équipes & Centralisée & Distribuée \\
 \hline
-\end{longtable}
-
-Ainsi, l’architecture microservices offre une meilleure flexibilité et évolutivité, tandis que l’architecture monolithique reste plus simple à mettre en place pour des systèmes de petite taille.
+\end{longtable} 
+\newpage
 \subsection{Choix de l’architecture du projet}
 \subsubsection{Justification du choix de l’architecture microservices}
 
@@ -198,7 +197,7 @@ Dans notre projet, nous avons opté pour l’architecture microservices pour les
 \end{itemize}
 \subsubsection{Présentation de notre architecture}
 
-Cette figure illustre la structure générale de l’architecture microservices d’AniHub.
+La figure \ref{fig:arch_anihub} illustre la structure générale de l’architecture microservices d’AniHub.
 
 \begin{figure}[H]
     \centering
@@ -230,168 +229,223 @@ L’architecture est composée de plusieurs microservices métiers développés 
 \subsection{Outils et environnement de développement}
 
 \subsubsection{Slack}
-\begin{center}
+\begin{figure}[H]
+    \centering
     \includegraphics[width=2cm]{images/slack.png}
-\end{center}
-Slack est une plateforme de communication collaborative permettant aux équipes de discuter, partager des fichiers et organiser le travail via des canaux dédiés.
+    \caption{Logo Slack \cite{slack_logo}}
+\end{figure}
 
+Slack est une plateforme de communication collaborative permettant aux équipes de discuter, partager des fichiers et organiser le travail via des canaux dédiés. Elle facilite la coordination entre les membres en centralisant les échanges liés aux projets et en améliorant la fluidité de la communication au sein de l’équipe.
 \vspace{0.3cm}
 
 \subsubsection{draw.io}
-\begin{center}
+\begin{figure}[H]
+    \centering
     \includegraphics[width=2cm]{images/drawio.png}
-\end{center}
-draw.io est un outil en ligne permettant de créer facilement des diagrammes tels que les diagrammes UML, les organigrammes et les schémas d’architecture.
+    \caption{Logo draw.io \cite{drawio_logo}}
+\end{figure}
 
+draw.io est un outil en ligne permettant de créer facilement des diagrammes tels que les diagrammes UML, les organigrammes et les schémas d’architecture. Il est largement utilisé dans les projets logiciels pour modéliser les systèmes de manière claire et structurée. Grâce à son interface intuitive et ses nombreuses formes prédéfinies, il facilite la conception et la visualisation des différentes étapes de conception d’une application.
 \vspace{0.3cm}
 
 \subsubsection{Figma}
-\begin{center}
+\begin{figure}[H]
+    \centering
     \includegraphics[width=1.5cm]{images/figma.png}
-\end{center}
-Figma est un outil de conception d’interfaces utilisateur (UI/UX) collaboratif, utilisé pour créer des maquettes, prototypes et designs interactifs.
+    \caption{Logo Figma \cite{figma_logo}}
+\end{figure}
 
+Figma est un outil de conception d’interfaces utilisateur (UI/UX) collaboratif, utilisé pour créer des maquettes, prototypes et designs interactifs. Il permet aux équipes de travailler en temps réel sur les mêmes projets, ce qui facilite la conception, la validation et l’amélioration des interfaces. Grâce à ses fonctionnalités de prototypage, il aide à simuler le comportement des applications avant leur développement.
 \vspace{0.3cm}
 
 \subsubsection{Visual Studio Code}
-\begin{center}
+\begin{figure}[H]
+    \centering
     \includegraphics[width=2cm]{images/vscode.png}
-\end{center}
-Visual Studio Code est un éditeur de code source léger et puissant, supportant plusieurs langages de programmation et offrant des extensions pour améliorer la productivité des développeurs.
+    \caption{Logo Visual Studio Code \cite{vscode_logo}}
+\end{figure}
 
+Visual Studio Code est un éditeur de code source léger et puissant, supportant plusieurs langages de programmation et offrant des extensions pour améliorer la productivité des développeurs. Il propose des fonctionnalités comme l’autocomplétion, le débogage et l’intégration avec Git, ce qui facilite le développement et la gestion des projets logiciels.
 \vspace{0.3cm}
 
 \subsubsection{Git et GitHub}
 
-\begin{center}
+\begin{figure}[H]
+\centering
 \begin{minipage}{0.45\textwidth}
     \centering
     \includegraphics[width=2cm]{images/git.png}
-    
-    \textbf{Git}
+    \caption{Logo Git \cite{git_logo}}
 \end{minipage}
 \hfill
 \begin{minipage}{0.45\textwidth}
     \centering
     \includegraphics[width=2cm]{images/github.png}
-    
-    \textbf{GitHub}
+    \caption{Logo GitHub \cite{github_logo}}
 \end{minipage}
-\end{center}
+\end{figure}
 
 Git est un système de gestion de versions distribué permettant de suivre les modifications du code source, de gérer les différentes versions d’un projet et de faciliter le travail collaboratif entre les développeurs. GitHub est une plateforme d’hébergement de code basée sur Git, offrant des fonctionnalités de collaboration telles que le partage de dépôts, la gestion des versions, le suivi des problèmes (issues) et l’intégration continue.
 
+\vspace{0.3cm}
+
 \subsubsection{GitHub Actions}
-\begin{center}
+\begin{figure}[H]
+    \centering
     \includegraphics[width=7cm]{images/githubActions.png}
-\end{center} 
+    \caption{Logo GitHub Actions \cite{githubactions_logo}}
+\end{figure}
 
-
-GitHub Actions est un outil d’intégration et de déploiement continu (CI/CD) permettant d’automatiser les tâches de build, de test et de déploiement des applications directement depuis les dépôts GitHub.
-
-
+GitHub Actions est un outil d’intégration et de déploiement continu (CI/CD) permettant d’automatiser les tâches de build, de test et de déploiement des applications directement depuis les dépôts GitHub . 
 \subsection{Stack technologique}
 
 \subsubsection{TypeScript}
-\begin{center}
+\begin{figure}[H]
+    \centering
     \includegraphics[width=2cm]{images/typescript.png}
-\end{center}
+    \caption{Logo TypeScript \cite{typescript_logo}}
+\end{figure}
+
 TypeScript est un langage de programmation basé sur JavaScript qui ajoute le typage statique, permettant de rendre le code plus robuste, maintenable et moins sujet aux erreurs.
 
 \vspace{0.3cm}
 
 \subsubsection{Next.js}
-\begin{center}
+\begin{figure}[H]
+    \centering
     \includegraphics[width=2cm]{images/nextjs.png}
-\end{center}
+    \caption{Logo Next.js \cite{nextjs_logo}}
+\end{figure}
+
 Next.js est un framework basé sur React permettant de développer des applications web modernes avec rendu côté serveur (SSR), génération statique (SSG) et optimisation des performances.
 
 \vspace{0.3cm}
 
 \subsubsection{Tailwind CSS}
-\begin{center}
+\begin{figure}[H]
+    \centering
     \includegraphics[width=2.7cm]{images/tailwind.png}
-\end{center}
+    \caption{Logo Tailwind CSS \cite{tailwind_logo}}
+\end{figure}
+
 Tailwind CSS est un framework CSS utilitaire permettant de concevoir rapidement des interfaces modernes et responsives sans écrire de CSS personnalisé complexe.
 
 \vspace{0.3cm}
 
 \subsubsection{Go et Fiber}
 
-\begin{center}
+\begin{figure}[H]
+\centering
 \begin{minipage}{0.45\textwidth}
     \centering
     \includegraphics[width=3cm]{images/go.png}
-    
+    \caption{Logo Go \cite{golang_logo}}
 \end{minipage}
 \hfill
 \begin{minipage}{0.45\textwidth}
     \centering
     \includegraphics[width=3cm]{images/fiber.png}
-    
+    \caption{Logo Fiber \cite{fiber_logo}}
 \end{minipage}
-\end{center}
+\end{figure}
 
-Go est un langage de programmation compilé développé par Google, reconnu pour sa simplicité, sa performance et sa gestion efficace de la concurrence. Fiber est un framework web rapide pour Go, inspiré d’Express.js, facilitant la création d’API performantes et légères. 
+Go est un langage de programmation compilé développé par Google, reconnu pour sa simplicité, sa performance et sa gestion efficace de la concurrence. Il est particulièrement adapté aux systèmes distribués et aux applications nécessitant de hautes performances. Fiber est un framework web rapide pour Go, inspiré d’Express.js, facilitant la création d’API performantes et légères, tout en simplifiant la gestion des requêtes HTTP et le développement de services backend.
+\vspace{0.3cm}
 
 \subsubsection{Neon PostgreSQL}
-\begin{center}
+\begin{figure}[H]
+    \centering
     \includegraphics[width=3cm]{images/neon.jpg}
-\end{center}
-Neon PostgreSQL est une plateforme de base de données serverless basée sur PostgreSQL, offrant scalabilité, performance et séparation du stockage et du calcul.
+    \caption{Logo Neon PostgreSQL \cite{neon_logo}}
+\end{figure}
 
-\vspace{0.3cm} 
-
-
- \subsubsection{Postman}
-
-\begin{center}
+Neon PostgreSQL est une plateforme de base de données serverless basée sur PostgreSQL, offrant scalabilité, performance et séparation du stockage et du calcul. Elle permet de gérer les bases de données de manière flexible, avec une meilleure optimisation des ressources et une adaptation automatique à la charge.
+\vspace{0.3cm}
+\newpage
+\subsubsection{Postman}
+\begin{figure}[H]
+    \centering
     \includegraphics[width=4cm]{images/postman.png}
-\end{center}
+    \caption{Logo Postman \cite{postman_logo}}
+\end{figure}
 
 Postman est un outil de test et de développement d’API permettant d’envoyer des requêtes HTTP, de vérifier les réponses des services et de faciliter le débogage des interfaces backend.
 
+\vspace{0.3cm}
+
 \subsubsection{RabbitMQ}
-
-\begin{center}
+\begin{figure}[H]
+    \centering
     \includegraphics[width=4cm]{images/rabbit.png}
-\end{center} 
+    \caption{Logo RabbitMQ \cite{rabbitmq_logo}}
+\end{figure}
 
+RabbitMQ est un système de messagerie permettant la communication asynchrone entre services dans une architecture distribuée. Il assure le découplage des composants et améliore la scalabilité ainsi que la gestion des traitements en arrière-plan.
+\vspace{0.3cm}
 
-
-RabbitMQ est un système de messagerie (message broker) permettant la communication asynchrone entre les différents services d’une architecture distribuée. Il facilite l’échange de messages entre producteurs et consommateurs afin d’assurer un découplage des composants, une meilleure scalabilité et une gestion efficace des traitements en arrière-plan. 
 \subsubsection{Docker}
-\begin{center}
+\begin{figure}[H]
+    \centering
     \includegraphics[width=3.4cm]{images/docker.png}
-\end{center}
+    \caption{Logo Docker \cite{docker_logo}}
+\end{figure}
+
 Docker est une plateforme de conteneurisation permettant d’emballer les applications et leurs dépendances afin d’assurer leur portabilité et leur déploiement rapide.
 
 \vspace{0.3cm}
 
 \subsubsection{Kubernetes}
-\begin{center}
-    \includegraphics[width=2.8cm]{images/k8s.png}
-\end{center}
-Kubernetes est un système d’orchestration de conteneurs permettant de déployer, gérer et scaler automatiquement des applications conteneurisées. 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=2.5cm]{images/k8s.png}
+    \caption{Logo Kubernetes \cite{kubernetes_logo}}
+\end{figure} 
 
+Kubernetes est un système d’orchestration de conteneurs permettant de déployer, gérer et scaler automatiquement des applications conteneurisées.
+\subsubsection{Prometheus}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=4cm]{images/prometheus.png}
+    \caption{Logo Prometheus \cite{prometheus_logo}}
+\end{figure}
+
+Prometheus est un outil de monitoring et d’alerte open-source permettant de collecter et stocker des métriques en temps réel à partir des systèmes et services. Il est largement utilisé pour surveiller les architectures distribuées et microservices. 
+
+
+\subsubsection{Grafana}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=3cm]{images/grafana.png}
+    \caption{Logo Grafana \cite{grafana_logo}}
+\end{figure}
+
+Grafana est une plateforme de visualisation et d’analyse de données permettant de créer des tableaux de bord interactifs à partir de différentes sources de données, notamment Prometheus, afin de surveiller l’état des systèmes en temps réel.
 \section{Pilotage du projet : méthode Scrum} 
 Comme mentionné précédemment, la méthodologie Scrum a été retenue pour ce projet. 
-\subsection{Équipe et rôles} 
-La figure ci-dessous illustre les différentes parties prenantes de l’application : 
+\subsection{Équipe et rôles}
+
+La figure \ref{fig:scrum_team} illustre les différentes parties prenantes de l’application :
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.92\linewidth]{images/scrumteam.png}
     \caption{Équipe et rôles Scrum}
-\end{figure}\newpage 
+    \label{fig:scrum_team}
+\end{figure}
+\newpage 
 
 
 
 
 
-\subsection{Backlog produit} 
-Le backlog Scrum regroupe les user stories priorisées du projet. Le tableau ci-dessous présente le backlog produit.
-\begin{longtable}{|p{4cm}|p{9.5cm}|p{2cm}|} 
-\caption{Backlog produit}\label{tab:product-backlog}\\
+\subsection{Backlog produit}
+
+Le backlog Scrum regroupe les user stories priorisées du projet. 
+\newline 
+ La table \ref{tab:product-backlog} présente le backlog produit de notre projet, organisé par sprint et classé selon la priorité des fonctionnalités. Chaque user story décrit une fonctionnalité du point de vue utilisateur avec un niveau de priorité : 
+\begin{longtable}{|p{4cm}|p{9.5cm}|p{2cm}|}
+\caption{Backlog produit}
+\label{tab:product-backlog}\\
 \hline
 \rowcolor{coloranihub}
 \textbf{Product Backlog Item (Sprint)} & \textbf{User Story} & \textbf{Priorité} \\
@@ -509,10 +563,10 @@ Le backlog Scrum regroupe les user stories priorisées du projet. Le tableau ci-
 
 \end{longtable} 
 
-
+\newpage
 \subsection{Méthode de priorisation MoSCoW}
 
-La priorisation des besoins est réalisée selon la méthode MoSCoW. Le tableau ci-dessous illustre les différentes catégories de cette méthode : 
+La priorisation des besoins est réalisée selon la méthode MoSCoW. La table \ref{tab:moscow} illustre les différentes catégories de cette méthode :
 
 
 \definecolor{coloranihub}{HTML}{E1D5E7}
@@ -546,15 +600,16 @@ La priorisation des besoins est réalisée selon la méthode MoSCoW. Le tableau 
 
 \end{longtable}
 
-\newpage
 \subsection{Planification des sprints et des releases}
 
-Le tableau ci-dessous présente la planification des sprints ainsi que des releases du projet : 
+
+La table \ref{tab:sprint-plan} présente la planification des sprints ainsi que des releases du projet :
 
 \renewcommand{\arraystretch}{1.5}
 
 \begin{longtable}{|m{4cm}|m{4cm}|m{6cm}|>{\centering\arraybackslash}m{2cm}|}
-\caption{Planification des sprints et des releases} \\
+\caption{Planification des sprints et des releases}
+\label{tab:sprint-plan} \\
 \hline
 \rowcolor{coloranihub}
 \textbf{Release} & \textbf{Sprint} & \textbf{Description} & \textbf{Durée} \\

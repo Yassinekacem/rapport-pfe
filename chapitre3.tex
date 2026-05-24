@@ -13,11 +13,12 @@ Cette release est réalisée à travers trois sprints :
  
 \section{Sprint 1 : Authentification et administration} Ce sprint, d’une durée de \textbf{deux semaines}, est consacré à la mise en place des fonctionnalités d’authentification et d’administration. Il permet d’assurer un accès sécurisé à la plateforme via la gestion des comptes utilisateurs (inscription, connexion et contrôle des rôles), ainsi que la mise en place d’un espace d’administration pour superviser le système et garantir la cohérence des opérations. 
 \subsection{Sprint backlog} 
-Le tableau suivant présente le Sprint Backlog du sprint 1 avec les user stories, les tâches associées et les efforts estimés :
+La table \ref{tab:sprint1-backlog} présente le Sprint Backlog du sprint 1 avec les user stories, les tâches associées et les efforts estimés :
 
 \begin{longtable}{|p{1cm}|p{4.7cm}|p{7cm}|p{1.3cm}|}
 
-\caption{Sprint Backlog du sprint 1} \label{tab:sprint1-backlog} \\
+\caption{Sprint Backlog du sprint 1}
+\label{tab:sprint1-backlog} \\
 
 \hline
 \multicolumn{1}{|c|}{\cellcolor{coloranihub}\textbf{ID}} &
@@ -123,26 +124,26 @@ Le tableau suivant présente le Sprint Backlog du sprint 1 avec les user stories
 \subsection{Diagramme des cas d’utilisation du sprint 1}
 Dans cette section, nous présentons le diagramme des cas d’utilisation du premier sprint, dédié au module \textbf{Authentification et administration}. 
 
-Ce diagramme illustre les différentes fonctionnalités liées à l’authentification et à l’administration :  
+La figure \ref{fig:usecase-sprint1} illustre les différentes fonctionnalités liées à l’authentification et à l’administration :  
 
 \begin{figure}[H]
     \centering
-  \includegraphics[width=9\linewidth, height=15.5cm, keepaspectratio]{images/use case sprint 1.png}
+    \includegraphics[width=9\linewidth, height=15.5cm, keepaspectratio]{images/use case sprint 1.png}
     \caption{Diagramme des cas d’utilisation du sprint 1}
     \label{fig:usecase-sprint1}
-\end{figure} 
+\end{figure}
 
 
 
 \subsection{Descriptions textuelles des cas d’utilisation du sprint 1}
-Dans cette section, nous présentons les descriptions textuelles des cas d’utilisation du sprint 1, liées à l’authentification des utilisateurs et à l’administration de la plateforme. 
 
 
-\subsubsection{Description textuelle du cas d’utilisation « S’inscrire »}
-\newpage 
+\subsubsection{Description textuelle du cas d’utilisation « S’inscrire »} 
+La table \ref{tab:DTinscription} présente la description textuelle du cas d’utilisation "S’inscrire" : 
+\newpage  
 \begin{longtable}{|c|p{11cm}|}
 \caption{Description textuelle du cas d’utilisation "S’inscrire"}
-\label{tab:inscription} \\
+\label{tab:DTinscription} \\
 \hline
 \cellcolor{coloranihub} \textbf{Nom du cas d'utilisation } & S’inscrire \\
 \hline
@@ -167,7 +168,8 @@ Dans cette section, nous présentons les descriptions textuelles des cas d’uti
 \end{longtable}
 
 
-\subsubsection{Description textuelle du cas d’utilisation « Se connecter »}
+\subsubsection{Description textuelle du cas d’utilisation « Se connecter »} 
+La table \ref{tab:connexion} présente la description textuelle du cas d’utilisation "Se connecter" :
 \begin{longtable}{|c|p{11cm}|}
 \caption{Description textuelle du cas d’utilisation "Se connecter"}
 \label{tab:connexion} \\
@@ -176,7 +178,7 @@ Dans cette section, nous présentons les descriptions textuelles des cas d’uti
 \hline
 \cellcolor{coloranihub} \textbf{Acteurs} & Utilisateur \\
 \hline
-\cellcolor{coloranihub} \textbf{Description } & Tout utilisateur disposant d’un compte peut s’authentifier afin d’accéder à la plateforme AniHub et à ses fonctionnalités. \\
+\cellcolor{coloranihub} \textbf{Description } & Tout utilisateur disposant d’un compte peut s’authentifier . \\
 \hline
 \cellcolor{coloranihub} \textbf{Pré-condition } & L’utilisateur doit posséder un compte . \\
 \hline
@@ -203,7 +205,7 @@ Dans cette section, nous présentons les descriptions textuelles des cas d’uti
 \newpage 
 
 \subsubsection{Description textuelle du cas d’utilisation « Gérer son profil »}
-
+La table \ref{tab:gerer_profil} présente la description textuelle du cas d’utilisation "Gérer son profil" :
 \begin{longtable}{|c|p{11cm}|}
 \caption{Description textuelle du cas d'utilisation "Gérer son profil"}
 \label{tab:gerer_profil} \\
@@ -212,7 +214,7 @@ Dans cette section, nous présentons les descriptions textuelles des cas d’uti
 \hline
 \cellcolor{coloranihub}\textbf{Acteurs} & Utilisateur \\
 \hline
-\cellcolor{coloranihub}\textbf{Description } & L’utilisateur peut accéder à son profil afin de consulter et mettre à jour ses informations personnelles, ou choisir de supprimer définitivement son compte s’il le souhaite. \\
+\cellcolor{coloranihub}\textbf{Description } & L’utilisateur peut consulter, modifier ou supprimer son profil. \\
 \hline
 \cellcolor{coloranihub}\textbf{Pré-condition } & L’utilisateur doit être authentifié. \\
 \hline
@@ -262,7 +264,7 @@ Dans cette section, nous présentons les descriptions textuelles des cas d’uti
 \newpage 
 
 \subsubsection{Description textuelle du cas d’utilisation « Gérer les utilisateurs »}
-
+La table \ref{tab:gerer_utilisateurs} présente la description textuelle du cas d’utilisation "Gérer les utilisateurs" :
 \begin{longtable}{|c|p{11cm}|}
 \caption{Description textuelle du cas d'utilisation "Gérer les utilisateurs"}
 \label{tab:gerer_utilisateurs} \\
@@ -292,7 +294,7 @@ Dans cette section, nous présentons les descriptions textuelles des cas d’uti
 \begin{itemize}
 \item L’administrateur clique sur « Modifier ».
 \item Le système affiche le formulaire de modification.
-\item L’administrateur met à jour les informations de l’utilisateur.
+\item L’administrateur met à jour ses informations.
 \item Le système enregistre les modifications.
 \end{itemize}
 
@@ -320,7 +322,7 @@ Dans cette section, nous présentons les descriptions textuelles des cas d’uti
 
 
 \subsubsection{Description textuelle du cas d’utilisation « Gérer les annonces »}
-
+La table \ref{tab:gerer_annonces_admin} présente la description textuelle du cas d’utilisation "Gérer les annonces" :
 
 \begin{longtable}{|c|p{11cm}|}
 \caption{Description textuelle du cas d'utilisation "Gérer les annonces"}
@@ -330,7 +332,7 @@ Dans cette section, nous présentons les descriptions textuelles des cas d’uti
 \hline
 \cellcolor{coloranihub}\textbf{Acteurs} & Administrateur \\
 \hline
-\cellcolor{coloranihub}\textbf{Description } & L’administrateur peut consulter et gérer les différentes annonces de la plateforme (adoption, accouplement, vente, perte, trouvaille et services).è \\
+\cellcolor{coloranihub}\textbf{Description } & L’administrateur peut consulter et gérer les différentes annonces de la plateforme .\\
 \hline
 \cellcolor{coloranihub}\textbf{Pré-condition } & L’administrateur doit être authentifié. \\
 \hline
@@ -373,7 +375,7 @@ Dans cette section, nous présentons les descriptions textuelles des cas d’uti
 \subsection{Diagrammes des classes du sprint 1}  
 Dans cette section, nous présentons le diagramme de classes du Sprint 1, qui regroupe l’ensemble des classes liées à l’authentification et à l’administration.
 
-La figure ci-dessous illustre le diagramme de classes correspondant : 
+La figure \ref{fig:class_diagram_sprint1} illustre le diagramme de classes correspondant : 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth, height=20cm, keepaspectratio]{images/class diagram sprint 1.png}
@@ -386,7 +388,7 @@ La figure ci-dessous illustre le diagramme de classes correspondant :
 Cette section présente les diagrammes de séquences du premier sprint, illustrant les interactions entre les différents composants du système.
 
 \subsubsection{Diagramme de séquence : inscription}
-Cette figure illustre les interactions entre l’utilisateur et le système lors du processus d’inscription :  
+La figure \ref{fig:sequence-inscription} illustre les interactions entre l’utilisateur et le système lors du processus d’inscription :  
 \newpage
 \begin{figure}[H]
 \centering
@@ -398,7 +400,7 @@ Cette figure illustre les interactions entre l’utilisateur et le système lors
 \vspace{-0.5cm}
 
 \subsubsection{Diagramme de séquence : connexion}
-Cette figure illustre les interactions entre l’utilisateur et le système lors du processus de connexion : 
+La figure \ref{fig:sequence-connexion} illustre les interactions entre l’utilisateur et le système lors du processus de connexion : 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.6\textwidth]{images/connexion.png}
@@ -408,7 +410,7 @@ Cette figure illustre les interactions entre l’utilisateur et le système lors
 \newpage  
 \subsubsection{Diagramme de séquence : gestion des utilisateurs}
 
-Cette figure illustre le processus de gestion des utilisateurs par l’administrateur. Elle décrit les différentes interactions entre le frontend, l’API Gateway et le microservice d’authentification, notamment lors des opérations de modification et de suppression d’un utilisateur. Le diagramme met en évidence la vérification des droits d’accès de l’administrateur ainsi que le traitement des actions autorisées ou refusées : 
+La figure \ref{fig:sequence-gerer-users} illustre le processus de gestion des utilisateurs par l’administrateur. Elle décrit les différentes interactions entre le frontend, l’API Gateway et le microservice d’authentification, notamment lors des opérations de modification et de suppression d’un utilisateur. Le diagramme met en évidence la vérification des droits d’accès de l’administrateur ainsi que le traitement des actions autorisées ou refusées : 
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{images/gererutilsateurs.png}
@@ -418,7 +420,7 @@ Cette figure illustre le processus de gestion des utilisateurs par l’administr
 \newpage
 \subsubsection{Diagramme de séquence : gestion des annonces} 
 
-Cette figure illustre le processus de gestion des annonces des modules AniMatch, AniFound, AniMarket et AniCare, incluant les opérations d’activation, de désactivation et de suppression. Elle met en évidence les interactions entre le frontend, l’API Gateway et les microservices concernés, ainsi que la publication des notifications aux utilisateurs via le service de notification : 
+La figure \ref{fig:sequence-gerer-annonces} illustre le processus de gestion des annonces des modules AniMatch, AniFound, AniMarket et AniCare, incluant les opérations d’activation, de désactivation et de suppression. Elle met en évidence les interactions entre le frontend, l’API Gateway et les microservices concernés, ainsi que la publication des notifications aux utilisateurs via le service de notification : 
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth,height=0.99\textheight,keepaspectratio]{images/gererannonces.png}
@@ -426,67 +428,90 @@ Cette figure illustre le processus de gestion des annonces des modules AniMatch,
 \label{fig:sequence-gerer-annonces}
 \end{figure} 
 \newpage
-\subsection{Réalisation su sprint 1 } 
+\subsection{Réalisation su sprint 1 }  
+\subsubsection{Réalisation des maquettes Figma pour les interfaces de la plateforme AniHub}
+
+La figure \ref{fig:figma_maquettes} présente les maquettes réalisées avec Figma pour toutes les interfaces de la plateforme AniHub.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.64\textwidth]{images/maquettes figma.png}
+    \caption{Maquettes Figma des interfaces AniHub}
+    \label{fig:figma_maquettes}
+\end{figure}
+
+
 \subsubsection{Page d’accueil AniHub}
 
-La figure ci-dessous présente la page d’accueil de la plateforme AniHub : 
+La figure \ref{fig:home_anihub} présente la page d’accueil de la plateforme AniHub :
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.7\textwidth]{images/acceuil.png}
+    \includegraphics[width=0.72\textwidth]{images/acceuil.png}
     \caption{Page d’accueil AniHub}
-\end{figure} 
-\subsubsection{Interface d'inscription}
+    \label{fig:home_anihub}
+\end{figure}
 
-La figure ci-dessous présente l’interface d’inscription de la plateforme AniHub.
+\subsubsection{Interfaces d'inscription et de connexion}
 
-\begin{figure}[H]
+Les figures \ref{fig:signup_anihub} et \ref{fig:signin_anihub} illustrent les interfaces d’inscription et de connexion de la plateforme AniHub, qui permettent respectivement la création de compte et l’authentification des utilisateurs : 
+\begin{figure}[h!]
     \centering
-    \includegraphics[width=0.7\textwidth]{images/sign up .png}
-    \caption{Interface d'inscription AniHub}
-\end{figure}   
-\newpage 
-\subsubsection{Interface de connexion}
 
-La figure ci-dessous présente l’interface de connexion AniHub : 
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/sign up .png}
+        \caption{Interface d'inscription AniHub}
+        \label{fig:signup_anihub}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/sign in.png}
+        \caption{Interface de connexion AniHub}
+        \label{fig:signin_anihub}
+    \end{minipage}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.75\textwidth]{images/sign in.png}
-    \caption{Interface de connexion AniHub}
-\end{figure}  
+\end{figure}
 
 \subsubsection{Interface du profil utilisateur}
 
-La figure ci-dessous présente l’interface du profil utilisateur AniHub : 
-
+La figure \ref{fig:profile_anihub} présente l’interface du profil utilisateur AniHub, qui permet à l’utilisateur de consulter et de gérer ses informations personnelles : 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/gestion profil.png}
+    \includegraphics[width=\textwidth]{images/gestion profil.png}
     \caption{Interface du profil utilisateur AniHub}
-\end{figure} 
+    \label{fig:profile_anihub}
+\end{figure}
+
 \newpage 
+
 \subsubsection{Interface du tableau de bord administrateur}
 
-La figure ci-dessous présente le tableau de bord administrateur de la plateforme AniHub : 
-
+La figure \ref{fig:admin_dashboard} présente l’accueil du tableau de bord administrateur de la plateforme AniHub, qui affiche des statistiques globales sur la plateforme : 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\textwidth]{images/dashboard stats.png}
     \caption{Tableau de bord administrateur AniHub}
-\end{figure} 
+    \label{fig:admin_dashboard}
+\end{figure}
+
 \subsubsection{Interface de gestion des utilisateurs}
 
-La figure ci-dessous présente l’interface de gestion des utilisateurs de la plateforme AniHub : 
+La figure \ref{fig:user_management} présente l’interface de gestion des utilisateurs de la plateforme AniHub : 
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.78\textwidth]{images/gestion utilsateurs.png}
     \caption{Interface de gestion des utilisateurs AniHub}
-\end{figure}  
+    \label{fig:user_management}
+\end{figure}
+
 \newpage
+
 \subsubsection{Interfaces d’administration pour le module AniMatch avec statistiques} 
-Les figures ci-dessous illustrent les interfaces permettant à l’administrateur de gérer le module AniMatch (accouplement) et de consulter les statistiques associées : 
+
+Les figures \ref{fig:animatch_manage} et \ref{fig:animatch_stats} illustrent les interfaces permettant à l’administrateur de gérer le module AniMatch (accouplement et adoption ) et de consulter les statistiques associées, notamment le suivi des demandes de mise en relation, leur validation ainsi que l’analyse de l’activité des utilisateurs au sein de ce module : 
 \begin{figure}[h!]
     \centering
     
@@ -494,18 +519,21 @@ Les figures ci-dessous illustrent les interfaces permettant à l’administrateu
         \centering
         \includegraphics[width=\textwidth]{images/dashboard animatch 1.png}
         \caption{Interface d’administration de gestion d’AniMatch}
+        \label{fig:animatch_manage}
     \end{minipage}
     \hfill
     \begin{minipage}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{images/dashboard animatch 2.png}
         \caption{Interface d’administration des statistiques d’AniMatch}
+        \label{fig:animatch_stats}
     \end{minipage}
 
-\end{figure} 
+\end{figure}
 
 \subsubsection{Interfaces d’administration pour le module AniFound avec statistiques}  
-Les figures ci-dessous illustrent les interfaces permettant à l’administrateur de gérer le module AniFound (le module de signalement des animaux perdus et trouvés) et de consulter les statistiques associées : 
+
+Les figures \ref{fig:anifound_manage} et \ref{fig:anifound_stats} illustrent les interfaces permettant à l’administrateur de gérer le module AniFound, dédié au signalement des animaux perdus et trouvés, ainsi que de consulter les statistiques associées afin de suivre l’activité et les publications du module : 
 \begin{figure}[h!]
     \centering
     
@@ -513,17 +541,24 @@ Les figures ci-dessous illustrent les interfaces permettant à l’administrateu
         \centering
         \includegraphics[width=\textwidth]{images/dashboard anifound 1.png}
         \caption{Interface d’administration de gestion d’AniFound}
+        \label{fig:anifound_manage}
     \end{minipage}
     \hfill
     \begin{minipage}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{images/dashboard anifound 2.png}
         \caption{Interface d’administration des statistiques d’AniFound}
+        \label{fig:anifound_stats}
     \end{minipage}
-\end{figure}  
+
+\end{figure}
+
 \newpage
+
 \subsubsection{Interfaces d’administration pour le module AniMarket avec statistiques}
-Les figures ci-dessous illustrent les interfaces permettant à l’administrateur de gérer le module AniMarket (le module de vente, achat et enchères d’animaux en ligne) et de consulter les statistiques associées : 
+
+Les figures \ref{fig:animarket_manage} et \ref{fig:animarket_stats} illustrent les interfaces permettant à l’administrateur de gérer le module AniMarket (le module de vente, achat et enchères d’animaux en ligne) et de consulter les statistiques associées : 
+
 \begin{figure}[h!]
     \centering
 
@@ -531,33 +566,43 @@ Les figures ci-dessous illustrent les interfaces permettant à l’administrateu
         \centering
         \includegraphics[width=\textwidth]{images/dashboard animarket 1.png}
         \caption{Interface d’administration de gestion d’AniMarket}
+        \label{fig:animarket_manage}
     \end{minipage}
     \hfill
     \begin{minipage}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{images/dashboard animarket 2.png}
         \caption{Interface d’administration des statistiques d’AniMarket}
+        \label{fig:animarket_stats}
     \end{minipage}
 
-\end{figure} 
+\end{figure}
+
 \subsubsection{Interface d’administration AniCare : gestion des services} 
-Cette interface illustre la gestion des services dans le module AniCare, permettant à l’administrateur de superviser, valider et gérer les services proposés par les prestataires : 
+
+La figure \ref{fig:anicare_manage} illustre la gestion des services dans le module AniCare, tels que les services de dressage, de soins vétérinaires, de toilettage et de garderie publiés par les prestataires de services : 
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.8\textwidth]{images/dashboard anicare 1.png}
     \caption{Interface d’administration AniCare : gestion des services}
-\end{figure}  
+    \label{fig:anicare_manage}
+\end{figure}
 
 \newpage 
+
 \subsubsection{Interface d’administration AniCare : vérification des services} 
-Cette interface illustre la vérification des services dans le module AniCare, où l’administrateur contrôle les documents justificatifs avant de confirmer ou refuser un service : 
+
+La figure \ref{fig:anicare_verify} illustre l’interface de vérification des services dans le module AniCare, qui permet à l’administrateur de vérifier les documents justificatifs fournis par les prestataires de services avant de confirmer leurs services sur la plateforme : 
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.8\textwidth]{images/dashboard anicare 2.png}
     \caption{Interface d’administration AniCare : vérification des services}
-\end{figure}   
+    \label{fig:anicare_verify}
+\end{figure}
+
 \subsubsection{Interfaces d’administration AniCare : statistiques AniCare}
-Ces interfaces illustrent les statistiques du module AniCare, permettant à l’administrateur de visualiser les indicateurs clés tels que les services, les réservations et l’activité des utilisateurs : 
+
+Les figures \ref{fig:anicare_stats1} et \ref{fig:anicare_stats2} illustrent les statistiques du module AniCare, permettant à l’administrateur de suivre l’activité des services proposés sur la plateforme, le nombre de réservations effectuées ainsi que les interactions des utilisateurs avec les différents services disponibles : 
 \begin{figure}[h!]
     \centering
 
@@ -565,18 +610,22 @@ Ces interfaces illustrent les statistiques du module AniCare, permettant à l’
         \centering
         \includegraphics[width=\textwidth]{images/dashboard anicare 3.png}
         \caption{Interface de statistiques AniCare 1}
+        \label{fig:anicare_stats1}
     \end{minipage}
     \hfill
     \begin{minipage}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{images/dashboard anicare 4.png}
         \caption{Interface de statistiques AniCare 2}
+        \label{fig:anicare_stats2}
     \end{minipage}
+\end{figure}
 
-\end{figure} 
 
 
-\newpage
+
+
+
 \section{Sprint 2 : Module AniMatch}
 \begin{figure}[H]
     \centering
@@ -589,7 +638,7 @@ Ce sprint, d’une durée de \textbf{3 semaines}, est dédié au module AniMatch
 
 
 \subsection{Sprint backlog} 
-Le tableau suivant présente le Sprint Backlog du sprint 2 avec les user stories, les tâches associées et les efforts estimés : 
+la table \ref{tab:sprint2-backlog} présente le Sprint Backlog du sprint 2 avec les user stories, les tâches associées et les efforts estimés : 
 \begin{longtable}{|p{2cm}|p{5cm}|p{6cm}|p{2cm}|}
 \caption{Sprint Backlog du sprint 2 }
 \label{tab:sprint2-backlog} \\ 
@@ -711,7 +760,7 @@ Dans cette section, nous présentons le diagramme des cas d’utilisation du deu
 
  Ce diagramme illustre les principales interactions entre l’utilisateur et le système, notamment la gestion des annonces, des invitations et des communications.
 
-La figure ci-dessous représente le diagramme des cas d’utilisation correspondant.
+La figure \ref{fig:usecase-sprint2} représente le diagramme des cas d’utilisation correspondant.
 
 \begin{figure}[H]
     \centering
@@ -725,7 +774,7 @@ La figure ci-dessous représente le diagramme des cas d’utilisation correspond
 \subsection{Descriptions textuelles des cas d’utilisation du sprint 2}   
 Cette section présente les cas d’utilisation du sprint 2 du module AniMatch : 
 \subsubsection{ Description textuelle du cas d’utilisation «Consulter les animaux pour adoption et accouplement» } 
-Le tableau ci-dessous présente le cas d’utilisation « Consulter les animaux pour adoption et accouplement » : 
+La table \ref{tab:consulter_annonces} présente le cas d’utilisation « Consulter les animaux pour adoption et accouplement » : 
 \begin{longtable}{|c|p{11cm}|}
 \caption{Description textuelle du cas d’utilisation "Consulter les animaux pour adoption et accouplement"}
 \label{tab:consulter_annonces} \\
@@ -767,14 +816,13 @@ Message d’erreur affiché si l’utilisateur n’est pas authentifié lors de 
 
 
 \newpage 
-\subsubsection{Description textuelle du cas d’utilisation «Gérer les annonces dans AniMatch»} 
-
-
+\subsubsection{Description textuelle du cas d’utilisation «Gérer mes annonces dans AniMatch»} 
+La table \ref{tab:gerer_annonces_global} présente le cas d’utilisation « Gérer mes  annonces d’accouplement et d’adoption » : 
 \begin{longtable}{|c|p{11cm}|}
 \caption{Description textuelle du cas d'utilisation "Gérer les annonces d’accouplement et d’adoption"}
 \label{tab:gerer_annonces_global} \\
 \hline
-\cellcolor{coloranimatch}\textbf{Nom du cas d'utilisation } & Gérer les annonces d’accouplement et d’adoption \\
+\cellcolor{coloranimatch}\textbf{Nom du cas d'utilisation } & Gérer mes annonces d’accouplement et d’adoption \\
 \hline
 \cellcolor{coloranimatch}\textbf{Acteurs} & Utilisateur \\
 \hline
@@ -787,8 +835,7 @@ Message d’erreur affiché si l’utilisateur n’est pas authentifié lors de 
 
 \cellcolor{coloranimatch}\textbf{Scénario nominal } &
 \begin{enumerate}
-\item L’utilisateur accède à la page d’accueil d’AniHub.
-\item L’utilisateur choisit le module AniMatch.
+\item L’utilisateur accède au module AniMatch.
 \item Le système redirige l’utilisateur vers "AniMatch".
 
 \item \textbf{Cas publication :}
@@ -828,8 +875,7 @@ Message d’erreur affiché si l’utilisateur n’est pas authentifié lors de 
 \hline
 \cellcolor{coloranimatch}\textbf{Scénario alternatif :} &
 \begin{itemize}
-\item Erreur de publication : message d’erreur affiché.
-\item Erreur de modification : message d’erreur affiché.
+\item Erreur de publication ou modification : message d’erreur affiché.
 \item Annulation de la suppression : l’annonce est conservée.
 \end{itemize} \\
 \hline
@@ -837,7 +883,7 @@ Message d’erreur affiché si l’utilisateur n’est pas authentifié lors de 
 \end{longtable}
 \newpage
 \subsubsection{ Description textuelle du cas d’utilisation «Gérer les invitations reçues» }   
-Le tableau ci-dessous illustre la description textuelle du cas d’utilisation « Gérer les invitations reçues d’accouplement et d’adoption », qui détaille les différentes interactions entre l’utilisateur et le système : 
+La table \ref{tab:gerer_invitations} illustre la description textuelle du cas d’utilisation « Gérer les invitations reçues d’accouplement et d’adoption », qui détaille les différentes interactions entre l’utilisateur et le système : 
 \begin{longtable}{|c|p{11cm}|}
 \caption{Description textuelle du cas d'utilisation "Gérer les invitations reçues (adoption / accouplement)"}
 \label{tab:gerer_invitations} \\
@@ -879,7 +925,7 @@ Selon le type :
 
 \newpage
 \subsection{Diagramme de classes du sprint 2}
-La figure ci-dessous représente le diagramme de classes du sprint 2 dédié au module AniMatch, illustrant les principales entités du système ainsi que leurs relations pour assurer le bon fonctionnement du module : 
+La figure \ref{fig:class_diagram_sprint2} représente le diagramme de classes du sprint 2 dédié au module AniMatch, illustrant les principales entités du système ainsi que leurs relations pour assurer le bon fonctionnement du module : 
 \begin{figure}[H]
     \centering
 \includegraphics[width=1\textwidth]{images/diagramme classes animatch.png}
@@ -892,38 +938,46 @@ La figure ci-dessous représente le diagramme de classes du sprint 2 dédié au 
 Cette section présente les diagrammes de séquences du deuxieme sprint, illustrant les interactions entre les différents composants du système. 
 \subsubsection{Diagramme de séquence : Gérer mes animaux pour accouplement et pour adoption}
 
-Cette figure illustre les différentes interactions permettant à l’utilisateur de gérer ses animaux destinés à l’accouplement ou à l’adoption : 
+Cette figure \ref{fig:gerer_animaux_animatch_seq} illustre les différentes interactions permettant à l’utilisateur de gérer ses animaux destinés à l’accouplement ou à l’adoption.
+
 \newpage
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\textwidth]{images/gerer mes animaux animatch sq.png}
     \caption{Diagramme de séquence : gérer mes animaux pour accouplement et pour adoption}
+    \label{fig:gerer_animaux_animatch_seq}
 \end{figure}
 \newpage 
 \subsubsection{Diagramme de séquence : gérer mes invitations reçues}
 
-Cette figure illustre les différentes interactions entre les composants du système, notamment le Frontend, l’API Gateway, le microservice AniMatch et le microservice de notification, lors de la gestion des invitations reçues. L’utilisateur peut consulter les détails de l’invitation puis choisir de l’accepter ou de la refuser, qu’il s’agisse d’une demande d’adoption ou d’une demande d’accouplement. Le système met ensuite à jour le statut de l’invitation et envoie une notification afin d’informer les utilisateurs concernés de la décision prise : 
+Cette figure \ref{fig:gerer_invitations_recues_seq} illustre les interactions entre les composants du système lors de la gestion des invitations reçues. L’utilisateur peut consulter une invitation puis l’accepter ou la refuser. Le système met ensuite à jour son statut et envoie une notification aux utilisateurs concernés.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{images/gerer inv recus sq.png}
     \caption{Diagramme de séquence : gérer mes invitations reçues}
+    \label{fig:gerer_invitations_recues_seq}
 \end{figure}
 \newpage 
 \subsubsection{Diagramme de séquence : gérer mes invitations envoyées}
 
-Cette figure illustre les différentes interactions entre les composants du système, notamment le Frontend, l’API Gateway, le microservice AniMatch et la base de donnée, lors de la gestion des invitations envoyées. L’utilisateur peut consulter les invitations qu’il a envoyées, suivre leur état ainsi que les réponses reçues concernant les demandes d’adoption ou d’accouplement. Le système assure également la mise à jour des informations et l’envoi des notifications aux utilisateurs concernés : 
+Cette figure \ref{fig:gerer_invitations_envoyees_seq} illustre les interactions entre les composants du système lors de la gestion des invitations envoyées. L’utilisateur peut consulter les invitations qu’il a envoyées et suivre leur état. Le système assure également la mise à jour des informations et l’envoi des notifications aux utilisateurs concernés.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{images/gerer inv envoyes sq.png}
     \caption{Diagramme de séquence : gérer mes invitations envoyées}
+    \label{fig:gerer_invitations_envoyees_seq}
 \end{figure}
 
 \newpage
 \subsection{Réalisation du sprint 2} 
 
 Dans cette partie, nous allons présenter les différentes interfaces graphiques de l’application développée, en lien avec les cas d’utilisation de cette sprint . 
-\subsubsection{Interfaces d’accueil et menu principal de l’application AniHub} 
+\subsubsection{Interfaces d’accueil et menu principal de l’application AniHub}
+
+Les figures \ref{fig:acceuil_anihub} et \ref{fig:menu_anihub} illustrent respectivement l’interface d’accueil de l’application AniHub et le menu principal permettant d’accéder aux différents modules de la plateforme.
+
 \begin{figure}[h!]
     \centering
     
@@ -931,144 +985,158 @@ Dans cette partie, nous allons présenter les différentes interfaces graphiques
         \centering
         \includegraphics[width=\textwidth]{images/acceuil.png}
         \caption{Interface d’accueil AniHub}
+        \label{fig:acceuil_anihub}
     \end{minipage}
     \hfill
     \begin{minipage}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{images/menu.png}
         \caption{Menu principal AniHub}
+        \label{fig:menu_anihub}
     \end{minipage}
 
 \end{figure} 
+
 \subsubsection{Interface d’accueil AniMatch}
+
+La figure \ref{fig:acceuil_animatch} illustre l’interface d’accueil du module AniMatch :
 
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.8\textwidth]{images/acceuil animatch.png}
     \caption{Interface d’accueil du module AniMatch}
+    \label{fig:acceuil_animatch}
 \end{figure}   
+
 \newpage
 
 \subsubsection{Interface d’ajout d’une annonce d’accouplement}
 
+La figure \ref{fig:ajout_annonce_accouplement} illustre l’interface permettant d’ajouter une annonce d’accouplement.
+
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/ajouter animal accouplemnt.png}
+    \includegraphics[width=0.74\textwidth]{images/ajouter animal accouplemnt.png}
     \caption{Interface d’ajout d’une annonce d’accouplement}
+    \label{fig:ajout_annonce_accouplement}
 \end{figure}
-
 
 \subsubsection{Interface des animaux pour accouplement}
 
+La figure \ref{fig:animaux_accouplement} illustre la liste des animaux disponibles pour l’accouplement.
+
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/animals accouplement.png}
+    \includegraphics[width=0.74\textwidth]{images/animals accouplement.png}
     \caption{Interface des animaux pour accouplement}
+    \label{fig:animaux_accouplement}
 \end{figure}  
 
 \newpage 
 
 \subsubsection{Interface de détails d’une annonce d’accouplement}
 
+La figure \ref{fig:details_annonce_accouplement} illustre les détails d’une annonce d’accouplement.
+
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/detail.png}
+    \includegraphics[width=0.72\textwidth]{images/detail.png}
     \caption{Interface de détails d’une annonce d’accouplement}
+    \label{fig:details_annonce_accouplement}
 \end{figure}
-
 
 \subsubsection{Interface d’envoi d’une invitation d’accouplement}
 
+La figure \ref{fig:envoyer_invitation_accouplement} illustre l’interface d’envoi d’une invitation à l’accouplement, permettant à l’utilisateur de rédiger un message et de l’envoyer au propriétaire de l’annonce.
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/envoyer invitation.png}
+    \includegraphics[width=0.72\textwidth]{images/envoyer invitation.png}
     \caption{Interface d’envoi d’une invitation à l’accouplement}
+    \label{fig:envoyer_invitation_accouplement}
 \end{figure} 
 
 \newpage
+
 \subsubsection{Interface des avis et commentaires}
+
+La figure \ref{fig:avis_commentaires} illustre l’interface des avis et commentaires.
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/comments section.png}
+    \includegraphics[width=0.74\textwidth]{images/comments section.png}
     \caption{Interface des avis et commentaires}
+    \label{fig:avis_commentaires}
 \end{figure} 
 
 \subsubsection{Interface de gestion du profil}
+
+La figure \ref{fig:gestion_profil} illustre l’interface de gestion du profil utilisateur dans son espace personnel « Espace AniMatch ». 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/profil page .png}
+    \includegraphics[width=0.74\textwidth]{images/profil page .png}
     \caption{Interface de gestion du profil utilisateur}
+    \label{fig:gestion_profil}
 \end{figure} 
 
 \subsubsection{Interface de gestion de mes animaux (modification et suppression)} 
+
+La figure \ref{fig:gestion_animaux_animatch} illustre l’interface de gestion des animaux permettant la modification et la suppression.
+
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/profil page 2.png}
+    \includegraphics[width=0.74\textwidth]{images/profil page 2.png}
     \caption{Interface de gestion des animaux (modification et suppression)}
+    \label{fig:gestion_animaux_animatch}
 \end{figure}
 
+\subsubsection{Interface de gestion de mes invitations pour adoption reçues} 
 
-\subsubsection{Interface de gestion de mes invitations (accouplement et adoption)}
+La figure \ref{fig:invitations_adoption_recues} illustre l’interface de gestion des invitations d’adoption reçues.
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/mes invitations .png}
-    \caption{Interface de gestion des invitations d’accouplement et d’adoption}
+    \includegraphics[width=0.85\textwidth]{images/mes demandes d adoption recus.png}
+    \caption{Interface de gestion des invitations d’adoption reçues}
+    \label{fig:invitations_adoption_recues}
+\end{figure}
+
+\newpage 
+
+\subsubsection{Interface de gestion de mes invitations pour accouplement reçues}
+
+La figure \ref{fig:invitations_accouplement_recues} illustre l’interface de gestion des invitations d’accouplement reçues.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.85\textwidth]{images/mes invitations pour accouplements recus.png}
+    \caption{Interface de gestion des invitations d’accouplement}
+    \label{fig:invitations_accouplement_recues}
 \end{figure} 
 
+\subsubsection{Interface de détails d’une invitation d’accouplement reçue}
 
-
-
-\subsubsection{Interface de détails d’une invitation d’accouplement}
+La figure \ref{fig:details_invitation_accouplement} illustre les détails d’une invitation d’accouplement reçue.
 
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.8\textwidth]{images/invi recu 1.png}
     \caption{Interface de détails d’une invitation d’accouplement}
-\end{figure} 
+    \label{fig:details_invitation_accouplement}
+\end{figure}
 
+\newpage\section{Sprint 3 : Module AniFound}
+La figure \ref{fig:logo-anifound} illustre le logo du module AniFound.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\newpage
-\section{Sprint 3 : Module AniFound}
-
-\begin{figure}[H]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=3.5cm]{images/Logo anifound.png}
     \caption{Logo du module AniFound}
     \label{fig:logo-anifound}
 \end{figure}
 
-Ce sprint, d’une durée de \textbf{3 semaines}, est dédié au module AniFound, qui permet la déclaration et la gestion des animaux trouvés ainsi que leur identification par leurs propriétaires. Il offre la possibilité de publier des annonces de trouvaille, de consulter les animaux signalés et de faciliter leur restitution à leurs propriétaires grâce à un système de recherche et de mise en relation. 
+Ce sprint de \textbf{3 semaines} est consacré au module AniFound, dédié à la déclaration et la gestion des animaux trouvés, ainsi qu’à leur restitution à leurs propriétaires.
 \subsection{Sprint backlog}  
-Le tableau suivant présente le Sprint Backlog du sprint 3 avec les user stories, les tâches associées et
-les efforts estimés 
+La table \ref{tab:sprint3-backlog} présente le Sprint Backlog du sprint 3 avec les user stories, les tâches associées et les efforts estimés :
 \begin{longtable}{|p{2cm}|p{5cm}|p{6cm}|p{2cm}|}
 \caption{Sprint Backlog du sprint 3 }
 \label{tab:sprint3-backlog} \\ 
@@ -1188,7 +1256,7 @@ Dans cette section, nous présentons le diagramme des cas d’utilisation du spr
 
 Ce diagramme illustre les principales interactions entre l’utilisateur et le système, notamment la déclaration des animaux perdus ou trouvés, la consultation des annonces, la gestion des déclarations, l’échange d’indices ainsi que la communication entre les utilisateurs afin de faciliter la restitution des animaux.
 
-La figure ci-dessous représente le diagramme des cas d’utilisation correspondant : 
+La figure \ref{fig:usecase-sprint3} représente le diagramme des cas d’utilisation correspondant : 
  \begin{figure}[H]
     \centering
   \includegraphics[width=0.92\linewidth, height=18.5cm, keepaspectratio]{images/usecase anifound.png}
@@ -1200,7 +1268,10 @@ La figure ci-dessous représente le diagramme des cas d’utilisation correspond
 Dans cette section, nous allons présenter les descriptions textuelles des cas d’utilisation du sprint 3
 afin de détailler le comportement du système pour chaque fonctionnalité du module AniFound. 
 
-\subsubsection{ Description textuelle du cas d’utilisation «Consulter déclarations de perte et de trouvaille » }   
+\subsubsection{ Description textuelle du cas d’utilisation «Consulter déclarations de perte et de trouvaille » }    
+
+La table \ref{tab:consulter_declarations} présente la description textuelle du cas d’utilisation « Consulter les déclarations de perte et de trouvaille » : 
+
 \begin{longtable}{|c|p{11cm}|}
 \caption{Description textuelle du cas d’utilisation "Consulter les déclarations de perte et de trouvaille"}
 \label{tab:consulter_declarations} \\
@@ -1209,16 +1280,15 @@ afin de détailler le comportement du système pour chaque fonctionnalité du mo
 \hline
 \cellcolor{coloranifound} \textbf{Acteurs} & Utilisateur \\
 \hline
-\cellcolor{coloranifound} \textbf{Description } & Tout utilisateur de la plateforme peut consulter les déclarations de perte et de trouvaille publiées dans le module AniFound afin d’identifier un animal perdu ou retrouvé. \\
+\cellcolor{coloranifound} \textbf{Description } & Tout utilisateur peut consulter les annonces de perte et de trouvaille du module AniFound pour identifier un animal perdu ou retrouvé. \\
 \hline
-\cellcolor{coloranifound} \textbf{Pré-condition } & L’utilisateur doit avoir accès à la plateforme AniHub (aucune authentification obligatoire). \\
+\cellcolor{coloranifound} \textbf{Pré-condition } & L’utilisateur doit avoir accès à la plateforme AniHub. \\
 \hline
 \cellcolor{coloranifound} \textbf{Post-condition } & L’utilisateur a consulté et éventuellement enregistré des déclarations pour un suivi ultérieur. \\
 \hline
 \cellcolor{coloranifound} \textbf{Scénario nominal } & 
 \begin{enumerate}
-    \item L’utilisateur accède à la page d’accueil d’AniHub.
-\item L’utilisateur sélectionne le module AniFound.
+\item L’utilisateur accède au module AniFound.
 \item Le système redirige l’utilisateur vers le module AniFound.
 \item L’utilisateur choisit la section « déclarations de perte » ou « déclarations de trouvaille ».
 \item Le système affiche la liste des déclarations correspondantes.
@@ -1226,14 +1296,14 @@ afin de détailler le comportement du système pour chaque fonctionnalité du mo
 \item L’utilisateur peut trier les déclarations par date (plus récentes ou plus anciennes).
 \item Le système affiche les résultats filtrés et triés.
 \item L’utilisateur peut sélectionner une déclaration pour consulter ses détails.
-\item L’utilisateur peut enregistrer une déclaration dans sa liste de favoris.
+\item L’utilisateur peut enregistrer une déclaration dans sa liste d'enregistrements.
 \item Le système ajoute la déclaration à la liste enregistrée de l’utilisateur.
 \end{enumerate} \\
 \hline
 \end{longtable}
 \newpage 
 \subsubsection{Description textuelle du cas d’utilisation «Gérer déclarations de perte et de trouvaille»}
-
+La table \ref{tab:gerer_declarations} présente la description textuelle du cas d’utilisation « Gérer les déclarations de perte et de trouvaille » :
 \begin{longtable}{|c|p{11cm}|}
 \caption{Description textuelle du cas d'utilisation "Gérer les déclarations de perte et de trouvaille"}
 \label{tab:gerer_declarations} \\
@@ -1251,8 +1321,7 @@ afin de détailler le comportement du système pour chaque fonctionnalité du mo
 
 \cellcolor{coloranifound}\textbf{Scénario nominal } &
 \begin{enumerate}
-\item L’utilisateur accède à la page d’accueil d’AniHub.
-\item L’utilisateur choisit le module AniFound.
+\item L’utilisateur accède au module AniFound.
 \item Le système redirige l’utilisateur vers "AniFound".
 
 \item \textbf{Cas publication :}
@@ -1300,8 +1369,8 @@ afin de détailler le comportement du système pour chaque fonctionnalité du mo
 \end{longtable}
 \newpage 
 \subsubsection{ Description textuelle des cas d’utilisation «Gérer les indices reçus et envoyés» }   
-
-\begin{longtable}{|c|p{11cm}|}
+La table \ref{tab:gerer_indices_anifound} présente la description textuelle du cas d’utilisation «Gérer les indices reçus et envoyés» :
+\begin{longtable}{|c|p{11cm}|} 
 \caption{Description textuelle des cas d'utilisation "Gérer les indices reçus et envoyés"}
 \label{tab:gerer_indices_anifound} \\
 \hline
@@ -1309,7 +1378,7 @@ afin de détailler le comportement du système pour chaque fonctionnalité du mo
 \hline
 \cellcolor{coloranifound}\textbf{Acteurs} & Utilisateur \\
 \hline
-\cellcolor{coloranifound}\textbf{Description } & L’utilisateur consulte et gère les indices de ses déclarations de trouvaille, reçus ou envoyés, afin d’identifier le propriétaire ou prouver la propriété d’un animal. \\
+\cellcolor{coloranifound}\textbf{Description } & L’utilisateur consulte et gère les indices de ses déclarations de trouvaille pour prouver la propriété d’un animal. \\
 \hline
 \cellcolor{coloranifound}\textbf{Pré-condition } & L’utilisateur est authentifié et dispose de déclarations de trouvaille ou a déjà envoyé des indices. \\
 \hline
@@ -1318,7 +1387,7 @@ afin de détailler le comportement du système pour chaque fonctionnalité du mo
 
 \cellcolor{coloranifound}\textbf{Scénario nominal } &
 \begin{enumerate}
-\item L’utilisateur se connecte à son compte et accède au module AniFound.
+\item L’utilisateur accède au module AniFound.
 \item Il sélectionne « Mon espace AniFound ».
 \item Le système affiche les déclarations de l’utilisateur.
 \item L’utilisateur choisit une déclaration spécifique.
@@ -1361,7 +1430,7 @@ afin de détailler le comportement du système pour chaque fonctionnalité du mo
 Dans cette section, nous présentons le diagramme de classes du sprint 3, qui regroupe l’ensemble des classes constituant le système. 
 
 
-La figure ci-dessous illustre le diagramme de classes pour ce sprint :
+La figure \ref{fig:class_diagram_anifound} illustre le diagramme de classes pour ce sprint :
 
 
 
@@ -1378,16 +1447,18 @@ Dans cette section, nous présentons les diagrammes de séquence du sprint 3, il
 \newpage
 \subsubsection{Diagramme de séquence : gérer mes déclarations de perte ou de trouvaille}
 
-Cette figure illustre les interactions entre l’utilisateur et le système pour la gestion des déclarations de perte ou de trouvaille : 
+La figure \ref{fig:gerer_declarations_sq} illustre les interactions entre l’utilisateur et le système pour la gestion des déclarations de perte ou de trouvaille.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{images/gerer declarations sq.png}
     \caption{Diagramme de séquence : gérer mes déclarations de perte ou de trouvaille}
+    \label{fig:gerer_declarations_sq}
 \end{figure}
 \newpage  
 \subsubsection{Diagramme de séquence : gérer mes indices reçus}
 
-Cette figure illustre les différentes interactions entre l’utilisateur et le système lors de la gestion des indices reçus liés aux déclarations de perte ou de trouvaille. Elle montre le processus de consultation des indices, ainsi que les actions possibles de validation ou d’ignorance d’un indice. Les échanges entre le Frontend, l’API Gateway, le microservice AniFound, la base de données et le service de notification sont également présentés afin de mettre en évidence le traitement complet d’un indice reçu : 
+La figure \ref{fig:gerer_indices_recus_sq} illustre les différentes interactions entre l’utilisateur et le système lors de la gestion des indices reçus liés aux déclarations de perte ou de trouvaille. Elle montre le processus de consultation des indices, ainsi que les actions possibles de validation ou d’ignorance d’un indice. Les échanges entre le Frontend, l’API Gateway, le microservice AniFound, la base de données et le service de notification sont également présentés afin de mettre en évidence le traitement complet d’un indice reçu : 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{images/gerer indice recu sq.png}
@@ -1397,9 +1468,10 @@ Cette figure illustre les différentes interactions entre l’utilisateur et le 
 \subsection{Réalisation du sprint 3 }
 
 Dans cette partie, nous présentons les différentes interfaces graphiques de l’application développée, en lien avec ce sprint :
+
 \subsubsection{Menu principal de l’application AniHub et interface d’accueil AniFound} 
 
-Cette figure illustre le menu principal de l’application AniHub ainsi que l’interface d’accueil du module AniFound.
+La figure \ref{fig:menu_anifound_accueil} illustre le menu principal de l’application AniHub ainsi que l’interface d’accueil du module AniFound.
 
 \begin{figure}[h!]
     \centering
@@ -1408,19 +1480,21 @@ Cette figure illustre le menu principal de l’application AniHub ainsi que l’
         \centering
         \includegraphics[width=0.85\textwidth]{images/menu anifound.png}
         \caption{Menu principal de l’application AniHub}
+        \label{fig:menu_anihub_anifound}
     \end{minipage}
     \hfill
     \begin{minipage}{0.48\textwidth}
         \centering
         \includegraphics[width=0.85\textwidth]{images/acceuil anifound.png}
         \caption{Interface d’accueil AniFound}
+        \label{fig:acceuil_anifound}
     \end{minipage}
 
 \end{figure}  
 
 \subsubsection{Interfaces d’annonce de perte et de trouvaille}
 
-Cette figure illustre les interfaces de création d’une annonce de perte et de trouvaille.
+La figure \ref{fig:annonces_perte_trouvaille} illustre les interfaces de création d’une annonce de perte et de trouvaille.
 
 \begin{figure}[h!]
     \centering
@@ -1429,12 +1503,14 @@ Cette figure illustre les interfaces de création d’une annonce de perte et de
         \centering
         \includegraphics[width=0.77\textwidth]{images/declarer perte .png}
         \caption{Interface d’annonce de perte d’un animal}
+        \label{fig:annonce_perte}
     \end{minipage}
     \hfill
     \begin{minipage}{0.48\textwidth}
         \centering
         \includegraphics[width=0.77\textwidth]{images/decalarer trouvaille.png}
         \caption{Interface d’annonce de trouvaille d’un animal}
+        \label{fig:annonce_trouvaille}
     \end{minipage}
 
 \end{figure}
@@ -1443,81 +1519,88 @@ Cette figure illustre les interfaces de création d’une annonce de perte et de
 
 \subsubsection{Interface des déclarations de trouvaille}
 
-Cette figure illustre la liste des déclarations de trouvaille disponibles dans le système.
+La figure \ref{fig:liste_trouvailles} illustre la liste des déclarations de trouvaille disponibles dans le système.
 
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.77\textwidth]{images/page trouvailles.png}
     \caption{Interface des déclarations de trouvaille}
+    \label{fig:liste_trouvailles}
 \end{figure}  
 
 \subsubsection{Interface de détails d’une déclaration de trouvaille}
 
-Cette figure illustre les détails complets d’une déclaration de trouvaille.
+La figure \ref{fig:details_trouvaille} illustre les détails complets d’une déclaration de trouvaille.
 
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.77\textwidth]{images/details trouvaille.png}
     \caption{Interface de détails d’une déclaration de trouvaille}
+    \label{fig:details_trouvaille}
 \end{figure} 
 
 \subsubsection{Interface d’envoi d’un indice pour une déclaration de trouvaille}
 
-Cette figure illustre le formulaire d’envoi d’un indice pour une déclaration de trouvaille.
+La figure \ref{fig:envoi_indice} illustre le formulaire d’envoi d’un indice pour une déclaration de trouvaille.
 
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.77\textwidth]{images/envoyer indice.png}
     \caption{Interface d’envoi d’un indice pour une déclaration de trouvaille}
+    \label{fig:envoi_indice}
 \end{figure}
 
 \subsubsection{Interface des déclarations de perte}
 
-Cette figure illustre la liste des déclarations de perte des animaux.
+La figure \ref{fig:liste_pertes} illustre la liste des déclarations de perte des animaux.
 
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.77\textwidth]{images/page perte.png}
     \caption{Interface des déclarations de perte}
+    \label{fig:liste_pertes}
 \end{figure} 
 
 \newpage
 
 \subsubsection{Interface de détails d’une déclaration de perte}
 
-Cette figure illustre les détails d’une déclaration de perte.
+La figure \ref{fig:details_perte} illustre les détails d’une déclaration de perte.
 
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.77\textwidth]{images/details perte.png}
     \caption{Interface de détails d’une déclaration de perte}
+    \label{fig:details_perte}
 \end{figure}  
 
 \subsubsection{Interface de l’espace AniFound et gestion du profil}
 
-Cette figure illustre l’espace utilisateur AniFound ainsi que la gestion du profil.
+La figure \ref{fig:espace_anifound_profil} illustre l’espace utilisateur AniFound ainsi que la gestion du profil.
 
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.77\textwidth]{images/espace anifound profil.png}
     \caption{Interface de l’espace AniFound et gestion du profil}
+    \label{fig:espace_anifound_profil}
 \end{figure}
 
 \newpage 
 
 \subsubsection{Interface de gestion de mes déclarations de perte et de trouvaille}
 
-Cette figure illustre la gestion des déclarations personnelles de perte et de trouvaille.
+La figure \ref{fig:mes_signalements} illustre la gestion des déclarations personnelles de perte et de trouvaille.
 
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.87\textwidth]{images/mes signalements.png}
     \caption{Interface de gestion de mes déclarations de perte et de trouvaille}
+    \label{fig:mes_signalements}
 \end{figure} 
 
 \subsubsection{Interfaces de modification et suppression d’une déclaration de perte ou de trouvaille}
 
-Cette figure illustre les interfaces de modification et de suppression d’une déclaration.
+La figure \ref{fig:modif_suppression_declaration} illustre les interfaces de modification et de suppression d’une déclaration.
 
 \begin{figure}[h!]
     \centering
@@ -1526,39 +1609,43 @@ Cette figure illustre les interfaces de modification et de suppression d’une d
         \centering
         \includegraphics[width=0.77\textwidth]{images/modifer declaration.png}
         \caption{Interface de modification d’une déclaration de perte ou de trouvaille}
+        \label{fig:modif_declaration}
     \end{minipage}
     \hfill
     \begin{minipage}{0.48\textwidth}
         \centering
         \includegraphics[width=0.77\textwidth]{images/suppression decalaration.png}
         \caption{Interface de suppression d’une déclaration de perte ou de trouvaille}
+        \label{fig:suppression_declaration}
     \end{minipage}
 
 \end{figure} 
 
 \newpage 
+
 \subsubsection{Interface des notifications reçues}
 
-Cette interface illustre une notification reçue concernant un indice lié à une déclaration de trouvaille : 
+La figure \ref{fig:notifications_anifound} illustre une notification reçue concernant un indice lié à une déclaration de trouvaille.
 
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.77\textwidth]{images/notif anifound.png}
     \caption{Interface des notifications reçues}
+    \label{fig:notifications_anifound}
 \end{figure}
-
 
 \subsubsection{Interface des indices reçus pour une déclaration de trouvaille}
 
-Cette figure illustre un indice reçu pour une déclaration de trouvaille : 
+La figure \ref{fig:indices_recus} illustre un indice reçu pour une déclaration de trouvaille.
 
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.77\textwidth]{images/indice recu.png}
     \caption{Interface des indices reçus pour une déclaration de trouvaille}
+    \label{fig:indices_recus}
 \end{figure}
-\newpage 
 
+\newpage
 \section{Conclusion}
 
 Ce chapitre a permis de présenter la première release du projet AniHub. Cette release contient trois sprints : le sprint 1 consacré à l’authentification et à l’administration, ainsi que les sprints 2 et 3 dédiés aux modules AniMatch et AniFound. Nous avons détaillé les différentes fonctionnalités développées à travers ces sprints, en mettant en évidence les besoins fonctionnels, la conception ainsi que la réalisation des principales interfaces utilisateur. Cette phase a contribué à mettre en place les principaux mécanismes d’authentification, de mise en relation et de gestion des animaux perdus ou trouvés au sein du système.

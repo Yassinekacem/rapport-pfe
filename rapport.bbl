@@ -82,4 +82,120 @@ Le processus scrum.
   \url{https://www.pm-partners.com.au/insights/the-agile-journey-a-scrum-overview/}.
 \newblock Consulté le 11 mars 2026.
 
+\bibitem{ibm_monolithic_architecture}
+Qu'est-ce que l'architecture monolithique ?
+\newblock \url{https://www.ibm.com/fr-fr/think/topics/monolithic-architecture}.
+\newblock Consulté le 1 avril 2026.
+
+\bibitem{talend_microservices_guide}
+Guide des microservices : définition et principes.
+\newblock \url{https://www.talend.com/fr/resources/guide-microservices/}.
+\newblock Consulté le 1 avril 2026.
+
+\bibitem{atlassian_comparaison_monolithe_microservices}
+Comparaison entre les architectures microservices et monolithique.
+\newblock
+  \url{https://www.atlassian.com/fr/microservices/microservices-architecture/microservices-vs-monolith}.
+\newblock Consulté le 5 avril 2026.
+
+\bibitem{slack_logo}
+Logo slack.
+\newblock \url{https://commons.wikimedia.org/wiki/File:Slack_icon_2019.svg}.
+\newblock Consulté le 20 avril 2026.
+
+\bibitem{drawio_logo}
+Logo diagrams.net (draw.io).
+\newblock \url{https://commons.wikimedia.org/wiki/File:Diagrams.net_Logo.svg}.
+\newblock Consulté le 20 avril 2026.
+
+\bibitem{figma_logo}
+Logo figma.
+\newblock \url{https://commons.wikimedia.org/wiki/File:Figma-logo.svg}.
+\newblock Consulté le 20 avril 2026.
+
+\bibitem{vscode_logo}
+Visual studio code - logo officiel.
+\newblock \url{https://fr.wikipedia.org/wiki/Visual_Studio_Code}.
+\newblock Consulté le 20 avril 2026.
+
+\bibitem{git_logo}
+Logo git.
+\newblock
+  \url{https://commons.wikimedia.org/wiki/File:Git_icon.svg?uselang=fr}.
+\newblock Consulté le 20 avril 2026.
+
+\bibitem{github_logo}
+Logo github.
+\newblock \url{https://www.flaticon.com/fr/icone-gratuite/logo-github_25231}.
+\newblock Consulté le 20 avril 2026.
+
+\bibitem{githubactions_logo}
+Github actions - developer icon.
+\newblock \url{https://techicons.dev/icons/githubactions}.
+\newblock Consulté le 20 avril 2026.
+
+\bibitem{typescript_logo}
+Logo typescript.
+\newblock \url{https://www.flaticon.com/free-icon/typescript_5968381}.
+\newblock Consulté le 20 avril 2026.
+
+\bibitem{nextjs_logo}
+Logo next.js.
+\newblock \url{https://techicons.dev/icons/nextjs}.
+\newblock Consulté le 20 avril 2026.
+
+\bibitem{tailwind_logo}
+Logo tailwind css.
+\newblock \url{https://commons.wikimedia.org/wiki/File:Tailwind_CSS_Logo.svg}.
+\newblock Consulté le 20 avril 2026.
+
+\bibitem{golang_logo}
+Logo go (golang).
+\newblock
+  \url{https://freepngdesign.com/golang-png-transparent-logo-9179.html}.
+\newblock Consulté le 20 avril 2026.
+
+\bibitem{fiber_logo}
+Fiber web framework - official website.
+\newblock \url{https://gofiber.io/}.
+\newblock Consulté le 20 avril 2026.
+
+\bibitem{neon_logo}
+Neon - serverless postgres.
+\newblock \url{https://m12.vc/news/why-we-invested-in-neon/}.
+\newblock Consulté le 20 avril 2026.
+
+\bibitem{postman_logo}
+Logo postman.
+\newblock
+  \url{https://fr.wikipedia.org/wiki/Fichier:Postman_%28software%29.png}.
+\newblock Consulté le 20 avril 2026.
+
+\bibitem{rabbitmq_logo}
+Logo rabbitmq.
+\newblock
+  \url{https://alexandrecastro.dev/solution-de-communication-entre-microservices-avec-rabbitmq-et-masstransit}.
+\newblock Consulté le 20 avril 2026.
+
+\bibitem{docker_logo}
+Logo docker.
+\newblock \url{https://commons.wikimedia.org/wiki/File:Docker_Logo.svg}.
+\newblock Consulté le 20 avril 2026.
+
+\bibitem{kubernetes_logo}
+Logo kubernetes.
+\newblock
+  \url{https://commons.wikimedia.org/wiki/File:Kubernetes_logo_without_workmark.svg}.
+\newblock Consulté le 20 avril 2026.
+
+\bibitem{prometheus_logo}
+Logo prometheus.
+\newblock \url{https://prometheus.io/}.
+\newblock Consulté le 20 avril 2026.
+
+\bibitem{grafana_logo}
+Logo grafana.
+\newblock \url{https://grafana.com/}.
+\newblock Consulté le 20 avril 2026.
+
 \end{thebibliography}
